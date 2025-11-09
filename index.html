@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GBE Achievements Viewer</title>
+    <title>Steam Achievements Viewer</title>
     <style>
         * {
             margin: 0;
@@ -306,18 +306,20 @@
 <body>
     <div class="container">
         <header>
-            <h1>🎮 GBE Achievements Viewer</h1>
+            <h1>🎮 Steam Achievements Viewer</h1>
+            <p>Automatically scans AppID folders</p>
         </header>
 
         <div id="info" class="info" style="display: none;">
-            <h3>📁 Folder Structure Expected:</h3>
+            <h3>📁 Folder Structure:</h3>
             <p>Place your achievement files in: <code>AppID/&lt;game-appid&gt;/achievements.json</code></p>
             <p style="margin-top: 10px;">Example: <code>AppID/730/achievements.json</code> for Counter-Strike 2</p>
+            <p style="margin-top: 10px;">The page will automatically scan all folders in the AppID directory!</p>
         </div>
 
         <div id="loading" class="loading">
             <div class="loading-spinner"></div>
-            <div>Scanning for achievement files...</div>
+            <div>Scanning AppID folders...</div>
         </div>
 
         <div id="summary" style="display: none;"></div>
@@ -325,70 +327,99 @@
     </div>
 
     <script>
-        const appIdsToLoad = []; // Will be populated by scanning
         const gamesData = new Map();
 
         async function init() {
-            // Try to load AppID list from a manifest file first
+            document.getElementById('loading').style.display = 'block';
+            
             try {
-                const manifestResponse = await fetch('AppID/manifest.json');
-                if (manifestResponse.ok) {
-                    const manifest = await manifestResponse.json();
-                    if (manifest.appids && Array.isArray(manifest.appids)) {
-                        for (let appId of manifest.appids) {
-                            appIdsToLoad.push(appId);
+                // Try to fetch the AppID directory listing from GitHub API
+                const currentUrl = window.location.href;
+                const repoMatch = currentUrl.match(/github\.io\/([^\/]+)/);
+                
+                if (repoMatch) {
+                    const repoName = repoMatch[1];
+                    const username = currentUrl.split('.github.io')[0].split('//')[1];
+                    
+                    // Try GitHub API
+                    const apiUrl = `https://api.github.com/repos/${username}/${repoName}/contents/AppID`;
+                    const response = await fetch(apiUrl);
+                    
+                    if (response.ok) {
+                        const contents = await response.json();
+                        const appIds = contents
+                            .filter(item => item.type === 'dir')
+                            .map(item => item.name)
+                            .filter(name => /^\d+$/.test(name)); // Only numeric folder names
+                        
+                        if (appIds.length > 0) {
+                            await loadGamesFromAppIds(appIds);
+                            return;
                         }
                     }
                 }
+                
+                // Fallback: try to load from game-data.json if it exists
+                const dataResponse = await fetch('game-data.json');
+                if (dataResponse.ok) {
+                    const gameData = await dataResponse.json();
+                    await loadGamesFromData(gameData);
+                    return;
+                }
+                
+                // Show error if nothing works
+                throw new Error('Could not scan AppID folders');
+                
             } catch (error) {
-                console.log('No manifest.json found, will need manual configuration');
-            }
-
-            // If no manifest found, show info
-            if (appIdsToLoad.length === 0) {
+                console.error('Error scanning folders:', error);
                 document.getElementById('loading').style.display = 'none';
                 document.getElementById('info').style.display = 'block';
                 document.getElementById('results').innerHTML = `
                     <div class="error">
-                        <h3>⚠️ No AppIDs configured</h3>
-                        <p style="margin-top: 15px;">Create a file at <code>AppID/manifest.json</code> with your game AppIDs:</p>
-                        <pre style="text-align: left; background: rgba(0,0,0,0.3); padding: 15px; border-radius: 4px; margin-top: 15px; overflow-x: auto;">
-{
-  "appids": [730, 570, 440, 8930]
-}</pre>
-                        <p style="margin-top: 15px;">Then create achievement files at: <code>AppID/730/achievements.json</code>, etc.</p>
+                        <h3>⚠️ Could not auto-scan folders</h3>
+                        <p style="margin-top: 15px;">Make sure you have:</p>
+                        <ol style="text-align: left; margin: 15px auto; max-width: 500px;">
+                            <li>Created folders in <code>AppID/</code> with game AppIDs as names</li>
+                            <li>Added <code>achievements.json</code> in each folder</li>
+                            <li>Run the GitHub Actions workflow to generate <code>game-data.json</code></li>
+                        </ol>
                     </div>
                 `;
-                return;
             }
-
-            await loadAllGames();
         }
 
-        async function loadAllGames() {
-            document.getElementById('loading').style.display = 'block';
-            
-            let loadedCount = 0;
+        async function loadGamesFromAppIds(appIds) {
             const loadingDiv = document.getElementById('loading');
+            let loadedCount = 0;
 
-            for (let appId of appIdsToLoad) {
+            for (let appId of appIds) {
                 try {
                     loadingDiv.innerHTML = `
                         <div class="loading-spinner"></div>
-                        <div>Loading game ${++loadedCount} of ${appIdsToLoad.length}...</div>
+                        <div>Loading game ${++loadedCount} of ${appIds.length}...</div>
                     `;
 
                     // Load achievements.json
                     const achievementsPath = `AppID/${appId}/achievements.json`;
-                    const response = await fetch(achievementsPath);
+                    const achResponse = await fetch(achievementsPath);
                     
-                    if (!response.ok) {
-                        console.warn(`No achievements found for AppID ${appId}`);
-                        continue;
+                    if (!achResponse.ok) continue;
+
+                    const achievementsData = await achResponse.json();
+                    
+                    // Try to load game-info.json (created by workflow)
+                    let gameInfo = null;
+                    try {
+                        const infoPath = `AppID/${appId}/game-info.json`;
+                        const infoResponse = await fetch(infoPath);
+                        if (infoResponse.ok) {
+                            gameInfo = await infoResponse.json();
+                        }
+                    } catch (e) {
+                        console.log(`No game-info.json for ${appId}`);
                     }
 
-                    const data = await response.json();
-                    await processGameData(appId, data);
+                    await processGameData(appId, achievementsData, gameInfo);
 
                 } catch (error) {
                     console.error(`Error loading AppID ${appId}:`, error);
@@ -399,37 +430,43 @@
             displayGames();
         }
 
-        async function processGameData(appId, achievementsData) {
-            // Fetch game info from Steam API
-            let gameName = `Game ${appId}`;
-            let gameIcon = '';
-
-            try {
-                const storeResponse = await fetch(`https://store.steampowered.com/api/appdetails?appids=${appId}`);
-                const storeData = await storeResponse.json();
+        async function loadGamesFromData(gameDataList) {
+            const loadingDiv = document.getElementById('loading');
+            
+            for (let i = 0; i < gameDataList.length; i++) {
+                const gameData = gameDataList[i];
+                loadingDiv.innerHTML = `
+                    <div class="loading-spinner"></div>
+                    <div>Loading game ${i + 1} of ${gameDataList.length}...</div>
+                `;
                 
-                if (storeData[appId] && storeData[appId].success) {
-                    gameName = storeData[appId].data.name;
-                    gameIcon = storeData[appId].data.header_image;
-                }
-            } catch (error) {
-                console.log(`Could not fetch store data for ${appId}`);
+                await processGameData(gameData.appid, gameData.achievements, gameData.info);
             }
+
+            document.getElementById('loading').style.display = 'none';
+            displayGames();
+        }
+
+        async function processGameData(appId, achievementsData, gameInfo = null) {
+            let gameName = gameInfo?.name || `Game ${appId}`;
+            let gameIcon = gameInfo?.icon || '';
 
             // Process achievements
             const achievements = [];
-            
-            // Handle different JSON formats
             let achData = achievementsData.achievements || achievementsData;
             
             for (let key in achData) {
                 const ach = achData[key];
+                
+                // Use game-info data if available, otherwise use achievement data
+                const achInfo = gameInfo?.achievements?.[key] || {};
+                
                 achievements.push({
                     apiname: key,
-                    name: ach.name || ach.displayName || key,
-                    description: ach.description || ach.desc || '',
-                    icon: ach.icon || '',
-                    icongray: ach.icongray || ach.icon_gray || ach.icon || '',
+                    name: achInfo.name || ach.name || ach.displayName || key,
+                    description: achInfo.description || ach.description || ach.desc || '',
+                    icon: achInfo.icon || ach.icon || '',
+                    icongray: achInfo.icongray || ach.icongray || ach.icon_gray || achInfo.icon || ach.icon || '',
                     unlocked: ach.earned || ach.unlocked || ach.achieved || false,
                     unlocktime: ach.earned_time || ach.unlock_time || ach.unlocktime || 0
                 });
@@ -492,7 +529,7 @@
             // Display games
             let html = '<div class="games-grid">';
 
-            // Sort games by completion percentage (highest first)
+            // Sort games by completion percentage
             const sortedGames = Array.from(gamesData.values()).sort((a, b) => {
                 const aPercent = a.achievements.length > 0 ? 
                     a.achievements.filter(x => x.unlocked).length / a.achievements.length : 0;
