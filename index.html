@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Roschach96's GBE Achievements Viewer</title>
+    <title>Steam Achievements Viewer</title>
     <style>
         * {
             margin: 0;
@@ -293,6 +293,27 @@
             border-radius: 8px;
             margin-bottom: 30px;
             text-align: center;
+            position: relative;
+        }
+
+        .summary-header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .profile-icon {
+            width: 64px;
+            height: 64px;
+            border-radius: 50%;
+            border: 3px solid #66c0f4;
+            transition: transform 0.2s;
+        }
+
+        .profile-icon:hover {
+            transform: scale(1.05);
         }
 
         .summary-stats {
@@ -306,7 +327,8 @@
 <body>
     <div class="container">
         <header>
-            <h1>🎮 Roschach96's GBE Achievements Viewer</h1>
+            <h1>🎮 Steam Achievements Viewer</h1>
+            <p>Automatically scans AppID folders</p>
         </header>
 
         <div id="info" class="info" style="display: none;">
