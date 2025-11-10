@@ -331,6 +331,42 @@
             color: #8f98a0;
         }
 
+        .sort-controls {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+
+        .sort-button {
+            background: rgba(102, 192, 244, 0.1);
+            color: #66c0f4;
+            border: 1px solid #66c0f4;
+            padding: 8px 16px;
+            border-radius: 4px;
+            font-size: 14px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .sort-button:hover {
+            background: rgba(102, 192, 244, 0.2);
+        }
+
+        .sort-button.active {
+            background: rgba(102, 192, 244, 0.3);
+            border-color: #56a0d4;
+        }
+
+        .achievement-desc.hidden-desc {
+            font-style: italic;
+            color: #6b7580;
+        }
+
         .achievements-list::-webkit-scrollbar {
             width: 8px;
         }
@@ -636,6 +672,7 @@
                     apiname: key,
                     name: achInfo.name || ach.name || ach.displayName || key,
                     description: achInfo.description || ach.description || ach.desc || '',
+                    hidden: achInfo.hidden || ach.hidden || false,
                     icon: achInfo.icon || ach.icon || '',
                     icongray: achInfo.icongray || ach.icongray || ach.icon_gray || achInfo.icon || ach.icon || '',
                     unlocked: ach.earned || ach.unlocked || ach.achieved || false,
@@ -755,14 +792,51 @@
             const total = game.achievements.length;
             const percentage = total > 0 ? Math.round((unlocked / total) * 100) : 0;
 
-            // Separate unlocked and locked achievements
-            const unlockedAchievements = game.achievements.filter(a => a.unlocked);
-            const lockedAchievements = game.achievements.filter(a => !a.unlocked);
+            // Store current game for sorting
+            window.currentGameData = {
+                appId: appId,
+                game: game,
+                unlocked: unlocked,
+                total: total,
+                percentage: percentage,
+                sortMode: 'default'
+            };
+
+            renderGameDetail();
+        }
+
+        function renderGameDetail() {
+            const { appId, game, unlocked, total, percentage, sortMode } = window.currentGameData;
+
+            // Separate and sort achievements
+            let unlockedAchievements = game.achievements.filter(a => a.unlocked);
+            let lockedAchievements = game.achievements.filter(a => !a.unlocked);
+
+            // Sort unlocked achievements based on current mode
+            if (sortMode === 'rarity-asc') {
+                unlockedAchievements.sort((a, b) => {
+                    const rarityA = a.rarity !== null ? parseFloat(a.rarity) : 999;
+                    const rarityB = b.rarity !== null ? parseFloat(b.rarity) : 999;
+                    return rarityA - rarityB;
+                });
+            } else if (sortMode === 'rarity-desc') {
+                unlockedAchievements.sort((a, b) => {
+                    const rarityA = a.rarity !== null ? parseFloat(a.rarity) : -1;
+                    const rarityB = b.rarity !== null ? parseFloat(b.rarity) : -1;
+                    return rarityB - rarityA;
+                });
+            } else if (sortMode === 'date-newest') {
+                unlockedAchievements.sort((a, b) => (b.unlocktime || 0) - (a.unlocktime || 0));
+            } else if (sortMode === 'date-oldest') {
+                unlockedAchievements.sort((a, b) => (a.unlocktime || 0) - (b.unlocktime || 0));
+            }
 
             // Function to render achievement HTML
             function renderAchievement(ach, isUnlocked) {
                 const rarityNum = ach.rarity !== null && ach.rarity !== undefined ? parseFloat(ach.rarity) : null;
                 const isRare = rarityNum !== null && !isNaN(rarityNum) && rarityNum < 10;
+                const showDescription = isUnlocked || !ach.hidden;
+                const description = showDescription ? ach.description : 'Hidden achievement';
                 
                 return `
                     <div class="achievement ${isUnlocked ? 'unlocked' : 'locked'}">
@@ -771,7 +845,7 @@
                             `<div class="achievement-icon ${isRare ? 'rare-glow' : ''}"></div>`}
                         <div class="achievement-info">
                             <div class="achievement-name">${ach.name}</div>
-                            <div class="achievement-desc">${ach.description}</div>
+                            <div class="achievement-desc ${!showDescription ? 'hidden-desc' : ''}">${description}</div>
                             ${isUnlocked && ach.unlocktime ? 
                                 `<div class="achievement-unlock-time">Unlocked: ${new Date(ach.unlocktime * 1000).toLocaleDateString()}</div>` : 
                                 ''}
@@ -822,6 +896,21 @@
                 <div class="achievements-list">
                     ${unlockedAchievements.length > 0 ? `
                         <h3 class="achievements-section-title">Unlocked Achievements</h3>
+                        <div class="sort-controls">
+                            <button class="sort-button ${sortMode === 'rarity-asc' ? 'active' : ''}" onclick="setSortMode('rarity-asc')">
+                                🏆 Rarest First
+                            </button>
+                            <button class="sort-button ${sortMode === 'rarity-desc' ? 'active' : ''}" onclick="setSortMode('rarity-desc')">
+                                📊 Most Common First
+                            </button>
+                            <button class="sort-button ${sortMode === 'date-newest' ? 'active' : ''}" onclick="setSortMode('date-newest')">
+                                🕐 Newest First
+                            </button>
+                            <button class="sort-button ${sortMode === 'date-oldest' ? 'active' : ''}" onclick="setSortMode('date-oldest')">
+                                🕙 Oldest First
+                            </button>
+                            ${sortMode !== 'default' ? `<button class="sort-button" onclick="setSortMode('default')">↺ Reset</button>` : ''}
+                        </div>
                         ${unlockedAchievements.map(ach => renderAchievement(ach, true)).join('')}
                     ` : ''}
                     
@@ -834,6 +923,11 @@
             
             detailView.classList.add('active');
             window.scrollTo(0, 0);
+        }
+
+        function setSortMode(mode) {
+            window.currentGameData.sortMode = mode;
+            renderGameDetail();
         }
 
         function hideGameDetail() {
