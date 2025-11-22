@@ -164,7 +164,7 @@
           "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1086940/a00e6ad2d3d84c4649654ce74a82cc2fa96cf3cf.jpg",
           "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1086940/0db20ed8095106be54f7ced1c60f3540c77b8941.jpg",
           "hidden": true,
-          "percent": "39.9"
+          "percent": "40.0"
         },
         "BG3_Quest21": {
           "name": "Under Lock and Key",
@@ -188,7 +188,7 @@
           "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1086940/cc1a63fce03ab5580530c8efcef4a86a46708a39.jpg",
           "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1086940/f3231abe1436a3b8211233dfb2e1e116e8e79fd5.jpg",
           "hidden": true,
-          "percent": "36.8"
+          "percent": "36.9"
         },
         "BG3_Quest24": {
           "name": "Leave No One Behind",
@@ -926,7 +926,7 @@
           "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3228590/35e2b99f41c46a1b10ac7b6c25a959ec04390e43.jpg",
           "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3228590/7bb5f25b588792cf501bfb4447b6c0a38dd42b89.jpg",
           "hidden": false,
-          "percent": "32.2"
+          "percent": "32.3"
         },
         "ACH_SpendScrap": {
           "name": "Space Wallet",
@@ -998,7 +998,7 @@
           "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3228590/98d180502bea83d5263f08b160f1ea56ccd2ab8c.jpg",
           "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3228590/a931c44ebdab909ff349b34b8f6c1296b70ecfb9.jpg",
           "hidden": false,
-          "percent": "30.6"
+          "percent": "30.7"
         },
         "ACH_CompleteZone3": {
           "name": "Mental Fortitude",
@@ -1006,7 +1006,7 @@
           "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3228590/c212a9ea99502258bc62e2386325207c08b6601b.jpg",
           "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3228590/56f15e3e85e670c6081eb9287a535f39de5abc0a.jpg",
           "hidden": false,
-          "percent": "4.2"
+          "percent": "4.3"
         },
         "ACH_CompleMission_All": {
           "name": "Been There, Done That",
@@ -1022,7 +1022,7 @@
           "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3228590/d2022bfbbb30de0aa88fffa4cd3702c3ce89e420.jpg",
           "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3228590/de62665ea3c2efece0b138f0fc4d6a089e9f88c3.jpg",
           "hidden": false,
-          "percent": "2.3"
+          "percent": "2.4"
         },
         "ACH_CompleteMission_All_Expert": {
           "name": "Death Incarnate",
@@ -1070,7 +1070,7 @@
           "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3228590/270d01b295df4e8004fb4bd3f070d8f022128e37.jpg",
           "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3228590/9fa6d69c28df57ef3106de15b360bc56bf2176a3.jpg",
           "hidden": false,
-          "percent": "32.0"
+          "percent": "32.1"
         },
         "ACH_SynergiesActivated": {
           "name": "Promote Synergy",
@@ -1078,7 +1078,7 @@
           "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3228590/85e3b875e3af8be29e0633c79f6a0666127d17f7.jpg",
           "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3228590/b3a75cf09ee8b75a8e9a85f5113a7d5dcc3b8f77.jpg",
           "hidden": false,
-          "percent": "0.2"
+          "percent": "0.3"
         },
         "ACH_CompleteMission_Coop": {
           "name": "Jarheads",
@@ -1358,7 +1358,7 @@
     "info": {
       "appid": "2277560",
       "name": "WUCHANG: Fallen Feathers",
-      "icon": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2277560/7dbbe47ac51463eb1627581f5c048b94ef856d5c/header.jpg?t=1763650477",
+      "icon": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2277560/7dbbe47ac51463eb1627581f5c048b94ef856d5c/header.jpg?t=1763735423",
       "achievements": {
         "ACH_PLATINUM_01_F": {
           "name": "Fallen Feathers",
@@ -1390,7 +1390,7 @@
           "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2277560/0eb2c39683811e85d655e09417aec83423f2d7aa.jpg",
           "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2277560/a363a22a0d28fe90e37def3d48b3daf458212a72.jpg",
           "hidden": true,
-          "percent": "16.7"
+          "percent": "16.8"
         },
         "ACH_SILVER_03_F": {
           "name": "Jarful of Medicine",
@@ -1954,7 +1954,7 @@
           "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3023070/c56d0d9d6afa68a5af7561e1180ab9f547c3e680.jpg",
           "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3023070/6c706bb1f67652215ab1ffc000a2e623c38186f2.jpg",
           "hidden": false,
-          "percent": "25.5"
+          "percent": "25.4"
         },
         "ACHIEVEMENT_13": {
           "name": "Pro Blader",
@@ -2026,7 +2026,7 @@
           "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3023070/4b3990bb81f6f5c8559a4d32614aa32fa1599494.jpg",
           "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3023070/a6defebd107f3d75b8349e9f4e1bc20bdf6f3635.jpg",
           "hidden": false,
-          "percent": "31.4"
+          "percent": "31.3"
         },
         "ACHIEVEMENT_22": {
           "name": "Stamina-type Master",
@@ -2442,7 +2442,7 @@
           "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/881020/00ba341dcf6bc2932bc4baf02c2617b7db56f7ad.jpg",
           "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/881020/00ba341dcf6bc2932bc4baf02c2617b7db56f7ad.jpg",
           "hidden": true,
-          "percent": "41.1"
+          "percent": "41.0"
         },
         "0002": {
           "name": "The Ultimate",
@@ -2522,7 +2522,7 @@
           "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/881020/7bcdfdde9fe5be85d82dcd6021b09fa20839dfaa.jpg",
           "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/881020/7bcdfdde9fe5be85d82dcd6021b09fa20839dfaa.jpg",
           "hidden": true,
-          "percent": "84.9"
+          "percent": "84.8"
         },
         "0012": {
           "name": "Tempest on the Horizon",
@@ -2578,7 +2578,7 @@
           "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/881020/77628979d0563aae00b018d9d229ca95c5459770.jpg",
           "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/881020/77628979d0563aae00b018d9d229ca95c5459770.jpg",
           "hidden": true,
-          "percent": "64.6"
+          "percent": "64.5"
         },
         "0019": {
           "name": "Opposing Wills",
@@ -2586,7 +2586,7 @@
           "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/881020/01083170e4d7463af0844dbca5da65fdb18e17b3.jpg",
           "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/881020/01083170e4d7463af0844dbca5da65fdb18e17b3.jpg",
           "hidden": true,
-          "percent": "62.3"
+          "percent": "62.2"
         },
         "0020": {
           "name": "Leave It to Me",
