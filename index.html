@@ -406,14 +406,15 @@
         }
 
         .hidden-spoiler-text {
+            display: block;
+            margin-top: 5px;
             background: #3d5a6c;
             color: transparent;
             cursor: pointer;
             user-select: none;
             transition: all 0.3s;
             border-radius: 3px;
-            padding: 2px 4px;
-            display: inline;
+            padding: 4px 6px;
         }
 
         .hidden-spoiler-text:hover {
@@ -869,7 +870,10 @@
                         </div>
                     </div>
                 </div>
-                
+            `;
+
+            // Create sort controls separately in results div
+            const sortControlsHTML = `
                 <div class="grid-sort-controls" id="grid-sort-controls">
                     <button class="grid-sort-button ${window.gridSortMode === 'percentage' ? 'active' : ''}" 
                             onclick="setGridSortMode('percentage')" 
@@ -937,7 +941,7 @@
             }
 
             html += '</div>';
-            resultsDiv.innerHTML = html;
+            resultsDiv.innerHTML = sortControlsHTML + html;
         }
 
         function showGameDetail(appId) {
@@ -1005,8 +1009,8 @@
                 if (isHidden) {
                     // Always show "Hidden achievement" for hidden achievements
                     if (hasDescription) {
-                        // If there's a real description, show it as spoiler
-                        descriptionHTML = `<div class="achievement-desc hidden-spoiler">Hidden achievement. <span class="hidden-spoiler-text">${ach.description}</span></div>`;
+                        // If there's a real description, show it as spoiler on new line
+                        descriptionHTML = `<div class="achievement-desc hidden-spoiler">Hidden achievement<span class="hidden-spoiler-text">${ach.description}</span></div>`;
                     } else {
                         // No description available
                         descriptionHTML = `<div class="achievement-desc hidden-desc">Hidden achievement</div>`;
@@ -1042,6 +1046,7 @@
             // Hide grid and summary
             document.getElementById('games-grid').classList.add('hidden');
             document.getElementById('summary-box').classList.add('hidden');
+            document.getElementById('grid-sort-controls').classList.add('hidden');
 
             // Show detail view
             const detailView = document.getElementById('detail-view');
@@ -1116,6 +1121,7 @@
             document.getElementById('detail-view').classList.remove('active');
             document.getElementById('games-grid').classList.remove('hidden');
             document.getElementById('summary-box').classList.remove('hidden');
+            document.getElementById('grid-sort-controls').classList.remove('hidden');
             window.scrollTo(0, 0);
         }
 
