@@ -400,6 +400,27 @@
             color: #6b7580;
         }
 
+        .hidden-spoiler {
+            font-style: italic;
+            color: #6b7580;
+        }
+
+        .hidden-spoiler-text {
+            background: #3d5a6c;
+            color: transparent;
+            cursor: pointer;
+            user-select: none;
+            transition: all 0.3s;
+            border-radius: 3px;
+            padding: 2px 4px;
+            display: inline;
+        }
+
+        .hidden-spoiler-text:hover {
+            background: transparent;
+            color: #8f98a0;
+        }
+
         .achievements-list::-webkit-scrollbar {
             width: 8px;
         }
@@ -527,6 +548,10 @@
             justify-content: center;
             gap: 15px;
             margin-bottom: 25px;
+        }
+
+        .grid-sort-controls.hidden {
+            display: none;
         }
 
         .grid-sort-button {
@@ -679,7 +704,6 @@
                         <h3>⚠️ Could not auto-scan folders</h3>
                         <p style="margin-top: 15px;">Make sure you have:</p>
                         <ol style="text-align: left; margin: 15px auto; max-width: 500px;">
-                            <li>Your Steam API Key and Steam ID under Settings->Secrets and variables->Actions->Repository secrets in STEAM_API_KEY and STEAM_ID</li>
                             <li>Created folders in <code>AppID/</code> with game AppIDs as names</li>
                             <li>Added <code>achievements.json</code> in each folder</li>
                             <li>Run the GitHub Actions workflow to generate <code>game-data.json</code></li>
@@ -846,7 +870,7 @@
                     </div>
                 </div>
                 
-                <div class="grid-sort-controls">
+                <div class="grid-sort-controls" id="grid-sort-controls">
                     <button class="grid-sort-button ${window.gridSortMode === 'percentage' ? 'active' : ''}" 
                             onclick="setGridSortMode('percentage')" 
                             data-tooltip="Sort by Completion Percentage">
@@ -976,11 +1000,25 @@
                 // Check if description is empty or missing
                 const hasDescription = ach.description && ach.description.trim() !== '';
                 
-                // Show "Hidden achievement" if:
-                // 1. It's locked and hidden, OR
-                // 2. It's unlocked but has no description (likely a hidden achievement without fetched description)
-                const showHiddenText = (!isUnlocked && isHidden) || (isUnlocked && !hasDescription);
-                const description = showHiddenText ? 'Hidden achievement' : (ach.description || 'No description');
+                let descriptionHTML = '';
+                
+                if (isHidden) {
+                    // Always show "Hidden achievement" for hidden achievements
+                    if (hasDescription) {
+                        // If there's a real description, show it as spoiler
+                        descriptionHTML = `<div class="achievement-desc hidden-spoiler">Hidden achievement. <span class="hidden-spoiler-text">${ach.description}</span></div>`;
+                    } else {
+                        // No description available
+                        descriptionHTML = `<div class="achievement-desc hidden-desc">Hidden achievement</div>`;
+                    }
+                } else {
+                    // Not hidden, show description normally
+                    if (hasDescription) {
+                        descriptionHTML = `<div class="achievement-desc">${ach.description}</div>`;
+                    } else {
+                        descriptionHTML = `<div class="achievement-desc hidden-desc">Hidden achievement</div>`;
+                    }
+                }
                 
                 return `
                     <div class="achievement ${isUnlocked ? 'unlocked' : 'locked'}">
@@ -989,7 +1027,7 @@
                             `<div class="achievement-icon ${isRare ? 'rare-glow' : ''}"></div>`}
                         <div class="achievement-info">
                             <div class="achievement-name">${ach.name}</div>
-                            <div class="achievement-desc ${showHiddenText ? 'hidden-desc' : ''}">${description}</div>
+                            ${descriptionHTML}
                             ${isUnlocked && ach.unlocktime ? 
                                 `<div class="achievement-unlock-time">Unlocked: ${new Date(ach.unlocktime * 1000).toLocaleDateString()}</div>` : 
                                 ''}
