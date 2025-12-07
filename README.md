@@ -71,6 +71,7 @@ Your `achievements.json` should look like this:
 
 #### Steam cached Achievement Watcher {AppID}.db files
 
+By default they are stored in:
 ```%AppData%\Achievement Watcher\steam_cache\data```
 and/or
 ```%AppData%\Achievement Watcher\steam_cache\user\{SteamID}\```
