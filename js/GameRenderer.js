@@ -1,4 +1,4 @@
-import { gamesData } from './gameLoader.js';
+import { gamesData } from './GameLoader.js';
 import { calculatePercentage, formatUnlockDate } from './utils.js';
 
 // Displaying games
