@@ -85,12 +85,20 @@ async function processGameData(appId, achievementsData, gameInfo = null) {
     let gameName = gameInfo?.name || `Game ${appId}`;
     let gameIcon = gameInfo?.icon || '';
     let usesDb = gameInfo?.uses_db || false;
+    let platform = gameInfo?.platform || null;
+    let blacklist = gameInfo?.blacklist || [];
 
     const achievements = [];
     let achData = achievementsData.achievements || achievementsData;
     
     if (gameInfo && gameInfo.achievements) {
         for (let key in gameInfo.achievements) {
+            // Skip blacklisted achievements
+            if (blacklist.includes(key)) {
+                console.log(`Skipping blacklisted achievement: ${key}`);
+                continue;
+            }
+            
             const achInfo = gameInfo.achievements[key];
             const userAch = achData[key];
             
@@ -108,6 +116,12 @@ async function processGameData(appId, achievementsData, gameInfo = null) {
         }
     } else {
         for (let key in achData) {
+            // Skip blacklisted achievements
+            if (blacklist.includes(key)) {
+                console.log(`Skipping blacklisted achievement: ${key}`);
+                continue;
+            }
+            
             const ach = achData[key];
             
             achievements.push({
@@ -129,7 +143,8 @@ async function processGameData(appId, achievementsData, gameInfo = null) {
         name: gameName,
         icon: gameIcon,
         achievements,
-        usesDb: usesDb
+        usesDb: usesDb,
+        platform: platform
     });
 }
 
