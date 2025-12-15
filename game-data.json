@@ -934,7 +934,7 @@
           "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/928960/be3aa46b418d532783785d93f38f3a608095ebed.jpg",
           "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/928960/629e4a175ebc2860c130bfbbc3ca8f65a52af5f8.jpg",
           "hidden": false,
-          "percent": "37.1"
+          "percent": "37.2"
         },
         "Lunara": {
           "name": "Lunara",
@@ -950,7 +950,7 @@
           "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/928960/06459596b1ea4026d317d019743904aaf23cf238.jpg",
           "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/928960/d4fca038b8f12c9502492c9c0bed476163218727.jpg",
           "hidden": false,
-          "percent": "21.1"
+          "percent": "21.2"
         },
         "Gilden Knight": {
           "name": "Gilden Commander",
@@ -1150,7 +1150,7 @@
           "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/928960/eb5335a6de57af3aa0ca53c34af938710fec5461.jpg",
           "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/928960/571b64ab5c23658eead02e67aaa80ce434f1de92.jpg",
           "hidden": false,
-          "percent": "22.8"
+          "percent": "22.9"
         },
         "Projectiles": {
           "name": "Deflector",
@@ -1334,7 +1334,7 @@
           "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/928960/e298fc24e1168d2d94978b804b6edb1414ae8fa4.jpg",
           "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/928960/4835698e6e8937ff7afd6e5943fb25775eff2d70.jpg",
           "hidden": false,
-          "percent": "0.9"
+          "percent": "1.0"
         },
         "Heartbreaker": {
           "name": "Heartbreaker",
@@ -1406,7 +1406,7 @@
           "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/928960/02e8f1a917c7e7d03b9698c23eafaae7486549a8.jpg",
           "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/928960/2480c51d3d55b30104de1856169814565a8a10b7.jpg",
           "hidden": false,
-          "percent": "11.1"
+          "percent": "11.2"
         },
         "Moirax": {
           "name": "Moirax",
