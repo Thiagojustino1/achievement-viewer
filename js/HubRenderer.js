@@ -30,13 +30,6 @@ async function fetchAllForks(owner, repo, processed = new Set()) {
     forks.push(...data);
     page++;
   }
-
-  // Recurse into forks of forks
-  for (const f of forks) {
-    const sub = await fetchAllForks(f.owner.login, f.name, processed);
-    forks.push(...sub);
-  }
-
   return forks;
 }
 
