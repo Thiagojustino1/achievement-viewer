@@ -43,7 +43,7 @@ async function fetchAllForks(owner, repo) {
 }
 
 async function loadGameData(person) {
-  const url = `https://raw.githubusercontent.com/${person.login}/${person.repo || 'achievement-viewer'}/main/game-data.json`;
+  const url = `https://raw.githubusercontent.com/${person.login}/${person.repo || 'achievement-viewer'}/user/game-data.json`;
   const data = await fetchJSON(url);
 
   if (!data) {
