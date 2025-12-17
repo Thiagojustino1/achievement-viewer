@@ -569,12 +569,38 @@ box-shadow: 0 0 15px 3px rgba(255, 215, 0, 0.8),
 
 .summary-header {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
-    gap: 15px;
+    justify-content: space-between;
+    gap: 20px;
     margin-bottom: 20px;
 }
 
+.gamer-card-container {
+    flex-shrink: 0;
+}
+
+.gamer-card-container img {
+    display: block;
+    max-height: 80px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+@media (max-width: 768px) {
+    .summary-header {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .gamer-card-container {
+        margin-top: 10px;
+    }
+}
+    
 .grid-sort-controls {
     display: flex;
     justify-content: center;
