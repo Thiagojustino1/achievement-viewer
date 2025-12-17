@@ -40,20 +40,34 @@ export function displayGames() {
 
 function renderSummary(summaryDiv, totalGames, perfectGames, totalUnlocked, totalAchievements, overallPercentage) {
     summaryDiv.style.display = 'block';
+
+    const gamerCard = window.gamerCardHTML || '';
+
     summaryDiv.innerHTML = `
         <div class="summary" id="summary-box">
             <div class="summary-header">
-                <img src="${window.githubAvatarUrl}" 
-                     alt="Profile" 
-                     class="profile-icon"
-                     onerror="this.src='https://avatars.fastly.steamstatic.com/29283662f3b58488c74ad750539ba5289b53cf6c_full.jpg'">
-                <h2 style="color: #66c0f4; margin: 0;">
-                    <span style="text-transform: capitalize;">${window.githubUsername}</span>'s summary
-                </h2>
+                <div style="display: flex; align-items: center; gap: 15px;">
+                    <img src="${window.githubAvatarUrl}" 
+                         alt="Profile" 
+                         class="profile-icon"
+                         onerror="this.src='https://avatars.fastly.steamstatic.com/29283662f3b58488c74ad750539ba5289b53cf6c_full.jpg'">
+                    
+                    <h2 style="color: #66c0f4; margin: 0;">
+                        <span style="text-transform: capitalize;">${window.githubUsername}</span>'s summary
+                    </h2>
+                </div>
+
+                ${gamerCard ? `
+                <div class="gamer-card-container">
+                    ${gamerCard}
+                </div>
+                ` : ''}
             </div>
+            
             <div class="progress-bar" style="max-width: 600px; margin: 0 auto;">
                 <div class="progress-fill ${overallPercentage < 6 ? 'low-percentage' : ''}" style="width: ${overallPercentage}%">${overallPercentage}%</div>
             </div>
+            
             <div class="summary-stats">
                 <div class="stat-item">
                     <div class="stat-value">${totalGames}</div>
