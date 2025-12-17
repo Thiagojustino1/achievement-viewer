@@ -161,6 +161,16 @@ export async function init() {
   window.githubUsername = userInfo.username;
   window.githubAvatarUrl = userInfo.avatarUrl;
 
+try {
+    // Általános gamercard.html betöltése
+    const cardResponse = await fetch(baseUrl + 'gamercard.html');
+    if (cardResponse.ok) {
+      window.gamerCardHTML = await cardResponse.text();
+    }
+  } catch (e) {
+    console.log('No custom gamercard found');
+  }
+    
   try {
     const currentUrl = window.location.href;
     const repoMatch = currentUrl.match(/github\.io\/([^\/]+)/);
