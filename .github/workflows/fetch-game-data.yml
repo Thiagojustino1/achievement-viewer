@@ -2,6 +2,7 @@ name: Fetch Steam Game Data
 
 on:
   workflow_call: {}  # reusable
+  workflow_dispatch: # callable from other branches
 
 permissions:
   contents: write
