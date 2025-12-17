@@ -33,7 +33,7 @@
       "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/710920/d03c0b189a54c17e6e0e75159a891802afd8620f.jpg",
       "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/710920/a77627f0bb8263a133f8f82bede3e0ff29f73c18.jpg",
       "hidden": true,
-      "percent": "20.8"
+      "percent": "20.9"
     },
     "Moloch": {
       "name": "Moloch",
@@ -113,7 +113,7 @@
       "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/710920/b61a4ac540b6612a756de402f392042335980255.jpg",
       "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/710920/f1b2ddcd2b4115cffa82aec00ad994bd625f986c.jpg",
       "hidden": false,
-      "percent": "40.5"
+      "percent": "40.6"
     },
     "MintII": {
       "name": "Mint II",

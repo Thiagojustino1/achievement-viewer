@@ -33,7 +33,7 @@
       "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/582010/10a7dd9995b8ffae25f90e4dddc014b03a09f2be.jpg",
       "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/582010/d92415ba82280471fc4827937ecbdc352edebcf2.jpg",
       "hidden": true,
-      "percent": "67.5"
+      "percent": "67.6"
     },
     "Achievement4": {
       "name": "Into the Deep",
@@ -49,7 +49,7 @@
       "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/582010/02f71cfd5e52044720f5e8794ad6c9928c48e79a.jpg",
       "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/582010/ff6f6f2afdfa60defa2c491911727498f1b797c6.jpg",
       "hidden": true,
-      "percent": "55.4"
+      "percent": "55.5"
     },
     "Achievement6": {
       "name": "The Empress of the Highlands",
@@ -65,7 +65,7 @@
       "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/582010/73f84995b2ad08c0d2ad49302631768fe5190736.jpg",
       "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/582010/ef848ea40e4f5834dd322f9cb70221f8977a65e1.jpg",
       "hidden": true,
-      "percent": "48.5"
+      "percent": "48.6"
     },
     "Achievement8": {
       "name": "The Sapphire Star",
@@ -89,7 +89,7 @@
       "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/582010/23f855de051d3ae04c9fd22c9b27914ff6ba9dc1.jpg",
       "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/582010/8aa456e843a330c94b4a6efda6ee646ed0f178b0.jpg",
       "hidden": false,
-      "percent": "51.5"
+      "percent": "51.6"
     },
     "Achievement11": {
       "name": "The Franchise Hunter",
@@ -153,7 +153,7 @@
       "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/582010/5b3b9995d7f819c99596f8869db19c8d12c0b1e7.jpg",
       "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/582010/ce047890391db74bf88cee609fe8dbdc03dd7369.jpg",
       "hidden": false,
-      "percent": "69.2"
+      "percent": "69.3"
     },
     "Achievement19": {
       "name": "A Living Fossil",
@@ -241,7 +241,7 @@
       "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/582010/04d9de70fced3adf68ed1c20c7b6404a232888f6.jpg",
       "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/582010/5b845945c8c63d3e073f5a9769d378de16a77b6b.jpg",
       "hidden": false,
-      "percent": "50.0"
+      "percent": "50.1"
     },
     "Achievement30": {
       "name": "Monster Ph.D.",
@@ -257,7 +257,7 @@
       "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/582010/0c524255f8bd3c3af4b77b3ab7c6042e439957cd.jpg",
       "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/582010/e50b6a0ba2a1a6c3114acca32049519f13948685.jpg",
       "hidden": true,
-      "percent": "36.9"
+      "percent": "37.0"
     },
     "Achievement32": {
       "name": "Indomitable",
@@ -273,7 +273,7 @@
       "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/582010/e4c73c7e29668074e719b8ba8b51a87071e8352b.jpg",
       "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/582010/5135d6ea3b06f26c9ac74b1f96c0ad3fae288d81.jpg",
       "hidden": false,
-      "percent": "39.9"
+      "percent": "40.0"
     },
     "Achievement34": {
       "name": "Miniature Crown Collector",
@@ -297,7 +297,7 @@
       "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/582010/e2907e12be9e6e924e855f2db8c1c00b0ef215a1.jpg",
       "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/582010/8255bd56850b7c9809c7b9fb917eecd47c18caa6.jpg",
       "hidden": false,
-      "percent": "58.3"
+      "percent": "58.4"
     },
     "Achievement37": {
       "name": "Giant Crown Collector",
@@ -321,7 +321,7 @@
       "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/582010/caa59189c12c52030f0d14b90c0a2623dc9ecbec.jpg",
       "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/582010/3927ec9d7007ba4b76504597051e9be8416a8cec.jpg",
       "hidden": false,
-      "percent": "57.3"
+      "percent": "57.4"
     },
     "Achievement40": {
       "name": "Capture Pro",
@@ -361,7 +361,7 @@
       "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/582010/59005a50f06b8aca450f1567053ffff1192ebd63.jpg",
       "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/582010/581783129ce56bb8d93abcf27f876b1da75e14ff.jpg",
       "hidden": false,
-      "percent": "52.2"
+      "percent": "52.3"
     },
     "Achievement45": {
       "name": "I Am the Reinforcements",
@@ -369,7 +369,7 @@
       "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/582010/2f1fcd19d9211583db1fd49d08cf23306b0f0133.jpg",
       "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/582010/ee5d4aba5343fc2e2d107e63136dfb8b2feb0b49.jpg",
       "hidden": false,
-      "percent": "23.5"
+      "percent": "23.6"
     },
     "Achievement46": {
       "name": "Hunters United",
@@ -377,7 +377,7 @@
       "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/582010/1f753f3edfc578c88d3c076f9f6fc4e0d272f4a9.jpg",
       "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/582010/667ef144f47b859fb19c809357a20411d29f9f5e.jpg",
       "hidden": false,
-      "percent": "68.1"
+      "percent": "68.2"
     },
     "Achievement47": {
       "name": "Hunters United Forever",
@@ -433,7 +433,7 @@
       "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/582010/030ca55fd6d25ad11184a30eb150266d9454785c.jpg",
       "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/582010/0737aecad60a04406e6f80eaa0846edc424267fe.jpg",
       "hidden": true,
-      "percent": "34.1"
+      "percent": "34.2"
     },
     "Achievement54": {
       "name": "Indomitable Spirit",
@@ -441,7 +441,7 @@
       "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/582010/2cb2a603a0c7df9484010be08e567c0f4abae205.jpg",
       "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/582010/d4f9f67a8bde4c56b67e01249e8f0729962292d9.jpg",
       "hidden": true,
-      "percent": "31.4"
+      "percent": "31.5"
     },
     "Achievement55": {
       "name": "The Old Everwyrm",
@@ -449,7 +449,7 @@
       "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/582010/625d283bb632e64bc10915a5070d954c8691fe4e.jpg",
       "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/582010/cda13554252055efd3115f0527c8b6a4259699d5.jpg",
       "hidden": true,
-      "percent": "29.9"
+      "percent": "30.0"
     },
     "Achievement56": {
       "name": "An End and a Beginning",
@@ -457,7 +457,7 @@
       "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/582010/b75a17f18556fece132107768740df532ebc607d.jpg",
       "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/582010/c5fc305e66b6c100f145690a9f5c5e1827c7d1d0.jpg",
       "hidden": true,
-      "percent": "27.5"
+      "percent": "27.6"
     },
     "Achievement57": {
       "name": "To the Land of Discoveries",
@@ -489,7 +489,7 @@
       "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/582010/c63d470d6f47c466cdabc33194a07c1317657895.jpg",
       "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/582010/41a4c84c7614673650a52ee47961e740f6a2bc14.jpg",
       "hidden": true,
-      "percent": "15.7"
+      "percent": "15.8"
     },
     "Achievement61": {
       "name": "Fate's Conclusion",
@@ -609,7 +609,7 @@
       "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/582010/9bbdd36ddac55e4c4cec7edc884af29c663db5fb.jpg",
       "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/582010/20c517052bd49efb47d7ad9e5549e837361c2e6e.jpg",
       "hidden": false,
-      "percent": "43.0"
+      "percent": "43.1"
     },
     "Achievement76": {
       "name": "Experienced Rider",
@@ -657,7 +657,7 @@
       "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/582010/260267b92e449cae5b63fb00705415082031c797.jpg",
       "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/582010/b21cb3587b26d19ded1447901961d64df1fcaf0f.jpg",
       "hidden": false,
-      "percent": "23.8"
+      "percent": "23.9"
     },
     "Achievement82": {
       "name": "Architectural Artist",
@@ -689,7 +689,7 @@
       "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/582010/07bee3d2b2d0e7c92c93c91691075dcf482df0a9.jpg",
       "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/582010/731eeadfa0c533c6cbf8c6f25fa06b7a29b91927.jpg",
       "hidden": false,
-      "percent": "18.2"
+      "percent": "18.3"
     },
     "Achievement86": {
       "name": "Another Giant Crown",
@@ -697,7 +697,7 @@
       "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/582010/2de932977d56b36f5dcdd3d4b3e74474e6626b67.jpg",
       "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/582010/f8d0929f59ca5e502bef19de5e7d95d0ce30c766.jpg",
       "hidden": false,
-      "percent": "15.1"
+      "percent": "15.2"
     },
     "Achievement87": {
       "name": "Fledgling Observer",
@@ -761,7 +761,7 @@
       "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/582010/f9c980e8730f2cc4c65fc6a869bafe4bda342893.jpg",
       "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/582010/31572773c3999c2d324b6eb733926ceb37fa6c94.jpg",
       "hidden": false,
-      "percent": "37.4"
+      "percent": "37.5"
     },
     "Achievement95": {
       "name": "Hunter Prodigy",

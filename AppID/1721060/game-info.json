@@ -65,7 +65,7 @@
       "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1721060/f5b1bc2a2a5cc963bb26fffca8b8e4bc8eb90f5c.jpg",
       "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1721060/e9ec86f4ff0ad680aeb584ad0f3040e21a78089f.jpg",
       "hidden": true,
-      "percent": "42.1"
+      "percent": "42.2"
     },
     "ACH_Defeat_TomeMistress": {
       "name": "Knowledge is Power",
@@ -169,7 +169,7 @@
       "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1721060/940f466c0ca9426718f2923693d4857a401bde0a.jpg",
       "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1721060/dd48bc11ef1470a00901f761c6f481d124a7bfb3.jpg",
       "hidden": false,
-      "percent": "22.3"
+      "percent": "22.4"
     },
     "ACH_Defeat_Bloodfiends": {
       "name": "Drain the Blood",
@@ -273,7 +273,7 @@
       "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1721060/a3a948381699d0a69b172fbf9d7532c185a8c4f9.jpg",
       "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1721060/016f539f88a0891e0521c6d10356a60df7d429ae.jpg",
       "hidden": false,
-      "percent": "43.4"
+      "percent": "43.5"
     },
     "ACH_Level100": {
       "name": "Grand Master",
@@ -393,7 +393,7 @@
       "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1721060/feabe6ef77a2151061f19ded9757e9d4dc623095.jpg",
       "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1721060/6a79f607074dff9834eaaa73032fa221ce8d6454.jpg",
       "hidden": true,
-      "percent": "13.7"
+      "percent": "13.8"
     },
     "ACH_Learn": {
       "name": "Good Student",
@@ -457,7 +457,7 @@
       "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1721060/a414b129559bac700da7429f03f642ec58926d9e.jpg",
       "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1721060/8beb588be388ec18d0be0efb8aa3265476da20da.jpg",
       "hidden": false,
-      "percent": "38.3"
+      "percent": "38.4"
     },
     "ACH_Jokes": {
       "name": "Wasn't Funny",
@@ -489,7 +489,7 @@
       "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1721060/008f44f5f0ce92b03849e71eefe987679b9a0c6c.jpg",
       "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1721060/a9799867b858e561284bc912fd8baaaa975c9737.jpg",
       "hidden": false,
-      "percent": "18.3"
+      "percent": "18.4"
     },
     "ACH_Loremaster": {
       "name": "Loremaster",
@@ -641,7 +641,7 @@
       "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1721060/beca4da76955cebe2c08dd4bc9e06fd5b8267172.jpg",
       "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1721060/8a1a86e21d74cddad861d9ca82a7c141d662e530.jpg",
       "hidden": false,
-      "percent": "23.9"
+      "percent": "24.0"
     },
     "ACH_AllWeapons": {
       "name": "Armed to the Teeth",

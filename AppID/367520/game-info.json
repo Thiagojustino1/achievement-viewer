@@ -137,7 +137,7 @@
       "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/367520/a39ee369bc9d5dc54d419ad7cae6c1dd346fc632.jpg",
       "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/367520/109bb2a566d9a5841d634ac4cf778b0bb5421eb6.jpg",
       "hidden": true,
-      "percent": "31.0"
+      "percent": "31.1"
     },
     "ZOTE": {
       "name": "Rivalry",
@@ -177,7 +177,7 @@
       "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/367520/7d3e6f275570f47e11c53342e989bc70152789cf.jpg",
       "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/367520/585f5c9dc4d8fc9a7ba24c808e184837fa1c28c4.jpg",
       "hidden": false,
-      "percent": "38.5"
+      "percent": "38.6"
     },
     "METAMORPHOSIS": {
       "name": "Metamorphosis",
@@ -321,7 +321,7 @@
       "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/367520/f63e26d501935466c304bf51159fd7144a157e69.jpg",
       "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/367520/d9a08fbe0afb16ffae9ebcd67c41bb73388a8c26.jpg",
       "hidden": true,
-      "percent": "18.5"
+      "percent": "18.6"
     },
     "ENDING_C": {
       "name": "Dream No More",
@@ -433,7 +433,7 @@
       "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/367520/8c26d557c3582c7784f338523316f56068e4426d.jpg",
       "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/367520/e9699d861ee64eb0b3bfd57f2571896be5db12b4.jpg",
       "hidden": true,
-      "percent": "21.5"
+      "percent": "21.6"
     },
     "GRIMM": {
       "name": "Grand Performance",
@@ -441,7 +441,7 @@
       "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/367520/982f6bd69415e06696e2fc414bc595700663ab37.jpg",
       "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/367520/549b3980b3a8d04368758d1bd59e007bf31cae1b.jpg",
       "hidden": true,
-      "percent": "26.5"
+      "percent": "26.6"
     },
     "NIGHTMARE_GRIMM": {
       "name": "Ritual",
@@ -481,7 +481,7 @@
       "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/367520/382c7998e9b0b60a850d8bdf4c7f4a515a8b3481.jpg",
       "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/367520/",
       "hidden": true,
-      "percent": "11.9"
+      "percent": "12.0"
     },
     "PANTHEON4": {
       "name": "Soul & Shade",
