@@ -353,7 +353,7 @@ function renderAchievement(ach, isUnlocked) {
 }
 
 export function hideGameDetail() {
-    // Remove the game parameter from URL
+
     const newUrl = new URL(window.location.href);
     newUrl.searchParams.delete('game');
     window.history.pushState({}, '', newUrl);
@@ -365,13 +365,9 @@ export function hideGameDetail() {
     window.scrollTo(0, 0);
 }
 
-// New function to handle deep-linking on load
-export function handleDeepLink() {
-    const params = new URLSearchParams(window.location.search);
-    const appId = params.get('game');
-    if (appId && gamesData.has(appId)) {
-        showGameDetail(appId, false); // false to avoid redundant pushState
-    }
+export function setSortMode(mode) {
+    window.currentGameData.sortMode = mode;
+    renderGameDetail();
 }
 
 export function setGridSortMode(mode) {
@@ -383,7 +379,6 @@ export function handleDeepLink() {
     const params = new URLSearchParams(window.location.search);
     const appId = params.get('game');
     if (appId && gamesData.has(appId)) {
-        // Meghívjuk a részleteket, de false paraméterrel, hogy ne írja felül az URL-t megint
         showGameDetail(appId, false);
     }
 }
