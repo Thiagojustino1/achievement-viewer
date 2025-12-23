@@ -35,7 +35,8 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install requests beautifulsoup4 lxml
+          pip install requests beautifulsoup4 lxml playwright
+          playwright install
 
       - name: Update TOP_OWNER_IDS (scheduled only)
         if: ${{ github.event_name == 'schedule' }}
