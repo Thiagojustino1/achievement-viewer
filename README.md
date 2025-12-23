@@ -219,8 +219,8 @@ Free to use and modify!
 
 ---
 
-Made for GBE fork users with Claude AI.
+At first this was made for GBE fork users.
 
-Implemented and automatized the refreshing of the logic behind **alex47exe**'s gse_fork_tools for hidden achievement retrieval.
+Implemented and automatized the logic behind **alex47exe**'s gse_fork_tools for hidden achievement retrieval.
 
 Credit goes to **darktakayanagi** for the Hub.
