@@ -126,20 +126,51 @@ TOP_OWNER_IDS = load_top_owner_ids()
 
 
 def get_changed_appids():
+    """Get AppIDs that have changed in the last commit or working directory"""
     try:
+        # First, try to get changes from the last commit
         result = subprocess.run(
-            ["git", "diff", "--name-only", "HEAD^", "HEAD"],
+            ["git", "diff", "--name-only", "HEAD~1", "HEAD"],
             capture_output=True,
             text=True,
             check=True,
         )
-        changed_files = result.stdout.strip().split("\n")
+        
+        changed_files = result.stdout.strip().split("\n") if result.stdout.strip() else []
+        
+        # Also check for uncommitted changes (newly added files)
+        result2 = subprocess.run(
+            ["git", "diff", "--name-only", "--cached"],
+            capture_output=True,
+            text=True,
+            check=True,
+        )
+        
+        if result2.stdout.strip():
+            changed_files.extend(result2.stdout.strip().split("\n"))
+        
+        # Check for untracked files in AppID directory
+        result3 = subprocess.run(
+            ["git", "ls-files", "--others", "--exclude-standard", "AppID/"],
+            capture_output=True,
+            text=True,
+            check=True,
+        )
+        
+        if result3.stdout.strip():
+            changed_files.extend(result3.stdout.strip().split("\n"))
         
         found_ids = set()
         for f in changed_files:
+            # Match AppID/12345/... pattern
             match = re.match(r"AppID/(\d+)/", f)
             if match:
                 found_ids.add(match.group(1))
+        
+        if found_ids:
+            print(f"Detected changes in AppIDs: {', '.join(sorted(found_ids))}")
+        else:
+            print("No AppID-specific changes detected in git diff")
         
         return list(found_ids)
     except Exception as e:
