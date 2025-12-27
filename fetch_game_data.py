@@ -126,27 +126,42 @@ TOP_OWNER_IDS = load_top_owner_ids()
 
 
 def get_changed_appids():
-    """Get AppIDs that have changed in the last commit or working directory"""
+    """Get AppIDs that have changed in the triggering event"""
     try:
-        # First, try to get changes from the last commit
-        result = subprocess.run(
-            ["git", "diff", "--name-only", "HEAD~1", "HEAD"],
-            capture_output=True,
-            text=True,
-            check=True,
-        )
+        changed_files = []
         
-        changed_files = result.stdout.strip().split("\n") if result.stdout.strip() else []
+        # Check if we're in a push event by looking at GITHUB_SHA and GITHUB_BEFORE
+        github_sha = os.environ.get("GITHUB_SHA", "")
+        github_before = os.environ.get("GITHUB_BEFORE", "")
         
-        # Also check for uncommitted changes (newly added files)
+        # If we have both SHA values, this is likely a push event
+        if github_sha and github_before and github_before != "0000000000000000000000000000000000000000":
+            print(f"Comparing push commits: {github_before[:7]}...{github_sha[:7]}")
+            result = subprocess.run(
+                ["git", "diff", "--name-only", github_before, github_sha],
+                capture_output=True,
+                text=True,
+            )
+            if result.returncode == 0 and result.stdout.strip():
+                changed_files = result.stdout.strip().split("\n")
+        
+        # If no push-specific changes found, try comparing HEAD~1 to HEAD
+        if not changed_files:
+            result = subprocess.run(
+                ["git", "diff", "--name-only", "HEAD~1", "HEAD"],
+                capture_output=True,
+                text=True,
+            )
+            if result.returncode == 0 and result.stdout.strip():
+                changed_files = result.stdout.strip().split("\n")
+        
+        # Check for staged changes
         result2 = subprocess.run(
             ["git", "diff", "--name-only", "--cached"],
             capture_output=True,
             text=True,
-            check=True,
         )
-        
-        if result2.stdout.strip():
+        if result2.returncode == 0 and result2.stdout.strip():
             changed_files.extend(result2.stdout.strip().split("\n"))
         
         # Check for untracked files in AppID directory
@@ -154,12 +169,11 @@ def get_changed_appids():
             ["git", "ls-files", "--others", "--exclude-standard", "AppID/"],
             capture_output=True,
             text=True,
-            check=True,
         )
-        
-        if result3.stdout.strip():
+        if result3.returncode == 0 and result3.stdout.strip():
             changed_files.extend(result3.stdout.strip().split("\n"))
         
+        # Extract AppIDs from changed files
         found_ids = set()
         for f in changed_files:
             # Match AppID/12345/... pattern
@@ -170,11 +184,11 @@ def get_changed_appids():
         if found_ids:
             print(f"Detected changes in AppIDs: {', '.join(sorted(found_ids))}")
         else:
-            print("No AppID-specific changes detected in git diff")
+            print("No AppID-specific changes detected")
         
         return list(found_ids)
     except Exception as e:
-        print(f"Warning: Could not get git diff: {e}")
+        print(f"Warning: Could not detect changes: {e}")
         return []
 
 
@@ -367,20 +381,23 @@ def fetch_achievements(appid, existing_info, achievements_from_xml):
 
 
 # --- Determine AppIDs to process --- #
-if EVENT_NAME in ("schedule", "workflow_dispatch"):
-    # Scheduled run OR manual trigger - process all games
+# Check for changed AppIDs first
+appids = get_changed_appids()
+
+# If it's a scheduled run AND no changes detected, process all games
+# If it's manual dispatch AND no changes detected, process all games
+# If there ARE changes (file upload), process only those games
+if not appids and EVENT_NAME in ("schedule", "workflow_dispatch"):
+    # True scheduled run or manual trigger with no file changes - process all games
     appids = [f.name for f in appid_dir.iterdir() if f.is_dir() and f.name.isdigit()]
     print(f"Processing all {len(appids)} games ({'scheduled' if EVENT_NAME == 'schedule' else 'manual'} run)")
+elif appids:
+    # Changes detected (file upload or push) - process only changed games
+    print(f"Processing {len(appids)} changed game(s): {', '.join(appids)}")
 else:
-    # Try to detect changed AppIDs for push events
-    appids = get_changed_appids()
-    
-    if appids:
-        print(f"Processing {len(appids)} changed game(s): {', '.join(appids)}")
-    else:
-        # No changes detected and not a scheduled/manual run
-        print("No game-specific changes detected. Exiting.")
-        exit(0)
+    # No changes detected and not a scheduled/manual run
+    print("No game-specific changes detected. Exiting.")
+    exit(0)
 
 # --- Load existing game-data.json --- #
 existing_game_data = {}
