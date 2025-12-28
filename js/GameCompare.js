@@ -1,352 +1,458 @@
-// Cache for loaded comparison data
-const comparisonCache = new Map();
+import { gamesData } from './GameLoader.js';
+import { calculatePercentage, formatUnlockDate } from './utils.js';
+import { 
+    isOwnProfile, 
+    loadOwnGameData, 
+    compareAchievements, 
+    renderComparisonView,
+    setupComparisonFilters,
+    selectComparisonUser,
+    getStoredUsername
+} from './GameCompare.js';
 
-/**
- * Gets the stored user's GitHub username for comparison (from localStorage only)
- * This represents "The Visitor" (You)
- */
-export function getStoredUsername() {
-    return localStorage.getItem('comparison_github_username');
-}
+// Displaying games
+export function displayGames() {
+    const resultsDiv = document.getElementById('results');
+    const summaryDiv = document.getElementById('summary');
 
-/**
- * Sets the user's GitHub username for comparison (localStorage only)
- */
-function setStoredUsername(username) {
-    localStorage.setItem('comparison_github_username', username);
-}
+    document.getElementById('loading').style.display = 'none';
 
-/**
- * Detects who owns the current page.
- * Prioritizes window.githubUsername but ignores the default "User".
- */
-function getPageOwner() {
-    let owner = window.githubUsername;
+    if (gamesData.size === 0) {
+        resultsDiv.innerHTML = '<div class="error">No games with achievements found.</div>';
+        return;
+    }
+
+    // Calculate totals
+    let totalGames = gamesData.size;
+    let totalAchievements = 0;
+    let totalUnlocked = 0;
+    let perfectGames = 0;
+
+    for (let game of gamesData.values()) {
+        totalAchievements += game.achievements.length;
+        const unlocked = game.achievements.filter(a => a.unlocked).length;
+        totalUnlocked += unlocked;
+        
+        if (game.achievements.length > 0 && unlocked === game.achievements.length) {
+            perfectGames++;
+        }
+    }
+
+    const overallPercentage = calculatePercentage(totalUnlocked, totalAchievements);
+
+    // Render summary
+    renderSummary(summaryDiv, totalGames, perfectGames, totalUnlocked, totalAchievements, overallPercentage);
     
-    // If the global var is missing or is the generic default "User", 
-    // fall back to the hostname (e.g., 'roschach96' from 'roschach96.github.io')
-    if (!owner || owner === 'User') {
-        owner = window.location.hostname.split('.')[0];
+    // Render games grid
+    renderGamesGrid(resultsDiv);
+}
+
+function renderSummary(summaryDiv, totalGames, perfectGames, totalUnlocked, totalAchievements, overallPercentage) {
+    summaryDiv.style.display = 'block';
+
+    const gamerCard = window.gamerCardHTML || '';
+
+    summaryDiv.innerHTML = `
+        <div class="summary" id="summary-box">
+            <div class="summary-header">
+                <div style="display: flex; align-items: center; gap: 15px;">
+                    <img src="${window.githubAvatarUrl}" 
+                         alt="Profile" 
+                         class="profile-icon"
+                         onerror="this.src='https://avatars.fastly.steamstatic.com/29283662f3b58488c74ad750539ba5289b53cf6c_full.jpg'">
+                    
+                    <h2 style="color: #66c0f4; margin: 0;">
+                        <span>${window.githubUsername}</span>'s summary
+                    </h2>
+                </div>
+
+                ${gamerCard ? `
+                <div class="gamer-card-container">
+                    ${gamerCard}
+                </div>
+                ` : ''}
+            </div>
+            
+            <div class="progress-bar" style="max-width: 600px; margin: 0 auto;">
+                <div class="progress-fill ${overallPercentage < 6 ? 'low-percentage' : ''}" style="width: ${overallPercentage}%">${overallPercentage}%</div>
+            </div>
+            
+            <div class="summary-stats">
+                <div class="stat-item">
+                    <div class="stat-value">${totalGames}</div>
+                    <div class="stat-label">Games</div>
+                </div>
+                ${perfectGames > 0 ? `
+                <div class="stat-item">
+                    <div class="stat-value">${perfectGames}</div>
+                    <div class="stat-label">Perfect Game${perfectGames !== 1 ? 's' : ''}</div>
+                </div>
+                ` : ''}
+                <div class="stat-item">
+                    <div class="stat-value">${totalUnlocked}/${totalAchievements}</div>
+                    <div class="stat-label">Achievements Unlocked</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value">${overallPercentage}%</div>
+                    <div class="stat-label">Completion</div>
+                </div>
+            </div>
+        </div>
+    `;
+}
+
+function renderGamesGrid(resultsDiv) {
+    const sortControlsHTML = `
+        <div class="grid-sort-controls" id="grid-sort-controls">
+            <button class="grid-sort-button ${window.gridSortMode === 'percentage' ? 'active' : ''}" 
+                    onclick="window.setGridSortMode('percentage')" 
+                    data-tooltip="Sort by Completion Percentage">
+                📊 Percentage
+            </button>
+            <button class="grid-sort-button ${window.gridSortMode === 'recent' ? 'active' : ''}" 
+                    onclick="window.setGridSortMode('recent')" 
+                    data-tooltip="Sort by Most Recent Achievement">
+                🕐 Recent Activity
+            </button>
+        </div>
+    `;
+
+    let html = '<div class="games-grid" id="games-grid">';
+    
+    const sortedGames = sortGames(window.gridSortMode || 'percentage');
+
+    for (let game of sortedGames) {
+        const unlocked = game.achievements.filter(a => a.unlocked).length;
+        const total = game.achievements.length;
+        const percentage = calculatePercentage(unlocked, total);
+
+        html += renderGameCard(game, percentage);
+    }
+
+    html += '</div>';
+    resultsDiv.innerHTML = sortControlsHTML + html;
+}
+
+function sortGames(mode) {
+    if (mode === 'recent') {
+        return Array.from(gamesData.values()).sort((a, b) => {
+            const aMaxTime = Math.max(...a.achievements.filter(ach => ach.unlocked).map(ach => ach.unlocktime || 0));
+            const bMaxTime = Math.max(...b.achievements.filter(ach => ach.unlocked).map(ach => ach.unlocktime || 0));
+            
+            if (aMaxTime === bMaxTime) {
+                return a.name.localeCompare(b.name);
+            }
+            
+            return bMaxTime - aMaxTime;
+        });
+    } else {
+        return Array.from(gamesData.values()).sort((a, b) => {
+            const aUnlocked = a.achievements.filter(x => x.unlocked).length;
+            const aTotal = a.achievements.length;
+            const bUnlocked = b.achievements.filter(x => x.unlocked).length;
+            const bTotal = b.achievements.length;
+            
+            const aPercent = calculatePercentage(aUnlocked, aTotal);
+            const bPercent = calculatePercentage(bUnlocked, bTotal);
+            
+            if (aPercent === bPercent) {
+                return a.name.localeCompare(b.name);
+            }
+            
+            return bPercent - aPercent;
+        });
+    }
+}
+
+function renderGameCard(game, percentage) {
+    let platformLabel = '';
+    if (game.platform) {
+        platformLabel = `<div class="game-source">${game.platform}</div>`;
+    } else if (game.usesDb) {
+        platformLabel = '<div class="game-source">Steam</div>';
     }
     
-    return owner || 'unknown';
-}
-
-/**
- * Detects if the person browsing IS the person who owns the page.
- */
-export function isOwnProfile() {
-    const pageOwner = getPageOwner();
-    const visitor = getStoredUsername();
-    
-    if (!visitor) return false; 
-    
-    return visitor.toLowerCase() === pageOwner.toLowerCase();
-}
-
-/**
- * Shows a modal dialog to select comparison user
- */
-export async function selectComparisonUser() {
-    const currentProfileUser = getPageOwner();
-    
-    // Create modal overlay
-    const modal = document.createElement('div');
-    modal.className = 'comparison-modal-overlay';
-    modal.innerHTML = `
-        <div class="comparison-modal">
-            <div class="comparison-modal-header">
-                <div>
-                    <h3 style="margin: 0;">Who are you?</h3>
-                    <div style="font-size: 0.75em; color: #8f98a0; margin-top: 4px; font-weight: normal;">
-                        Select your own profile so we know who "You" are.
+    return `
+        <div class="game-card" onclick="window.showGameDetail('${game.appId}')">
+            <div class="game-card-main">
+                <div class="game-header">
+                    ${game.icon ? 
+                        `<img src="${game.icon}" alt="${game.name}" class="game-icon" onerror="this.src='https://via.placeholder.com/460x215/3d5a6c/ffffff?text=No+Image'">` : 
+                        '<img src="https://via.placeholder.com/460x215/3d5a6c/ffffff?text=No+Image" class="game-icon">'}
+                    <div class="game-info">
+                        <div class="game-title">${game.name}</div>
+                        <div class="game-appid">AppID: ${game.appId}</div>
+                        ${platformLabel}
                     </div>
                 </div>
-                <button class="comparison-modal-close" onclick="this.closest('.comparison-modal-overlay').remove()">×</button>
-            </div>
-            <div class="comparison-modal-body">
-                <div class="comparison-loading">
-                    <div class="loading-spinner"></div>
-                    <div>Loading network...</div>
-                </div>
-            </div>
-        </div>
-    `;
-    
-    document.body.appendChild(modal);
-    
-    // Fetch users
-    const users = await fetchAvailableUsers();
-    
-    // ✅ Show ALL users (including the current page owner)
-    const availableUsers = users;
-    
-    if (availableUsers.length === 0) {
-        modal.querySelector('.comparison-modal-body').innerHTML = `
-            <div class="comparison-error">
-                <p>No users found.</p>
-                <p style="margin-top: 10px; font-size: 0.9em;">Are you online?</p>
-            </div>
-        `;
-        return null;
-    }
-    
-    // Get stored username to highlight it
-    const storedUsername = getStoredUsername();
-    
-    // Build user list
-    const userListHTML = availableUsers.map(user => {
-        const isSelected = storedUsername && storedUsername.toLowerCase() === user.login.toLowerCase();
-        return `
-            <div class="comparison-user-item ${isSelected ? 'selected' : ''}" data-username="${user.login}" data-repo="${user.repo}">
-                <img src="https://github.com/${user.login}.png" alt="${user.login}" class="comparison-user-avatar">
-                <div class="comparison-user-info">
-                    <div class="comparison-user-name">${user.login}${user.isOriginal ? ' ⭐' : ''}</div>
-                    ${isSelected ? '<div class="comparison-user-badge">You</div>' : ''}
-                </div>
-            </div>
-        `;
-    }).join('');
-    
-    modal.querySelector('.comparison-modal-body').innerHTML = `
-        <div class="comparison-user-list">
-            ${userListHTML}
-        </div>
-        <div class="comparison-modal-footer">
-            <button class="comparison-modal-button cancel" onclick="this.closest('.comparison-modal-overlay').remove()">Cancel</button>
-        </div>
-    `;
-    
-    // Return a promise that resolves when user selects
-    return new Promise((resolve) => {
-        const userItems = modal.querySelectorAll('.comparison-user-item');
-        userItems.forEach(item => {
-            item.addEventListener('click', () => {
-                const username = item.dataset.username;
-                const repo = item.dataset.repo;
-                setStoredUsername(username);
-                modal.remove();
                 
-                // If we identify ourselves as the owner of the current page,
-                // reload immediately so the Compare Button disappears.
-                if (username.toLowerCase() === currentProfileUser.toLowerCase()) {
-                    window.location.reload(); 
-                } else {
-                    resolve({ username, repo });
-                }
-            });
-        });
-        
-        // Cancel button
-        modal.querySelector('.cancel').addEventListener('click', () => {
-            modal.remove();
-            resolve(null);
-        });
-        
-        // Close on overlay click
-        modal.addEventListener('click', (e) => {
-            if (e.target === modal) {
-                modal.remove();
-                resolve(null);
-            }
-        });
-    });
-}
-
-/**
- * Fetches all available users from the hub (root repo + forks)
- */
-async function fetchAvailableUsers() {
-    try {
-        const host = location.hostname;
-        const path = location.pathname.split('/').filter(Boolean);
-        let owner, repo;
-        
-        if (host.endsWith('.github.io') && path.length > 0) {
-            // Live Site Logic
-            owner = host.replace('.github.io', '');
-            repo = path[0];
-        } else {
-            // Localhost Fallback Logic
-            owner = 'Roschach96'; 
-            repo = 'achievement-viewer';
-        }
-        
-        const repoInfo = await fetch(`https://api.github.com/repos/${owner}/${repo}`).then(r => r.ok ? r.json() : null);
-        if (!repoInfo) return [];
-        
-        // Find the absolute root (if Roschach96 was a fork, find the parent, otherwise use Roschach96)
-        const rootOwner = repoInfo.fork && repoInfo.parent ? repoInfo.parent.owner.login : repoInfo.owner.login;
-        const rootRepo = repoInfo.fork && repoInfo.parent ? repoInfo.parent.name : repoInfo.name;
-        
-        const users = [{ login: rootOwner, repo: rootRepo, isOriginal: true }];
-        let page = 1;
-        
-        while (true) {
-            const forks = await fetch(`https://api.github.com/repos/${rootOwner}/${rootRepo}/forks?per_page=100&page=${page}`)
-                .then(r => r.ok ? r.json() : null);
-            
-            if (!forks || forks.length === 0) break;
-            
-            forks.forEach(f => {
-                users.push({
-                    login: f.owner.login,
-                    repo: f.name,
-                    isOriginal: false
-                });
-            });
-            
-            page++;
-        }
-        
-        return users;
-    } catch (error) {
-        console.error('Error fetching available users:', error);
-        return [];
-    }
-}
-
-/**
- * Gets the user's own game data for comparison
- */
-export async function loadOwnGameData(appId) {
-    const ownUsername = getStoredUsername();
-    
-    if (!ownUsername) return null;
-    
-    const cacheKey = `${ownUsername}_${appId}`;
-    if (comparisonCache.has(cacheKey)) return comparisonCache.get(cacheKey);
-
-    try {
-        const repoName = 'achievement-viewer';
-        const baseUrl = `https://raw.githubusercontent.com/${ownUsername}/${repoName}/user/`;
-        
-        let achievementsPath = `AppID/${appId}/achievements.json`;
-        let achResponse = await fetch(baseUrl + achievementsPath);
-        
-        if (!achResponse.ok) {
-            achievementsPath = `AppID/${appId}/${appId}.db`;
-            achResponse = await fetch(baseUrl + achievementsPath);
-        }
-        
-        if (!achResponse.ok) {
-            comparisonCache.set(cacheKey, null);
-            return null;
-        }
-
-        let achievementsData = await achResponse.json();
-        
-        if (Array.isArray(achievementsData)) {
-            const converted = {};
-            for (const ach of achievementsData) {
-                if (ach.apiname) {
-                    converted[ach.apiname] = {
-                        earned: ach.achieved === 1,
-                        earned_time: ach.unlocktime || 0
-                    };
-                }
-            }
-            achievementsData = converted;
-        }
-        
-        let gameInfo = null;
-        try {
-            const infoPath = `AppID/${appId}/game-info.json`;
-            const infoResponse = await fetch(baseUrl + infoPath);
-            if (infoResponse.ok) gameInfo = await infoResponse.json();
-        } catch (e) { /* ignore */ }
-
-        const result = {
-            achievementsData,
-            gameInfo,
-            blacklist: gameInfo?.blacklist || [],
-            username: ownUsername
-        };
-        
-        comparisonCache.set(cacheKey, result);
-        return result;
-        
-    } catch (error) {
-        console.error(`Error loading own game data for ${appId}:`, error);
-        comparisonCache.set(cacheKey, null);
-        return null;
-    }
-}
-
-/**
- * Compares achievements between two users
- */
-export function compareAchievements(theirGame, ownData) {
-    if (!ownData) {
-        return { hasData: false, comparison: [] };
-    }
-
-    const comparison = [];
-    const { achievementsData: ownAchievements, blacklist: ownBlacklist } = ownData;
-
-    for (const achievement of theirGame.achievements) {
-        const apiName = achievement.apiname;
-        
-        if (ownBlacklist.includes(apiName)) continue;
-
-        const ownAch = ownAchievements[apiName];
-        const theyHave = achievement.unlocked === true || achievement.unlocked === 1;
-        const youHave = ownAch ? (ownAch.earned === true || ownAch.earned === 1) : false;
-        
-        let status = 'both-locked';
-        if (theyHave && youHave) status = 'both-unlocked';
-        else if (theyHave && !youHave) status = 'they-only';
-        else if (!theyHave && youHave) status = 'you-only';
-
-        comparison.push({
-            ...achievement,
-            status,
-            yourUnlockTime: ownAch?.earned_time || ownAch?.unlock_time || ownAch?.unlocktime || 0,
-            theirUnlockTime: achievement.unlocktime || 0
-        });
-    }
-
-    return { hasData: true, comparison };
-}
-
-/**
- * Calculates comparison statistics
- */
-export function getComparisonStats(comparison) {
-    const bothUnlocked = comparison.filter(a => a.status === 'both-unlocked').length;
-    const youOnly = comparison.filter(a => a.status === 'you-only').length;
-    const theyOnly = comparison.filter(a => a.status === 'they-only').length;
-    const bothLocked = comparison.filter(a => a.status === 'both-locked').length;
-    
-    return {
-        bothUnlocked, youOnly, theyOnly, bothLocked,
-        yourTotal: bothUnlocked + youOnly,
-        theirTotal: bothUnlocked + theyOnly,
-        total: comparison.length
-    };
-}
-
-/**
- * Renders comparison UI
- */
-export function renderComparisonView(theirGame, comparisonData, theirUsername) {
-    const ownUsername = getStoredUsername();
-    
-    if (!comparisonData.hasData) {
-        return `
-            <div class="comparison-unavailable">
-                <div class="comparison-unavailable-icon">🔒</div>
-                <h3>No Data Found</h3>
-                <p>Could not find achievement data for <strong>${theirGame.name}</strong> on <strong>${ownUsername}</strong>'s profile.</p>
-                <button class="compare-button" onclick="window.changeComparisonUser()" style="margin-top: 15px;">
-                    🔄 Select Different User
-                </button>
+                <div class="game-progress-section">
+                    <div class="progress-bar">
+                        <div class="progress-fill ${percentage < 6 ? 'low-percentage' : ''}" style="width: ${percentage}%">${percentage}%</div>
+                    </div>
+                </div>
             </div>
-        `;
+        </div>
+    `;
+}
+
+// Detail view
+export function showGameDetail(appId, updateUrl = true) {
+    const game = gamesData.get(appId);
+    if (!game) return;
+
+    if (updateUrl) {
+        const newUrl = new URL(window.location.href);
+        newUrl.searchParams.set('game', appId);
+        window.history.pushState({ appId }, '', newUrl);
     }
 
-    const stats = getComparisonStats(comparisonData.comparison);
+    const unlocked = game.achievements.filter(a => a.unlocked).length;
+    const total = game.achievements.length;
+    const percentage = calculatePercentage(unlocked, total);
+
+    window.currentGameData = {
+        appId: appId,
+        game: game,
+        unlocked: unlocked,
+        total: total,
+        percentage: percentage,
+        sortMode: 'default',
+        compareMode: false,
+        comparisonData: null
+    };
+
+    renderGameDetail();
+}
+
+export function renderGameDetail() {
+    const { appId, game, unlocked, total, percentage, sortMode, compareMode } = window.currentGameData;
+
+    document.getElementById('games-grid').classList.add('hidden');
+    document.getElementById('summary-box').classList.add('hidden');
+    document.getElementById('grid-sort-controls').classList.add('hidden');
+
+    const detailView = document.getElementById('detail-view');
     
-    // Separate list into Unlocked (any kind) and Locked (both)
-    // This allows us to replicate the visual split from Normal View
-    const unlockedList = comparison
+    if (compareMode) {
+        detailView.innerHTML = renderDetailViewWithComparison(game, unlocked, total, percentage);
+    } else {
+        detailView.innerHTML = renderDetailViewNormal(game, unlocked, total, percentage, sortMode);
+    }
+    
+    detailView.classList.add('active');
+    window.scrollTo(0, 0);
+    
+    if (compareMode) {
+        setupComparisonFilters();
+    }
+}
+
+function renderDetailViewNormal(game, unlocked, total, percentage, sortMode) {
+    let unlockedAchievements = game.achievements.filter(a => a.unlocked);
+    let lockedAchievements = game.achievements.filter(a => !a.unlocked);
+
+    if (sortMode === 'rarity-asc') {
+        unlockedAchievements.sort((a, b) => (a.rarity ?? 999) - (b.rarity ?? 999));
+    } else if (sortMode === 'rarity-desc') {
+        unlockedAchievements.sort((a, b) => (b.rarity ?? -1) - (a.rarity ?? -1));
+    } else if (sortMode === 'date-newest') {
+        unlockedAchievements.sort((a, b) => (b.unlocktime || 0) - (a.unlocktime || 0));
+    } else if (sortMode === 'date-oldest') {
+        unlockedAchievements.sort((a, b) => (a.unlocktime || 0) - (b.unlocktime || 0));
+    }
+
+    const compareButton = !isOwnProfile() ? `
+        <button class="compare-button" onclick="window.enableCompareMode()">
+            🔄 Compare Achievements
+        </button>
+    ` : '';
+
+    return `
+        <button class="back-button" onclick="window.hideGameDetail()">
+            ← Back to All Games
+        </button>
+        
+        <div class="detail-header">
+            ${game.icon ? 
+                `<img src="${game.icon}" alt="${game.name}" class="detail-game-icon" onerror="this.src='https://via.placeholder.com/460x215/3d5a6c/ffffff?text=No+Image'">` : 
+                '<img src="https://via.placeholder.com/460x215/3d5a6c/ffffff?text=No+Image" class="detail-game-icon">'}
+            <div class="detail-game-info">
+                <div class="detail-game-title">${game.name}</div>
+                <div class="detail-game-appid">AppID: ${game.appId}</div>
+                
+                <div class="progress-bar">
+                    <div class="progress-fill ${percentage < 6 ? 'low-percentage' : ''}" style="width: ${percentage}%">${percentage}%</div>
+                </div>
+                
+                <div class="stats">
+                    <div class="stat-item">
+                        <div class="stat-value">${unlocked}/${total}</div>
+                        <div class="stat-label">Unlocked</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value">${total - unlocked}</div>
+                        <div class="stat-label">Remaining</div>
+                    </div>
+                </div>
+                
+                ${compareButton}
+            </div>
+        </div>
+        
+        <div class="achievements-list">
+            ${unlockedAchievements.length > 0 ? `
+                <h3 class="achievements-section-title">Unlocked Achievements</h3>
+                <div class="sort-controls">
+                    <button class="sort-button ${sortMode === 'rarity-asc' ? 'active' : ''}" onclick="window.setSortMode('rarity-asc')" data-tooltip="Rarest First">🏆↑</button>
+                    <button class="sort-button ${sortMode === 'rarity-desc' ? 'active' : ''}" onclick="window.setSortMode('rarity-desc')" data-tooltip="Most Common First">🏆↓</button>
+                    <button class="sort-button ${sortMode === 'date-newest' ? 'active' : ''}" onclick="window.setSortMode('date-newest')" data-tooltip="Newest First">🕐↓</button>
+                    <button class="sort-button ${sortMode === 'date-oldest' ? 'active' : ''}" onclick="window.setSortMode('date-oldest')" data-tooltip="Oldest First">🕐↑</button>
+                    ${sortMode !== 'default' ? `<button class="sort-button" onclick="window.setSortMode('default')" data-tooltip="Reset Sorting">↺</button>` : ''}
+                </div>
+                ${unlockedAchievements.map(ach => renderAchievement(ach, true)).join('')}
+            ` : ''}
+            
+            ${lockedAchievements.length > 0 ? `
+                <h3 class="achievements-section-title locked-title">Locked Achievements</h3>
+                ${lockedAchievements.map(ach => renderAchievement(ach, false)).join('')}
+            ` : ''}
+        </div>
+    `;
+}
+
+function renderDetailViewWithComparison(game, unlocked, total, percentage) {
+    const { comparisonData } = window.currentGameData;
+    const theirUsername = window.githubUsername || window.location.href.split('.github.io')[0].split('//')[1];
+    
+    return `
+        <button class="back-button" onclick="window.hideGameDetail()">
+            ← Back to All Games
+        </button>
+        
+        <div class="detail-header">
+            ${game.icon ? 
+                `<img src="${game.icon}" alt="${game.name}" class="detail-game-icon" onerror="this.src='https://via.placeholder.com/460x215/3d5a6c/ffffff?text=No+Image'">` : 
+                '<img src="https://via.placeholder.com/460x215/3d5a6c/ffffff?text=No+Image" class="detail-game-icon">'}
+            <div class="detail-game-info">
+                <div class="detail-game-title">${game.name}</div>
+                <div class="detail-game-appid">AppID: ${game.appId}</div>
+                
+                <div class="compare-mode-toggle">
+                    <button class="toggle-btn" onclick="window.disableCompareMode()">
+                        📋 Normal View
+                    </button>
+                    <button class="toggle-btn active">
+                        🔄 Comparison
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        ${comparisonData ? renderComparisonView(game, comparisonData, theirUsername) : '<div class="loading">Loading comparison data...</div>'}
+    `;
+}
+
+function renderAchievement(ach, isUnlocked) {
+    const rarityNum = ach.rarity !== null && ach.rarity !== undefined ? parseFloat(ach.rarity) : null;
+    const isRare = rarityNum !== null && !isNaN(rarityNum) && rarityNum < 10;
+    
+    const isHidden = ach.hidden === true || ach.hidden === 1;
+    const hasDescription = ach.description && ach.description.trim() !== '';
+    
+    let descriptionHTML = '';
+    
+    if (isHidden) {
+        if (hasDescription) {
+            descriptionHTML = `<div class="achievement-desc hidden-spoiler">Hidden achievement:<span class="hidden-spoiler-text">${ach.description}</span></div>`;
+        } else {
+            descriptionHTML = `<div class="achievement-desc hidden-desc">Hidden achievement</div>`;
+        }
+    } else {
+        if (hasDescription) {
+            descriptionHTML = `<div class="achievement-desc">${ach.description}</div>`;
+        } else {
+            descriptionHTML = `<div class="achievement-desc hidden-desc">Hidden achievement</div>`;
+        }
+    }
+    
+    return `
+        <div class="achievement ${isUnlocked ? 'unlocked' : 'locked'}">
+            ${ach.icon || ach.icongray ? 
+                `<img src="${isUnlocked ? ach.icon : (ach.icongray || ach.icon)}" alt="${ach.name}" class="achievement-icon ${isRare ? 'rare-glow' : ''}" onerror="this.style.display='none'">` : 
+                `<div class="achievement-icon ${isRare ? 'rare-glow' : ''}"></div>`}
+            <div class="achievement-info">
+                <div class="achievement-name">${ach.name}</div>
+                ${descriptionHTML}
+                ${isUnlocked && ach.unlocktime ? 
+                    `<div class="achievement-unlock-time">Unlocked: ${formatUnlockDate(ach.unlocktime)}</div>` : 
+                    ''}
+                ${rarityNum !== null && !isNaN(rarityNum) ? 
+                    `<div class="achievement-rarity ${isRare ? 'rarity-rare' : ''}">${rarityNum.toFixed(1)}% of players have this</div>` : 
+                    ''}
+            </div>
+        </div>
+    `;
+}
+
+export function hideGameDetail() {
+    const newUrl = new URL(window.location.href);
+    newUrl.searchParams.delete('game');
+    window.history.pushState({}, '', newUrl);
+
+    document.getElementById('detail-view').classList.remove('active');
+    document.getElementById('games-grid').classList.remove('hidden');
+    document.getElementById('summary-box').classList.remove('hidden');
+    document.getElementById('grid-sort-controls').classList.remove('hidden');
+    window.scrollTo(0, 0);
+}
+
+export function setSortMode(mode) {
+    window.currentGameData.sortMode = mode;
+    renderGameDetail();
+}
+
+export function setGridSortMode(mode) {
+    window.gridSortMode = mode;
+    displayGames();
+}
+
+export function handleDeepLink() {
+    const params = new URLSearchParams(window.location.search);
+    const appId = params.get('game');
+    if (appId && gamesData.has(appId)) {
+        showGameDetail(appId, false);
+    }
+}
+
+// Enable comparison mode
+window.enableCompareMode = async function() {
+    const { appId, game } = window.currentGameData;
+    
+    // 1. Check if we already have a stored user
+    const storedUser = getStoredUsername();
+    
+    // 2. Only show the selection modal if NO user is stored
+    if (!storedUser) {
+        const selected = await selectComparisonUser();
+        if (!selected) return; // User cancelled
+    }
+    
+    // 3. Proceed
+    window.currentGameData.compareMode = true;
+    renderGameDetail(); // Shows loading
+    
+    // Load data
+    const ownData = await loadOwnGameData(appId);
+    const comparisonData = compareAchievements(game, ownData);
+    
+    window.currentGameData.comparisonData = comparisonData;
+    renderGameDetail(); // Renders results
+};
+
+// Disable comparison mode
+window.disableCompareMode = function() {
+    window.currentGameData.compareMode = false;
+    window.currentGameData.comparisonData = null;
+    renderGameDetail();
+};
