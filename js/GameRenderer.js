@@ -274,11 +274,11 @@ function renderDetailViewNormal(game, unlocked, total, percentage, sortMode) {
     }
 
     // Show compare button if not own profile
-    const compareButton = !isOwnProfile() ? `
+    const compareButton = `
         <button class="compare-button" onclick="window.enableCompareMode()">
             🔄 Compare Achievements
         </button>
-    ` : '';
+    `;
 
     return `
         <button class="back-button" onclick="window.hideGameDetail()">
