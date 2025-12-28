@@ -39,7 +39,7 @@ export const fetchJSON = (url) => fetch(url).then((r) => (r.ok ? r.json() : null
 export function detectRepo() {
   const host = location.hostname;
   const path = location.pathname.split('/').filter(Boolean);
-  if (!host.endsWith('.github.io') || path.length === 0) return { owner: 'darktakayanagi', repo: 'achievement-viewer' };
+  if (!host.endsWith('.github.io') || path.length === 0) return { owner: 'Roschach96', repo: 'achievement-viewer' };
   return { owner: host.replace('.github.io', ''), repo: path[0] };
 }
 
