@@ -344,7 +344,9 @@ function renderDetailViewNormal(game, unlocked, total, percentage, sortMode) {
 // Comparison view
 function renderDetailViewWithComparison(game, unlocked, total, percentage) {
     const { comparisonData } = window.currentGameData;
-    const theirUsername = window.location.href.split('.github.io')[0].split('//')[1];
+    
+    // ✅ NEW LINE: Uses the correct capitalization fetched in GameLoader.js
+    const theirUsername = window.githubUsername || window.location.href.split('.github.io')[0].split('//')[1];
     
     return `
         <button class="back-button" onclick="window.hideGameDetail()">
