@@ -1,47 +1,4 @@
-const CACHE_KEY = 'forks-cache-v1';
-const CACHE_TTL = 10 * 60 * 1000; // 10 minutes
-
-const fetchJSON = (url) => fetch(url).then((r) => (r.ok ? r.json() : null));
-
-function detectRepo() {
-  const host = location.hostname;
-  const path = location.pathname.split('/').filter(Boolean);
-  if (!host.endsWith('.github.io') || path.length === 0) return { owner: 'darktakayanagi', repo: 'achievement-viewer' };
-  return { owner: host.replace('.github.io', ''), repo: path[0] };
-}
-
-async function resolveRootRepo(owner, repo) {
-  const info = await fetchJSON(`https://api.github.com/repos/${owner}/${repo}`);
-  if (!info) throw new Error('Repo not found');
-
-  if (info.fork && info.parent) {
-    return { owner: info.parent.owner.login, repo: info.parent.name };
-  }
-  // Return the actual cased login from the API, not the URL-based guess
-  return { owner: info.owner.login, repo: info.name };
-}
-
-async function fetchAllForks(owner, repo) {
-  const cached = localStorage.getItem(CACHE_KEY);
-  if (cached) {
-    try {
-      const { time, data } = JSON.parse(cached);
-      if (Date.now() - time < CACHE_TTL && data) return data;
-    } catch (e) {
-      // ignore parse errors
-    }
-  }
-  let forks = [];
-  let page = 1;
-  while (true) {
-    const data = await fetchJSON(`https://api.github.com/repos/${owner}/${repo}/forks?per_page=100&page=${page}`);
-    if (!data || !data.length) break;
-    forks.push(...data);
-    page++;
-  }
-  localStorage.setItem(CACHE_KEY, JSON.stringify({ time: Date.now(), data: forks }));
-  return forks;
-}
+import { detectRepo, resolveRootRepo, fetchAllForks, fetchJSON } from './utils.js';
 
 async function loadGameData(person) {
   const url = `https://raw.githubusercontent.com/${person.login}/${person.repo || 'achievement-viewer'}/user/game-data.json`;
@@ -169,17 +126,12 @@ async function addUserToGrid(person) {
 
   card.addEventListener('mousedown', (e) => {
     const url = `https://${person.login}.github.io/${person.repo || 'achievement-viewer'}/`;
-    
-    // Left click (button 0) or middle click (button 1)
-    if (e.button === 0) {
-      window.open(url, '_blank');
-    } else if (e.button === 1) {
-      e.preventDefault(); // Prevent default middle-click behavior
+    if (e.button === 0 || e.button === 1) {
+      if (e.button === 1) e.preventDefault();
       window.open(url, '_blank');
     }
   });
   
-  // Prevent context menu on right-click for cleaner UX
   card.addEventListener('contextmenu', (e) => {
     e.preventDefault();
   });
@@ -200,8 +152,9 @@ async function addUserToGrid(person) {
   };
   addUserToGrid(mainUser);
 
-  // Fetch forks
+  // Fetch forks (USES SHARED CACHE NOW)
   const forks = await fetchAllForks(root.owner, root.repo);
+  
   for (const f of forks) {
     addUserToGrid({
       login: f.owner.login,
