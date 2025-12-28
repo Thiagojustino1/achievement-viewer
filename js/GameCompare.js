@@ -426,7 +426,7 @@ function renderComparisonAchievement(ach, yourUsername, theirUsername) {
     const isRare = ach.rarity !== null && ach.rarity !== undefined && parseFloat(ach.rarity) < 10;
     
     let badgeHTML = '';
-    if (ach.status === 'both-unlocked') {
+    if (ach.status === 'both') {
         badgeHTML = '<div class="comparison-badge badge-both">Both</div>';
     } else if (ach.status === 'you-only') {
         badgeHTML = '<div class="comparison-badge badge-you">You Only</div>';
