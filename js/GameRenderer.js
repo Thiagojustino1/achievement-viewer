@@ -176,7 +176,7 @@ function renderGamesGrid(resultsDiv) {
 
     if (sortedGames.length === 0) {
         let typeLabel = "Game Name";
-        if (currentSearchType === 'appid') typeLabel = "AppID";
+        if (currentSearchType === 'appid') typeLabel = "Steam AppID";
         if (currentSearchType === 'platform') typeLabel = "Platform";
         if (currentSearchType === 'achievement') typeLabel = "Achievement Info";
 
