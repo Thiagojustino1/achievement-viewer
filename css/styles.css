@@ -1262,3 +1262,13 @@ box-shadow: 0 0 15px 3px rgba(255, 215, 0, 0.8),
 .game-card.uniform-height .game-source {
     min-height: 1.2em;
 }
+
+/* Add this at the end of your CSS file or near other achievement classes */
+.achievement-group {
+    color: #898989; /* Muted gray similar to SteamDB metadata */
+    font-size: 0.85em;
+    margin-top: 6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    display: inline-block; /* Ensure it respects spacing */
+}

@@ -9,11 +9,11 @@ import {
     getVisitorUsername
 } from './GameCompare.js';
 
-// UPDATED: Global search state (Default is now 'name')
+// Global search state (Default is now 'name')
 let currentSearchTerm = '';
 let currentSearchType = 'name'; 
 
-// UPDATED: Search handlers
+// Search handlers
 window.setSearchTerm = function(term) {
     currentSearchTerm = term;
     displayGames();
@@ -24,7 +24,7 @@ window.setSearchType = function(type) {
     displayGames();
 };
 
-// NEW: Toggle Search Visibility
+// Toggle Search Visibility
 window.toggleSearch = function() {
     const searchContainer = document.getElementById('search-container');
     const searchBtn = document.getElementById('search-toggle-btn');
@@ -60,7 +60,7 @@ export function displayGames() {
         return;
     }
 
-    // NEW: Show search bar
+    // Show search bar
     if (searchDiv) {
         searchDiv.classList.remove('hidden');
     }
@@ -89,7 +89,7 @@ export function displayGames() {
     // Render games grid
     renderGamesGrid(resultsDiv);
     
-    // ✅ Backup call to adjust card heights
+    // Backup call to adjust card heights
     setTimeout(adjustCardHeights, 50);
 }
 
@@ -178,7 +178,7 @@ function renderGamesGrid(resultsDiv) {
 
     let sortedGames = sortGames(window.gridSortMode || 'percentage');
 
-    // NEW: Apply Search Filter
+    // Apply Search Filter
     if (currentSearchTerm) {
         const term = currentSearchTerm.toLowerCase().trim();
         if (term) {
@@ -242,11 +242,11 @@ function renderGamesGrid(resultsDiv) {
         searchInput.focus();
     }
 
-    // ✅ Adjust card heights based on platform labels
+    // Adjust card heights based on platform labels
     adjustCardHeights();
 }
 
-// UPDATED: sortGames now handles 'name'
+// sortGames now handles 'name'
 function sortGames(mode) {
     // 1. Sort by Name (Alphabetical)
     if (mode === 'name') {
@@ -357,7 +357,7 @@ export function renderGameDetail() {
     document.getElementById('summary-box').classList.add('hidden');
     document.getElementById('grid-sort-controls').classList.add('hidden');
     
-    // NEW: Hide search bar in detail view
+    // Hide search bar in detail view
     const searchContainer = document.getElementById('search-container');
     if (searchContainer) searchContainer.classList.add('hidden');
 
@@ -378,11 +378,12 @@ export function renderGameDetail() {
     }
 }
 
-// Normal view with compare button
+// Normal view with Unlocked/Locked Categories
 function renderDetailViewNormal(game, unlocked, total, percentage, sortMode) {
     // Clone achievements to avoid modifying the original array during sort
     let achievements = [...game.achievements];
 
+    // Apply sorting first
     if (sortMode === 'rarity-asc') {
         achievements.sort((a, b) => {
             const rarityA = a.rarity !== null ? parseFloat(a.rarity) : 999;
@@ -401,37 +402,25 @@ function renderDetailViewNormal(game, unlocked, total, percentage, sortMode) {
         achievements.sort((a, b) => (a.unlocktime || 0) - (b.unlocktime || 0));
     }
 
-    // Group achievements
-    const grouped = {};
-    const groupOrder = [];
+    // Split achievements into Unlocked and Locked
+    const unlockedAchievements = achievements.filter(a => a.unlocked);
+    const lockedAchievements = achievements.filter(a => !a.unlocked);
 
-    achievements.forEach(ach => {
-        // Use 'group' property from fetch_game_data.py or fallback
-        const groupName = (ach.group || "Base Game").trim(); // Remove any extra spaces
-        
-        if (!grouped[groupName]) {
-            grouped[groupName] = [];
-            groupOrder.push(groupName);
-        }
-        grouped[groupName].push(ach);
-    });
-
-    // Ensure 'Base Game' comes first if it exists
-    groupOrder.sort((a, b) => {
-        if (a === "Base Game") return -1;
-        if (b === "Base Game") return 1;
-        return a.localeCompare(b);
-    });
-
-    // Generate HTML for groups
     let achievementsHTML = '';
-    groupOrder.forEach(groupName => {
-        const groupAchs = grouped[groupName];
+
+    if (unlockedAchievements.length > 0) {
         achievementsHTML += `
-            <h3 class="achievements-section-title group-header">${groupName}</h3>
-            ${groupAchs.map(ach => renderAchievement(ach, ach.unlocked)).join('')}
+            <h3 class="achievements-section-title">Unlocked Achievements (${unlockedAchievements.length})</h3>
+            ${unlockedAchievements.map(ach => renderAchievement(ach, true)).join('')}
         `;
-    });
+    }
+
+    if (lockedAchievements.length > 0) {
+        achievementsHTML += `
+            <h3 class="achievements-section-title locked-title">Locked Achievements (${lockedAchievements.length})</h3>
+            ${lockedAchievements.map(ach => renderAchievement(ach, false)).join('')}
+        `;
+    }
 
     // Check for "Passport" (Visitor) from URL
     const visitor = getVisitorUsername();
@@ -553,6 +542,12 @@ function renderAchievement(ach, isUnlocked) {
         }
     }
 
+    // DLC / Group Label Logic (SteamDB style)
+    let groupHTML = '';
+    if (ach.group && ach.group !== 'Base Game') {
+        groupHTML = `<div class="achievement-group">${ach.group}</div>`;
+    }
+
     return `
         <div class="achievement ${isUnlocked ? 'unlocked' : 'locked'}">
             ${ach.icon || ach.icongray ? 
@@ -561,6 +556,7 @@ function renderAchievement(ach, isUnlocked) {
             <div class="achievement-info">
                 <div class="achievement-name">${ach.name}</div>
                 ${descriptionHTML}
+                ${groupHTML}
                 ${isUnlocked && ach.unlocktime ? 
                     `<div class="achievement-unlock-time">Unlocked: ${formatUnlockDate(ach.unlocktime)}</div>` : 
                     ''}
@@ -586,7 +582,7 @@ export function hideGameDetail() {
     document.getElementById('summary-box').classList.remove('hidden');
     document.getElementById('grid-sort-controls').classList.remove('hidden');
     
-    // NEW: Show search bar when returning to grid
+    // Show search bar when returning to grid
     const searchContainer = document.getElementById('search-container');
     if (searchContainer) searchContainer.classList.remove('hidden');
 
@@ -649,7 +645,7 @@ window.disableCompareMode = function() {
     renderGameDetail();
 };
 
-// ✅ Adjust card heights dynamically
+// Adjust card heights dynamically
 function adjustCardHeights() {
     // Check if ANY game card has a platform label with content
     const allGameCards = document.querySelectorAll('.game-card');
