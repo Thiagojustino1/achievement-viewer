@@ -188,6 +188,7 @@ The workflow runs daily at midnight UTC, or manually:
 - **Responsive Design** - Works on desktop and mobile
 - **The Hub feature** - A community interface. Everybody who forks the [main repo](https://github.com/Roschach96/achievement-viewer) automatically gets added to it.
 - **Compare achievements** - From your profile go to the Hub ("Open Hub" button in the upper right) and press on the user you want to be compared to.
+- **Achievement groups** - Achievements that were added later with a DLC or an update, it will be displayed in a new row.
 
 ## 📄 License
 
