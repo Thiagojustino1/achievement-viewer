@@ -1,0 +1,82 @@
+{
+  "BUILD_MECH": {
+    "earned": true,
+    "earned_time": 1740477439
+  },
+  "CHAPTER_1": {
+    "earned": true,
+    "earned_time": 1740479059
+  },
+  "CHAPTER_2": {
+    "earned": true,
+    "earned_time": 1740499287
+  },
+  "CHAPTER_3": {
+    "earned": true,
+    "earned_time": 1740519527
+  },
+  "COMPLETE_TUTORIAL": {
+    "earned": true,
+    "earned_time": 1728403343
+  },
+  "CRYSTAL_RAIN": {
+    "earned": true,
+    "earned_time": 1740502234
+  },
+  "DIFFICULTY_ELDRITCH": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "DIFFICULTY_NIGHTMARE": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "DIFFICULTY_NORMAL": {
+    "earned": true,
+    "earned_time": 1740519953
+  },
+  "EPIC_AWESOME": {
+    "earned": true,
+    "earned_time": 1740499495
+  },
+  "KILL_BIGSQUID": {
+    "earned": true,
+    "earned_time": 1740502109
+  },
+  "KILL_BLIMPS": {
+    "earned": true,
+    "earned_time": 1740497875
+  },
+  "KILL_DAGONS": {
+    "earned": true,
+    "earned_time": 1740496851
+  },
+  "KILL_DEEP_ONES": {
+    "earned": true,
+    "earned_time": 1728403414
+  },
+  "KILL_FLOATERS": {
+    "earned": true,
+    "earned_time": 1740497754
+  },
+  "KILL_GHOULSPIDERS": {
+    "earned": true,
+    "earned_time": 1740478349
+  },
+  "KILL_PIGGYS": {
+    "earned": true,
+    "earned_time": 1740478214
+  },
+  "KILL_TENTACLES": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "META_UPGRADE": {
+    "earned": true,
+    "earned_time": 1740499371
+  },
+  "TELEPORT": {
+    "earned": true,
+    "earned_time": 1728403252
+  }
+}

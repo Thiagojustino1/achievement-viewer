@@ -1,0 +1,142 @@
+{
+  "allDoors": {
+    "earned": true,
+    "earned_time": 1741053451
+  },
+  "btBase": {
+    "earned": true,
+    "earned_time": 1741054762
+  },
+  "btCity": {
+    "earned": true,
+    "earned_time": 1741088523
+  },
+  "btForest": {
+    "earned": true,
+    "earned_time": 1741048722
+  },
+  "btMoon": {
+    "earned": true,
+    "earned_time": 1741093708
+  },
+  "btSkScrpp": {
+    "earned": true,
+    "earned_time": 1741088890
+  },
+  "btSky": {
+    "earned": true,
+    "earned_time": 1741087867
+  },
+  "btTower": {
+    "earned": true,
+    "earned_time": 1741053604
+  },
+  "btTrain": {
+    "earned": true,
+    "earned_time": 1741054142
+  },
+  "citBossAll": {
+    "earned": true,
+    "earned_time": 1741088519
+  },
+  "citBossOne": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "citRush": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "citShoot": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "destrLvlClr": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "firstShot": {
+    "earned": true,
+    "earned_time": 1741048185
+  },
+  "gameBeat": {
+    "earned": true,
+    "earned_time": 1741095212
+  },
+  "gameOver": {
+    "earned": true,
+    "earned_time": 1741055030
+  },
+  "keepMovin": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "maxRank": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "meatChain": {
+    "earned": true,
+    "earned_time": 1741048819
+  },
+  "moonBoom": {
+    "earned": true,
+    "earned_time": 1741095142
+  },
+  "moonEarth": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "moonFail": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "moonFast": {
+    "earned": true,
+    "earned_time": 1741095106
+  },
+  "moonFocus": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "moonKill": {
+    "earned": true,
+    "earned_time": 1741095052
+  },
+  "noBoxes": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "noDrops": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "noTurret": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "noYellow": {
+    "earned": true,
+    "earned_time": 1741053393
+  },
+  "perfectTwr": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "platinum": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "sashaBeat": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "skyEngines": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "yuriBodies": {
+    "earned": false,
+    "earned_time": 0
+  }
+}

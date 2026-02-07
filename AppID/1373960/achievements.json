@@ -1,0 +1,66 @@
+{
+  "BeforeVat_FishDeath": {
+    "earned": true,
+    "earned_time": 1714961486
+  },
+  "BeforeVat_OneTry": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "Cave_OnePray": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "Cave_TakeItem": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "Dog_Pray": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "Game_CutHand": {
+    "earned": true,
+    "earned_time": 1715007122
+  },
+  "Game_FullWalktrought": {
+    "earned": true,
+    "earned_time": 1715016724
+  },
+  "GettingDry_Shameless": {
+    "earned": true,
+    "earned_time": 1714961937
+  },
+  "Item_beforeBatz": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "LakePuzzle_FrogDeath": {
+    "earned": true,
+    "earned_time": 1715007289
+  },
+  "Lapti": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "Monastery_DropLadder": {
+    "earned": true,
+    "earned_time": 1714749698
+  },
+  "Pray_forDying": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "Station_DestoyAllBox": {
+    "earned": true,
+    "earned_time": 1714960788
+  },
+  "Village_ShakePiano": {
+    "earned": true,
+    "earned_time": 1714935351
+  },
+  "Village_Sinking": {
+    "earned": false,
+    "earned_time": 0
+  }
+}

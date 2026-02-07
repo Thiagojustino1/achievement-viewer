@@ -1,0 +1,42 @@
+{
+  "ACHIEVEMENT_0_JUNGLE": {
+    "earned": true,
+    "earned_time": 1743897559
+  },
+  "ACHIEVEMENT_1_WRATH": {
+    "earned": true,
+    "earned_time": 1745108131
+  },
+  "ACHIEVEMENT_2_FEAR": {
+    "earned": true,
+    "earned_time": 1745109163
+  },
+  "ACHIEVEMENT_3_EVIL": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "ACHIEVEMENT_4_DIES": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "ACHIEVEMENT_5_SLEEPS": {
+    "earned": true,
+    "earned_time": 1745112435
+  },
+  "ACHIEVEMENT_6_TREASURE": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "ACHIEVEMENT_7_BRIDGE": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "ACHIEVEMENT_8_LEE": {
+    "earned": true,
+    "earned_time": 1745109482
+  },
+  "ACHIEVEMENT_9_GUNS": {
+    "earned": false,
+    "earned_time": 0
+  }
+}
