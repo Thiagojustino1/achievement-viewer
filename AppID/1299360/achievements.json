@@ -1,0 +1,74 @@
+{
+  "10000Coins": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "10000Kills": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "1000Kills": {
+    "earned": true,
+    "earned_time": 1740132178
+  },
+  "100Honks": {
+    "earned": true,
+    "earned_time": 1740132108
+  },
+  "1MinBoss": {
+    "earned": true,
+    "earned_time": 1717603005
+  },
+  "5MinComplete": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "ActivateNewGamePlus": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "ArenaChamp": {
+    "earned": true,
+    "earned_time": 1740132414
+  },
+  "CarrotJuice": {
+    "earned": true,
+    "earned_time": 1740154169
+  },
+  "CompleteLevel1": {
+    "earned": true,
+    "earned_time": 1717603071
+  },
+  "CompleteLevel2": {
+    "earned": true,
+    "earned_time": 1740103853
+  },
+  "CompleteLevel3": {
+    "earned": true,
+    "earned_time": 1740133349
+  },
+  "CompleteLevel4": {
+    "earned": true,
+    "earned_time": 1740155119
+  },
+  "CompleteLevel5": {
+    "earned": true,
+    "earned_time": 1740222966
+  },
+  "MetaWheel": {
+    "earned": true,
+    "earned_time": 1740155531
+  },
+  "NewGamePlusClear": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "RavenBoss": {
+    "earned": true,
+    "earned_time": 1740222016
+  },
+  "SRankAll": {
+    "earned": false,
+    "earned_time": 0
+  }
+}
