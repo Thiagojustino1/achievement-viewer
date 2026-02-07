@@ -1,0 +1,392 @@
+{
+  "Trophy000": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "Trophy001": {
+    "earned": true,
+    "earned_time": 1713820399,
+    "max_progress": 20,
+    "progress": 19
+  },
+  "Trophy002": {
+    "earned": true,
+    "earned_time": 1714184951,
+    "max_progress": 30,
+    "progress": 29
+  },
+  "Trophy003": {
+    "earned": true,
+    "earned_time": 1714611142,
+    "max_progress": 50,
+    "progress": 49
+  },
+  "Trophy004": {
+    "earned": true,
+    "earned_time": 1713573490
+  },
+  "Trophy005": {
+    "earned": true,
+    "earned_time": 1713637857
+  },
+  "Trophy006": {
+    "earned": true,
+    "earned_time": 1713662598
+  },
+  "Trophy007": {
+    "earned": true,
+    "earned_time": 1713806240
+  },
+  "Trophy008": {
+    "earned": true,
+    "earned_time": 1713914207
+  },
+  "Trophy009": {
+    "earned": true,
+    "earned_time": 1714184951
+  },
+  "Trophy010": {
+    "earned": true,
+    "earned_time": 1714240307
+  },
+  "Trophy011": {
+    "earned": true,
+    "earned_time": 1713917225
+  },
+  "Trophy012": {
+    "earned": true,
+    "earned_time": 1714495612
+  },
+  "Trophy013": {
+    "earned": true,
+    "earned_time": 1714754075
+  },
+  "Trophy014": {
+    "earned": true,
+    "earned_time": 1714923840
+  },
+  "Trophy015": {
+    "earned": true,
+    "earned_time": 1714005173
+  },
+  "Trophy016": {
+    "earned": true,
+    "earned_time": 1713726788
+  },
+  "Trophy017": {
+    "earned": true,
+    "earned_time": 1714524845
+  },
+  "Trophy018": {
+    "earned": true,
+    "earned_time": 1714242694
+  },
+  "Trophy019": {
+    "earned": true,
+    "earned_time": 1714580564
+  },
+  "Trophy020": {
+    "earned": true,
+    "earned_time": 1713724757
+  },
+  "Trophy021": {
+    "earned": true,
+    "earned_time": 1714752954,
+    "max_progress": 6,
+    "progress": 5
+  },
+  "Trophy022": {
+    "earned": true,
+    "earned_time": 1713731772
+  },
+  "Trophy023": {
+    "earned": true,
+    "earned_time": 1714612152
+  },
+  "Trophy024": {
+    "earned": true,
+    "earned_time": 1713922632
+  },
+  "Trophy025": {
+    "earned": true,
+    "earned_time": 1714667141,
+    "max_progress": 4,
+    "progress": 3
+  },
+  "Trophy026": {
+    "earned": true,
+    "earned_time": 1714126519,
+    "max_progress": 3,
+    "progress": 2
+  },
+  "Trophy027": {
+    "earned": false,
+    "earned_time": 0,
+    "max_progress": 12,
+    "progress": 3
+  },
+  "Trophy028": {
+    "earned": true,
+    "earned_time": 1714397867,
+    "max_progress": 18,
+    "progress": 17
+  },
+  "Trophy029": {
+    "earned": true,
+    "earned_time": 1714092251,
+    "max_progress": 4,
+    "progress": 3
+  },
+  "Trophy030": {
+    "earned": true,
+    "earned_time": 1714700830,
+    "max_progress": 13,
+    "progress": 12
+  },
+  "Trophy031": {
+    "earned": true,
+    "earned_time": 1713920609,
+    "max_progress": 5,
+    "progress": 4
+  },
+  "Trophy032": {
+    "earned": true,
+    "earned_time": 1714777030,
+    "max_progress": 3,
+    "progress": 2
+  },
+  "Trophy033": {
+    "earned": true,
+    "earned_time": 1714922547,
+    "max_progress": 43,
+    "progress": 42
+  },
+  "Trophy034": {
+    "earned": true,
+    "earned_time": 1714357486
+  },
+  "Trophy035": {
+    "earned": true,
+    "earned_time": 1714782752
+  },
+  "Trophy036": {
+    "earned": true,
+    "earned_time": 1714881073,
+    "max_progress": 2,
+    "progress": 1
+  },
+  "Trophy037": {
+    "earned": true,
+    "earned_time": 1713668659
+  },
+  "Trophy038": {
+    "earned": true,
+    "earned_time": 1713866745,
+    "max_progress": 4,
+    "progress": 3
+  },
+  "Trophy039": {
+    "earned": true,
+    "earned_time": 1714187158,
+    "max_progress": 3,
+    "progress": 2
+  },
+  "Trophy040": {
+    "earned": true,
+    "earned_time": 1714574321
+  },
+  "Trophy041": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "Trophy042": {
+    "earned": true,
+    "earned_time": 1714181103,
+    "max_progress": 9,
+    "progress": 8
+  },
+  "Trophy043": {
+    "earned": true,
+    "earned_time": 1714211569,
+    "max_progress": 6,
+    "progress": 5
+  },
+  "Trophy044": {
+    "earned": true,
+    "earned_time": 1713821308,
+    "max_progress": 3,
+    "progress": 2
+  },
+  "Trophy045": {
+    "earned": true,
+    "earned_time": 1713568847,
+    "max_progress": 10,
+    "progress": 9
+  },
+  "Trophy046": {
+    "earned": true,
+    "earned_time": 1713664678,
+    "max_progress": 100,
+    "progress": 99
+  },
+  "Trophy047": {
+    "earned": true,
+    "earned_time": 1713975751,
+    "max_progress": 5,
+    "progress": 4
+  },
+  "Trophy048": {
+    "earned": true,
+    "earned_time": 1714575270,
+    "max_progress": 10,
+    "progress": 9
+  },
+  "Trophy049": {
+    "earned": true,
+    "earned_time": 1714784337
+  },
+  "Trophy050": {
+    "earned": true,
+    "earned_time": 1714645368,
+    "max_progress": 3,
+    "progress": 2
+  },
+  "Trophy051": {
+    "earned": true,
+    "earned_time": 1713668889,
+    "max_progress": 3,
+    "progress": 2
+  },
+  "Trophy052": {
+    "earned": true,
+    "earned_time": 1714815425,
+    "max_progress": 3,
+    "progress": 2
+  },
+  "Trophy053": {
+    "earned": true,
+    "earned_time": 1713867364,
+    "max_progress": 5,
+    "progress": 4
+  },
+  "Trophy054": {
+    "earned": true,
+    "earned_time": 1714391967,
+    "max_progress": 2,
+    "progress": 1
+  },
+  "Trophy055": {
+    "earned": true,
+    "earned_time": 1713954067,
+    "max_progress": 3,
+    "progress": 2
+  },
+  "Trophy056": {
+    "earned": true,
+    "earned_time": 1715038243
+  },
+  "Trophy057": {
+    "earned": true,
+    "earned_time": 1713812142,
+    "max_progress": 5,
+    "progress": 4
+  },
+  "Trophy058": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "Trophy059": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "Trophy060": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "Trophy061": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "Trophy062": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "Trophy063": {
+    "earned": true,
+    "earned_time": 1715077028
+  },
+  "Trophy064": {
+    "earned": true,
+    "earned_time": 1715358663
+  },
+  "Trophy065": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "Trophy066": {
+    "earned": true,
+    "earned_time": 1715379252
+  },
+  "Trophy067": {
+    "earned": false,
+    "earned_time": 0,
+    "max_progress": 30,
+    "progress": 24
+  },
+  "Trophy068": {
+    "earned": true,
+    "earned_time": 1715025521,
+    "max_progress": 60,
+    "progress": 59
+  },
+  "Trophy069": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "Trophy070": {
+    "earned": true,
+    "earned_time": 1715039613
+  },
+  "Trophy071": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "Trophy072": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "Trophy073": {
+    "earned": true,
+    "earned_time": 1715359556,
+    "max_progress": 4,
+    "progress": 3
+  },
+  "Trophy074": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "Trophy075": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "Trophy076": {
+    "earned": false,
+    "earned_time": 0,
+    "max_progress": 6,
+    "progress": 1
+  },
+  "Trophy077": {
+    "earned": true,
+    "earned_time": 1714359561,
+    "max_progress": 5,
+    "progress": 4
+  },
+  "Trophy078": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "Trophy079": {
+    "earned": false,
+    "earned_time": 0
+  }
+}

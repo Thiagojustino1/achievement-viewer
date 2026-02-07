@@ -1,0 +1,74 @@
+{
+  "ACH_ANIMAL_LOVER": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "ACH_A_TASTE_FOR_MUSIC": {
+    "earned": true,
+    "earned_time": 1740563712
+  },
+  "ACH_CHEERS": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "ACH_CRYSTALS_LIKE_PELLETS": {
+    "earned": true,
+    "earned_time": 1740650895
+  },
+  "ACH_EVERYONE_IS_HERE": {
+    "earned": true,
+    "earned_time": 1740702354
+  },
+  "ACH_EXPERT_BATTER": {
+    "earned": true,
+    "earned_time": 1740564621
+  },
+  "ACH_INFORMED_BUYER": {
+    "earned": true,
+    "earned_time": 1740583598
+  },
+  "ACH_KIND_SOUL": {
+    "earned": true,
+    "earned_time": 1740564766
+  },
+  "ACH_LIBERATED_STRATOSS": {
+    "earned": true,
+    "earned_time": 1740704111
+  },
+  "ACH_MELOMANIAC": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "ACH_OPEN_FOR_BUSINESS": {
+    "earned": true,
+    "earned_time": 1740607196
+  },
+  "ACH_OUT_OF_THE_PARK": {
+    "earned": true,
+    "earned_time": 1740619255
+  },
+  "ACH_RICH": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "ACH_SEED_FROM_A_STRANGER": {
+    "earned": true,
+    "earned_time": 1740608984
+  },
+  "ACH_SEED_LOVER": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "ACH_STRIKE_ONE": {
+    "earned": true,
+    "earned_time": 1740563555
+  },
+  "ACH_STRIKE_THREE": {
+    "earned": true,
+    "earned_time": 1740702285
+  },
+  "ACH_STRIKE_TWO": {
+    "earned": true,
+    "earned_time": 1740606845
+  }
+}
