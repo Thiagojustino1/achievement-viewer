@@ -1,0 +1,176 @@
+{
+  "Boss_HugginMolly": {
+    "earned": true,
+    "earned_time": 1744674843
+  },
+  "Boss_HugginMollyNoDamage": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "Boss_Rougarou": {
+    "earned": true,
+    "earned_time": 1744592747
+  },
+  "Boss_RougarouNoDamage": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "Boss_TwoToedTom": {
+    "earned": true,
+    "earned_time": 1744558978
+  },
+  "Boss_TwoToedTomNoDamage": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "Combat_ChargedAttack": {
+    "earned": false,
+    "earned_time": 0,
+    "max_progress": 20,
+    "progress": 0
+  },
+  "Combat_JumpAttack": {
+    "earned": false,
+    "earned_time": 0,
+    "max_progress": 10,
+    "progress": 0
+  },
+  "Combat_LarvaExplosion": {
+    "earned": false,
+    "earned_time": 0,
+    "max_progress": 10,
+    "progress": 6
+  },
+  "Combat_LowHealthPerfectDodge": {
+    "earned": false,
+    "earned_time": 0,
+    "max_progress": 5,
+    "progress": 0
+  },
+  "Combat_NoMelee": {
+    "earned": true,
+    "earned_time": 1744590120,
+    "max_progress": 20,
+    "progress": 19
+  },
+  "Combat_PerfectDodge": {
+    "earned": true,
+    "earned_time": 1744505070,
+    "max_progress": 10,
+    "progress": 9
+  },
+  "Combat_UltimateMultiKill": {
+    "earned": false,
+    "earned_time": 0,
+    "max_progress": 5,
+    "progress": 4
+  },
+  "Combat_UnravelHaint": {
+    "earned": true,
+    "earned_time": 1744503925
+  },
+  "Exploration_FloofAll": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "Exploration_HealthFilamentAll": {
+    "earned": true,
+    "earned_time": 1744796795
+  },
+  "Exploration_HealthFilamentOne": {
+    "earned": true,
+    "earned_time": 1744505663
+  },
+  "Exploration_ReadableAll": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "Exploration_TinFlipAll": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "Exploration_TinFlipOne": {
+    "earned": true,
+    "earned_time": 1744504827
+  },
+  "Story_Chapter1": {
+    "earned": true,
+    "earned_time": 1744500445
+  },
+  "Story_Chapter10": {
+    "earned": true,
+    "earned_time": 1744681430
+  },
+  "Story_Chapter11": {
+    "earned": true,
+    "earned_time": 1744735619
+  },
+  "Story_Chapter12": {
+    "earned": true,
+    "earned_time": 1744798111
+  },
+  "Story_Chapter13": {
+    "earned": true,
+    "earned_time": 1744800025
+  },
+  "Story_Chapter2": {
+    "earned": true,
+    "earned_time": 1744505351
+  },
+  "Story_Chapter3": {
+    "earned": true,
+    "earned_time": 1744508990
+  },
+  "Story_Chapter4": {
+    "earned": true,
+    "earned_time": 1744552792
+  },
+  "Story_Chapter5": {
+    "earned": true,
+    "earned_time": 1744559421
+  },
+  "Story_Chapter6": {
+    "earned": true,
+    "earned_time": 1744572831
+  },
+  "Story_Chapter7": {
+    "earned": true,
+    "earned_time": 1744593033
+  },
+  "Story_Chapter8": {
+    "earned": true,
+    "earned_time": 1744593766
+  },
+  "Story_Chapter9": {
+    "earned": true,
+    "earned_time": 1744675266
+  },
+  "Story_FullGame": {
+    "earned": true,
+    "earned_time": 1744819161
+  },
+  "Upgrade_CroutonTree": {
+    "earned": true,
+    "earned_time": 1744796637
+  },
+  "Upgrade_First": {
+    "earned": true,
+    "earned_time": 1744504344
+  },
+  "Upgrade_GeneralTree": {
+    "earned": true,
+    "earned_time": 1744680495
+  },
+  "Upgrade_PullTree": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "Upgrade_PushTree": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "Upgrade_WeaveTree": {
+    "earned": true,
+    "earned_time": 1744680787
+  }
+}
