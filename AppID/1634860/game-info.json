@@ -1,0 +1,316 @@
+{
+  "appid": "1634860",
+  "name": "Minishoot' Adventures",
+  "icon": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1634860/header.jpg?t=1766740836",
+  "achievements": {
+    "AllArenaMedals": {
+      "name": " It's over now",
+      "description": "Finish each arena stage with at least 5 hearts left",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1634860/0c3b8392ee25156d1f248da8e6a83a7f993baa1d.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1634860/56b7407e91a1cd21e757a090989a73313bc30073.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "21.9"
+    },
+    "CompleteArena": {
+      "name": "A Blaze of Glory?",
+      "description": "Finish all stages of the arena",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1634860/d129e8af19d15647e01abb7fab20cd22ecc9160b.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1634860/c1bc323e87de58eb57e765abfd338f4cb44737d5.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "26.2"
+    },
+    "FindAllScarabs": {
+      "name": "All Hail the Primordial",
+      "description": "Find all golden scarabs",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1634860/4f41cfedd36d7126e2fccc66e08a23640ba2c224.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1634860/fbec68a35b4ce9e894ae1b5255f7f0d663497cd6.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "50.0"
+    },
+    "WakeUpTurtle": {
+      "name": "Ancient Friend",
+      "description": "Wake up the giant turtle",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1634860/1906240d2abe068d815dc4e1e928f026252eb42d.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1634860/e3a4cd46ce5aae5bd5eabfc6d707d7f6888c6755.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "68.3"
+    },
+    "BeatBossTrueLast": {
+      "name": "Come back home",
+      "description": "Beat the true last boss",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1634860/f0e0bc75e3bc7e6c64cb8841ae7eed3608d7bbf5.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1634860/629e2022edf7e24a811187dde9f55339d0ad6fa8.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "47.4"
+    },
+    "WinAllRaces": {
+      "name": "Faster than you all!",
+      "description": "Win the race against all spirits",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1634860/58e4f714909def107f689de358d4d4bede2ffcac.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1634860/4577959d5b6ea31e266e2bf9c2db22834cae7dd6.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "51.9"
+    },
+    "WinRace": {
+      "name": "Faster than you!",
+      "description": "Win a race against a spirit",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1634860/50a4e52da201f4a852263d704000ef01b27b778d.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1634860/e27fc9fd7438cfd4cddb8817ae7d39e8f21bb5ff.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "77.3"
+    },
+    "ReuniteFamilly": {
+      "name": "Finding your place",
+      "description": "Reunite the family",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1634860/1f822c2ba333ad7c7c1a46595ec01d6ab7e55b57.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1634860/f1731c951e49e84a1c050e0d983fc48d410524c2.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "50.2"
+    },
+    "DestroyBigEnemies": {
+      "name": "Giant Hunter",
+      "description": "Destroy 20 big non-boss enemies",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1634860/9508dd27632bdcece1ebe54e97c881e9da65307f.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1634860/cc984bea329ca578429d76ecb38be2fb9ab20946.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "77.5"
+    },
+    "DestroyCoconuts": {
+      "name": "Go nuts",
+      "description": "Destroy 50 coconuts",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1634860/454f2e5717ef0eb0cc41816e16fcd19ad9926648.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1634860/84b0a72e0f514febe3124c348317eb087286d173.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "68.1"
+    },
+    "FallInWater": {
+      "name": "I don't even fly",
+      "description": "Fall into water",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1634860/928cc489b57cf6969ba6f201268c5438531bfd38.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1634860/3ae9fe9c807f79d9fe76d3cb96307b877d18c372.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "97.9"
+    },
+    "FreeAllNpc": {
+      "name": "I missed you all",
+      "description": "Free all your friends",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1634860/6fead947067c79b89d11fcadfbacf65a4d9491ec.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1634860/46a1a91675afec90ef7b8266fc034fc07769fb8f.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "61.5"
+    },
+    "UseGun": {
+      "name": "I'm not alone",
+      "description": "Find and use the Mini-gun",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1634860/f2664b3dadbb7d7a86d7927a18ea4e529702ad4d.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1634860/ef86264b1495c8cf58dec8356da0f1f59ed20944.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "98.0"
+    },
+    "ReadAllLore": {
+      "name": "Keen On Lore",
+      "description": "Read all the lore from the ancient tablets",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1634860/764ba7edbf95ae4f133e25bb3498a7d741192a94.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1634860/4cd4acf1862b8a370daef55e7c512eacbf325355.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "47.5"
+    },
+    "DestroyHouseJars": {
+      "name": "Lunatic",
+      "description": "Break all jars in the family house",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1634860/f4f370bcf75c45adbf9ce6d7f6e0b24609e24c21.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1634860/bfb86d6a3fb11f75e17701d9f1b38b039668317e.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "75.1"
+    },
+    "FindEnergyMaxInDoubleSecret": {
+      "name": "Not missing that",
+      "description": "In the forest, find the secret path in the secret path!",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1634860/89e006ea53c708c238ae58ae4daf3eed4992a4b3.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1634860/5a840f3123caf475c6b4f3f06a551b9401917d5a.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "62.3"
+    },
+    "FallFrom5thFloor": {
+      "name": "Ouch",
+      "description": "Survive a fall from the 5th floor",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1634860/6903d5eff6de7f298030768f6e2eb881141290e0.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1634860/949d940bed56638a1d124b75389cf19d379e2173.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "56.9"
+    },
+    "FindAllModules": {
+      "name": "Overstuffed",
+      "description": "Find all modules",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1634860/bb4bb784c45d1eee3f9aefa7dfae68a292bb5184.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1634860/d673ee2e750de810317c2b8d570a959d69f83e51.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "42.2"
+    },
+    "DowngradeOnce": {
+      "name": "Second Thoughts",
+      "description": "Downgrade an upgrade",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1634860/b6ef5f9da106c3f513c1ff9111bd359330bf88cf.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1634860/1285acc03ff48f2c65172a6844b56293b83cbd36.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "74.7"
+    },
+    "Find3Scarab": {
+      "name": "Shiny Shiny",
+      "description": "Find three golden scarabs",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1634860/249bcaad580aa7d68628a38834a26295e5a66124.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1634860/fbafc02a5bb8fc65794d778eb65e13f0b3ac1db7.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "74.4"
+    },
+    "WakeUpTree": {
+      "name": "Stop snoring",
+      "description": "Wake up the tree thanks to the bard",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1634860/b05eabb9a9bacf441f70d6d3fc1d218378667a70.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1634860/fc6e5b8ad986d1b1f8db5ad7640d1a1f71d7fe3b.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "60.3"
+    },
+    "BeatBossBeach": {
+      "name": "Sus Winkle",
+      "description": "Beat the beach boss",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1634860/cf58d0f2ae7206f0a82f66edef260d62890fe0e1.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1634860/5b36af8827b4602d73178a7a30990daa628f69c7.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "64.0"
+    },
+    "ListenBard": {
+      "name": "Thanks for listening",
+      "description": "Listen closely to the bard for 15 seconds",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1634860/32852a973263d507b2a39f87c6348d9beaa67225.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1634860/f68d6b9ad9c125e01e254006af14834349f6e654.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "24.4"
+    },
+    "BeatBoss2": {
+      "name": "The Corruption",
+      "description": "Beat the second boss",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1634860/4e4859a8a0554c263987dfacc89437bcfdb808d6.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1634860/2d1296bb0d57c5b120145b1ce74b9d4e58755a75.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "72.5"
+    },
+    "BeatBossSnaker": {
+      "name": "The Desert Guardian",
+      "description": "Beat the desert boss",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1634860/7b429d67f2f50467759af92833df661a425be8d7.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1634860/15c85c97e0aa65b7c188dd7b21c593974d1e3565.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "71.7"
+    },
+    "CompleteGameHard": {
+      "name": "The Epic Journey Ends",
+      "description": "Finish the game in Advanced mode",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1634860/a89da7f468c430e28308df7de7c2f0b614948dcb.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1634860/ce0ff0e59bfa665fdb89426c2ab61de3eb3bddc7.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "17.5"
+    },
+    "BeatBoss3": {
+      "name": "The Forsaken Beast",
+      "description": "Beat the third boss",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1634860/0336f46cc108a538997c368dd9ebb9b580826f8a.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1634860/482cc166bffb8c1bd690b80de805f518073e70c3.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "66.3"
+    },
+    "CompleteGameNormal": {
+      "name": "The Great Journey Ends",
+      "description": "Finish the game in Original mode (or higher)",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1634860/221a5e602b8801df423aa4f8fa653e01573b73e7.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1634860/c02737deaee328633838d99b10704398c51ffebe.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "54.4"
+    },
+    "CompleteGameEasy": {
+      "name": "The Journey Ends",
+      "description": "Finish the game in Explorer mode (or higher)",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1634860/e03c2630968d250395b8bc3d10ca6642a3280526.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1634860/37d7773359009f196a7ab244015da2bff730bfd4.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "58.6"
+    },
+    "BeatBoss1": {
+      "name": "The Machine",
+      "description": "Beat the first boss",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1634860/60fbf46122ea1d734105f9cf09b6f0b3237d555a.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1634860/30e5869ecde740a9eb4eeb8ca402b3f28ee3b7a1.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "84.6"
+    },
+    "MeetPrimordialScarab": {
+      "name": "The Primordial Scarab",
+      "description": "Meet with the quasi-divine entity",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1634860/28d865a355b6280a40cfc0818053285d1609103f.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1634860/12eae42e2be6c2b04505cd0bfcb89ae5340d31ad.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "57.3"
+    },
+    "BeatBossFinal": {
+      "name": "The Unchosen",
+      "description": "Beat the final boss",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1634860/613358e6ce98f8d7203466e80f80c503b6ffb583.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1634860/04881b58c48a5fed9cd5623a27d2e8f347365096.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "58.6"
+    },
+    "TheEnd": {
+      "name": "Without looking back",
+      "description": "Surrender your power and leave the world",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1634860/7d30bc114c99499500426436767bcc641ec9b052.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1634860/1f44b813b48bb372b2741384c773e6b868db3cd8.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "24.9"
+    },
+    "FindModuleRage": {
+      "name": "Wounded Heart",
+      "description": "Find the source of the corruption",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1634860/fe381b09d2ad3796268784f3f6e37f5627943972.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1634860/24d805e180d3dfdfef6b032b6630f19184306d55.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "62.8"
+    }
+  },
+  "platform": null,
+  "blacklist": [],
+  "uses_db": false
+}
