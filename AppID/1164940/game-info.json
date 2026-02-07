@@ -1,0 +1,451 @@
+{
+  "appid": "1164940",
+  "name": "Trepang2",
+  "icon": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1164940/header.jpg?t=1765814715",
+  "achievements": {
+    "005_CompletedHorizonLevel": {
+      "name": "..Loved",
+      "description": "Completed Level: Horizon HQ",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/0d31fce37327438df0c4764a03fbc9be847298e2.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/a9c2c48a79734efa2e56fca8bfd16daaedbf80d0.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "29.5"
+    },
+    "032Break1000Books": {
+      "name": "50 shades of burnt",
+      "description": "Destroy 1000 cultist books",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/bc81b6657fa04138e1651c345899933f5403491d.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/56bb4fbca8088dc4e87acbc1d1b9f4b83f9bf826.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "31.8"
+    },
+    "024PickUpAllWeapUpgrades": {
+      "name": "Average Weapons Enjoyer",
+      "description": "Acquire all weapon parts",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/5f428e1df344844dc759d65d5813800b0ec3444c.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/fd50defb3d5251b024deffb0c0db4a10c3c11d9c.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "4.6"
+    },
+    "026UseAWeaponBenchFirstTime": {
+      "name": "Average Weapons Fan",
+      "description": "Use a weapon bench to customize a weapon for the first time",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/0c66c8aeafa079d2d64af14211f1954e090d1e26.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/15347d0fe327db5beb580986c077d07c1376b354.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "85.4"
+    },
+    "049ShootEnemysThrownGrenadeKill": {
+      "name": "Backfired",
+      "description": "Shoot an enemy’s thrown grenade, killing him with it",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/f3af2a1d89ce99ff74e2192f64f79e0ae84933dc.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/b185dea5ca5858dc004774e43604a063f1922b5d.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "43.1"
+    },
+    "023Collected100PercIntel": {
+      "name": "Big Brain",
+      "description": "Collect all intel docs",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/83fe2df987fbdeab984fe76b5a0c250b602fa5fb.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/18c8b9de7b14776ce11b149d21bfd3cbbbbe9184.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "3.0"
+    },
+    "014CompletedComplex": {
+      "name": "Complexity",
+      "description": "Complete Level: Gunnarson Complex",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/778d739e1f2f711c03e5edd3a64f44ab9f488205.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/e7f5044114df6ef81a15ff1a852509e0a1a28b75.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "38.1"
+    },
+    "047Kill5Enemies1Grenade": {
+      "name": "Cost Effective",
+      "description": "Kill 3 enemies with 1 grenade",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/f69753085f0a6cf26c4e8b3ddfc0a29041184604.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/591cc37abc75dbe41b68aad042c71c477b3c5c7b.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "72.9"
+    },
+    "055Collect105sCoin": {
+      "name": "CV",
+      "description": "Collect the Syndicate coin “CV”",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/771b6cfbfcf4e9855d658cf6f1c9d7026ce5045d.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/3b3bb4e60c7bb86c7f31f77844c2a9ff500f7b81.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "92.5"
+    },
+    "037GetBetrayed": {
+      "name": "CVI",
+      "description": "Cycle 106 comes to an end",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/539ccbecc1c5ff3996fc40c6098742890e24a39b.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/3b3bb4e60c7bb86c7f31f77844c2a9ff500f7b81.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "29.5"
+    },
+    "018CompletedSite32": {
+      "name": "Dark Secrets",
+      "description": "Complete Level: Site 32",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/14b3f4e0fa7bfa4342313a2ead7ad72eb36cf565.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/76e0da0443f414962794f65edd01774c8633b67a.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "30.9"
+    },
+    "030Break100Bottles": {
+      "name": "Dry Party",
+      "description": "Destroy 100 beer/wine bottles",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/3433a470c8f6017c2b0aa956894f487f28c028d6.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/1767c52f6beec95501b98d6d3c179092ea470f7b.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "42.8"
+    },
+    "040EntirePistolMagHeadshots": {
+      "name": "Efficient",
+      "description": "Use every bullet in a pistol magazine to get headshot kills",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/494a40a8c6a97c75181a0e8334d9fca1759ab374.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/73f73e63726c1779fa5e74b7a4c932266430352f.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "4.6"
+    },
+    "031GibDrEmersonsCorpse": {
+      "name": "Emersus",
+      "description": "Eviscerate Dr. Emerson’s corpse",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/99979f06ad2a9c48b19cc14b8970be5a93a8d660.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/3b3bb4e60c7bb86c7f31f77844c2a9ff500f7b81.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "4.7"
+    },
+    "001_CompletedPrologueLevel": {
+      "name": "Erase Your Light",
+      "description": "Escape from Site 14",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/a3688e87844beb98adb8e66b057875bcf97f1baf.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/6b898b154d81421494eb694edad8d66ddc92fd17.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "82.0"
+    },
+    "054ShineFlashlightOnEnemySurpriseKill": {
+      "name": "Flashlight!",
+      "description": "Alert an enemy by shining a flashlight from behind, shoot him before he turns around",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/e2a6d216f2d8528b67fe7f3ea02db9fa07fea643.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/711addc81a3807da5b1ea5922f4027e5f2d59034.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "61.9"
+    },
+    "046KillEnemyHelmetDMR": {
+      "name": "How’s That Helmet Working?",
+      "description": "Kill an enemy by shooting through his helmet with a DMR",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/9aee81ea61c5a621d359f379002d3ce7d558328f.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/38827f043bccebee3441ac47a7a0331f78c5df78.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "55.1"
+    },
+    "017CompletedServerRoom": {
+      "name": "IT Specialist",
+      "description": "Complete Level: Iron Dragon Data Center",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/5847eedceb7de198568f73a3a400e87b78c08ee9.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/b61505ddad2f86a46eb0290a299bcd679c539479.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "34.4"
+    },
+    "045KillHeavySoldier": {
+      "name": "JuggerNOT",
+      "description": "Kill a heavy soldier",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/8dccadf058516c0a2368e4dac2d0e3222129cc95.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/15f93995704d5bad66f534bc592e318891bebd3c.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "82.6"
+    },
+    "019CompletedCrashSite": {
+      "name": "Lost and Found",
+      "description": "Complete Level: Crash Site",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/22649ab3b115b6b947cce067d84ca5059d53e94a.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/168c4645802077b835e2efbba2c25d2169353cfc.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "28.6"
+    },
+    "036KillCEO": {
+      "name": "LXXVIII",
+      "description": "Kill the Horizon CEO",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/0632ee7e3c4e2b9bd3329804156d7e450a4fd178.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/3b3bb4e60c7bb86c7f31f77844c2a9ff500f7b81.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "29.5"
+    },
+    "007CompletedGameHard": {
+      "name": "Not So Hard",
+      "description": "Complete all campaign and side missions on Hard difficulty or higher",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/5c7d95ba8305c1c8eba4f9762577d3093e5a8841.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/8a6cdb8650fcca837ca29b9e16e7d59b9203a9f2.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "13.4"
+    },
+    "044FirstHostageExecution": {
+      "name": "Oh Snap!",
+      "description": "Execute your first hostage",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/f544658c3da987e7dccefcc7f12db951a570bb9d.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/c2008eb9a8d225d222b48ff054df8b73aaebeee7.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "84.3"
+    },
+    "016CompletedOilRig": {
+      "name": "Oil Spill",
+      "description": "Complete Level: Oil Rig",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/439b39175d5a1365f5080331eae829890e3107ec.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/523b148a515d132a5eca69b1f69549dbdf057717.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "26.8"
+    },
+    "013Revive106": {
+      "name": "One Last Mission",
+      "description": "106 is reborn",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/94cfda555053452d948e0f62e2d92a29a8313564.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/16fcf094d775e2a08327bb6c18e6edc138fc0d20.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "5.4"
+    },
+    "034KillMothman": {
+      "name": "Pest Control",
+      "description": "Kill the Mothman",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/ec75e162d92fcc64e94fc568826b45ced9406df0.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/3b3bb4e60c7bb86c7f31f77844c2a9ff500f7b81.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "60.9"
+    },
+    "038SlideIntoEnemyGrab": {
+      "name": "Slide Into Your DMs",
+      "description": "Slide into an enemy and grab him while he’s ragdolled",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/42ae3f1f13e5731c3ef9721d764bde9c5107876e.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/e49a9324787ffd890928146d570342172c9736a9.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "41.3"
+    },
+    "022Collected50PercIntel": {
+      "name": "Smol Brain",
+      "description": "Collect 50% of all intel docs",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/a0d64f3ee377ab6f034d534326ff3b3b6aababd8.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/91be70071848e4dd395ba1fbc449d71ff0f8d393.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "20.6"
+    },
+    "042StealthKillEntireSquad": {
+      "name": "Solid 106",
+      "description": "Stealth kill an entire squad without anyone becoming alerted",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/4beed2249b99dc5263567c327df24bd68753281a.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/503b19dbc9532c3238462aeb7cf962cf68e7c133.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "22.2"
+    },
+    "015CompletedCaverns": {
+      "name": "Spelunker",
+      "description": "Complete Level: Kellington Colliery",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/e5664a5717de2b197bf5bef930ed85286bffc14d.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/e7e4cbbd3e2fbf37b37007d730b3371cbff6d4d0.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "28.0"
+    },
+    "050KillEnemyWithTomahawk": {
+      "name": "Stick Around",
+      "description": "Kill an enemy with a tomahawk",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/767c26339b42f31ef12232d7f0184fa29f367b5d.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/34d2384e3d11f1bdc3f92b2899ae1444c5eed662.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "28.4"
+    },
+    "043ThrowEnemyInAirAndHeadshot": {
+      "name": "Stylish",
+      "description": "Grab an enemy, throw and kill him with a headshot",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/8cd7c33d7a1fb6f263e9779a32cb6c0ec600de94.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/7029c78b7eba933c416e843be07f28f81057ee27.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "36.2"
+    },
+    "009CompletedGameExtreme": {
+      "name": "Subject 106",
+      "description": "Complete all campaign and side missions on Extreme difficulty or higher",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/0143e8c656061a0e9aecc5dd2ffd1c9583438a2b.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/a4bfa5f1fdb036de8540dfdbf8442cf5c8699e4c.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "3.2"
+    },
+    "008CompletedGameVeryHard": {
+      "name": "Supersoldier",
+      "description": "Complete all campaign and side missions on Very Hard difficulty or higher",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/37a9a922e2b3a057ea306f2f94eb0c2310ce5341.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/7438f0a1bf2c52e02c129b62ae8aa416eac7d1ef.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "5.4"
+    },
+    "002_CompletedMothmanLevel": {
+      "name": "Take Your Flight",
+      "description": "Complete Level: Pandora Institute",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/d03227d46070cb8d456d4372c5a653a4acf11b33.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/783801c18bc1ad518d5e2b68fa748bc0f8c23e4a.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "60.9"
+    },
+    "041KillEnemyWithHeadshotLastBullet": {
+      "name": "That Was a Close One!",
+      "description": "Kill an enemy with a headshot on final bullet in the mag",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/6bf661c0d551da88f228f30b50c13af8b293cc21.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/8a8e2e6a44c9784e87ce54da5f57d5f505592440.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "76.5"
+    },
+    "011LeakedSyndicateData": {
+      "name": "The Truth",
+      "description": "Let the world know",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/9ff5ef82135d067eb869d379c78fd26210eefd27.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/3b3bb4e60c7bb86c7f31f77844c2a9ff500f7b81.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "26.4"
+    },
+    "051KillEnemyWithFlashbangBounce": {
+      "name": "Think Fast!",
+      "description": "Kill an enemy with a flashbang impact",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/644f1478945410d7738834c635569fd5745ddc22.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/e4d47e009786d195bfbc64b7ab50ae25a719a45e.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "4.3"
+    },
+    "003_CompletedCultistLevel": {
+      "name": "To A Place Where You Will Be Remembered",
+      "description": "Complete Level: Jorvik Castle",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/08a4a545967fb59e0805a2053ae5b1d56e7e6028.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/ab7b3ef0df3d40be5ecd9531f2d04db652e53526.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "43.7"
+    },
+    "004_CompletedGhostLevel": {
+      "name": "To A Place Where You Will Be...",
+      "description": "Complete Level: Site 83",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/4175d8a358d59fb44d9704cde55b65740e390fb0.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/2e747b34e64447d63c250673fbfdf6d71a02dc87.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "33.3"
+    },
+    "006CompletedCampaignAnyDifficulty": {
+      "name": "TREPANG2",
+      "description": "Break The Cycle",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/dd2a531fc3a091bae83b06038d30120cc02d25ce.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/24588abb44b74e220e9fcafe0b2cec32027e3132.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "28.4"
+    },
+    "025ThrowEnemyIntoVentPrologue": {
+      "name": "Trepangus",
+      "description": "Throw an enemy into the vent in the first combat encounter in  Site 14",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/576883de18d9be2759616ab1db467739949af9dd.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/d6dac3f74fef2ca3f1d765a71fd5cb07e80d8a92.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "5.2"
+    },
+    "033AcquireDualWieldSerum": {
+      "name": "TrePayne",
+      "description": "Acquire the dual wield serum",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/372aaedbed69297ed6290f3405d908aabad70096.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/2fa17b5c7a89d80dc525d256ab2b221cd76f7300.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "44.7"
+    },
+    "010CompletedGameRage": {
+      "name": "Unbreakable Will",
+      "description": "Complete all campaign and side missions on Rage Mode difficulty",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/6bd603151d0bf679c322da7790af4c7009b2541d.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/49574c8a082885085f206a578c62ec130574ac1f.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "2.5"
+    },
+    "035KillPatriarch": {
+      "name": "XCI",
+      "description": "Kill the Patriarch",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/3e0b2e5064dd4a921e9f1c264a21bc7db4cc452e.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/3b3bb4e60c7bb86c7f31f77844c2a9ff500f7b81.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "43.7"
+    },
+    "056CollectDrEmersonsCoin": {
+      "name": "XCV",
+      "description": "Collect the Syndicate coin “XCV”",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/a8ccbc0883bb93d7766929f1d144b0a9dd704a0c.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/3b3bb4e60c7bb86c7f31f77844c2a9ff500f7b81.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "63.7"
+    },
+    "028ThrowTF27SoldierIntoHeliBlades": {
+      "name": "You Monster!",
+      "description": "Throw a TF27 soldier into the helicopter blades in Site 14",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/1d81d51a68ee924c462c22beee07ffd19f77c7c5.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/9cce25a33c0ae3bbe11dea8bbefd8c4a1ce4475c.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "7.1"
+    },
+    "029KillTF27SoldiersInPrologue": {
+      "name": "You’re Paying For Their F***ing Surgery!",
+      "description": "Kill all TF27 soldiers in Site 14",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/492fb29a3671d44c2c9bc7efb4e4b1c9499ce8ac.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/7cc3767f4195d00d1407f083408ba079a4290bac.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "10.8"
+    },
+    "039ShootEnemyHostageGrenade": {
+      "name": "You're a Firework!",
+      "description": "Shoot an enemy while he’s thrown as a hostage grenade, detonating his grenade",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/dcd36adb7995151704c1eb9cfc20477bb9f911f5.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1164940/68b286f6d33c7a1aecb0cd2a8beaf637828ed004.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "36.5"
+    }
+  },
+  "platform": null,
+  "blacklist": [],
+  "uses_db": false
+}

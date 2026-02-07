@@ -1,0 +1,469 @@
+{
+  "appid": "2668510",
+  "name": "Red Dead Redemption",
+  "icon": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2668510/header.jpg?t=1741118459",
+  "achievements": {
+    "ACH05": {
+      "name": "A Savage Soul",
+      "description": "Complete \"At Home with Dutch\".",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/bd1bd192a907f0145539e72b3e7a08ddb3dc7732.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/63edeaf71547bcf6cb32ea192c15b743299138ac.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "27.5"
+    },
+    "ACH45": {
+      "name": "All's Right With the World",
+      "description": "Complete \"On a Pale Horse\".",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/8226e48b7e207f59efbe29a24a5ed5dd49176cff.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/63edeaf71547bcf6cb32ea192c15b743299138ac.jpg",
+      "hidden": true,
+      "group": "Update 1",
+      "percent": "9.1"
+    },
+    "ACH12": {
+      "name": "Austin Overpowered",
+      "description": "Complete Twin Rocks, Pike's Basin, and Gaptooth Breach Hideouts.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/13ee812c813c903896af83a57ef6612ad91fb738.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/63edeaf71547bcf6cb32ea192c15b743299138ac.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "10.4"
+    },
+    "ACH40": {
+      "name": "Axe Master",
+      "description": "Complete all Tomahawk challenges.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/0e2513e3af9d492ef366b216e92c4927e766d2c2.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/63edeaf71547bcf6cb32ea192c15b743299138ac.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "5.5"
+    },
+    "ACH22": {
+      "name": "Bearly Legal",
+      "description": "Kill and skin 18 grizzly bears.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/115be4856f4b62d7643f1efb7c1149fb9f69834c.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/63edeaf71547bcf6cb32ea192c15b743299138ac.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "5.3"
+    },
+    "ACH18": {
+      "name": "Buckin' Awesome",
+      "description": "Break the Kentucky Saddler, the American Standardbred, and the Hungarian Half-bred.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/98deb0b13ed1d1be64a672b2101d861a5f68dce8.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/63edeaf71547bcf6cb32ea192c15b743299138ac.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "5.3"
+    },
+    "ACH38": {
+      "name": "Bullseye",
+      "description": "Get 250 headshots in any game mode.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/78585b5519d3f7eeaa4e79da2a2af4b1c08913d7.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/63edeaf71547bcf6cb32ea192c15b743299138ac.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "31.0"
+    },
+    "ACH50": {
+      "name": "Chupathingy",
+      "description": "Find and kill a chupacabra.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/79fb935b1da88b86d5a18500044630cbdc87048c.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/63edeaf71547bcf6cb32ea192c15b743299138ac.jpg",
+      "hidden": true,
+      "group": "Update 1",
+      "percent": "4.3"
+    },
+    "ACH19": {
+      "name": "Clemency Pays",
+      "description": "Capture a bounty alive.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/32e913fe753d4ec47ce7aa781355bbd0eb6c31ab.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/63edeaf71547bcf6cb32ea192c15b743299138ac.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "35.2"
+    },
+    "ACH20": {
+      "name": "Dastardly",
+      "description": "Place a hogtied woman on the train tracks, and witness her death by train.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/452b4a1dfe990aa0848c7fbfe444d2e037a0565e.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/63edeaf71547bcf6cb32ea192c15b743299138ac.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "5.0"
+    },
+    "ACH13": {
+      "name": "Evil Spirits",
+      "description": "Complete Tumbleweed and Tesoro Azul Hideouts.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/e7a5f5ffe58830855211723abc3969a2b805a50e.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/63edeaf71547bcf6cb32ea192c15b743299138ac.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "13.1"
+    },
+    "ACH21": {
+      "name": "Exquisite Taste",
+      "description": "Purchase a rare weapon from a gunsmith.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/fa8854bb194892bb71f6be43903a604b80b5d766.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/63edeaf71547bcf6cb32ea192c15b743299138ac.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "21.8"
+    },
+    "ACH49": {
+      "name": "Fan Service",
+      "description": "Find and break a unicorn.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/28ec4c19ec5a2345451a54b41c13fcdb647c16d7.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/63edeaf71547bcf6cb32ea192c15b743299138ac.jpg",
+      "hidden": true,
+      "group": "Update 1",
+      "percent": "4.1"
+    },
+    "ACH15": {
+      "name": "Fightin' Around the World",
+      "description": "Knock someone out in melee in every saloon in the game.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/33a1958d03c3c45ea56aea0a9a1c5fefc230ccac.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/63edeaf71547bcf6cb32ea192c15b743299138ac.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "3.3"
+    },
+    "ACH31": {
+      "name": "Friends in High Places",
+      "description": "Use a pardon letter with more than $5000 bounty.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/8b290d8d324fbf43154387cd2e3aaa2c9c0dca2f.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/63edeaf71547bcf6cb32ea192c15b743299138ac.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "3.8"
+    },
+    "ACH25": {
+      "name": "Frontiersman",
+      "description": "Obtain Legendary rank in any Ambient Challenge.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/8699ad897f48e102509f6b54fe86f3c3edcb1d7f.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/63edeaf71547bcf6cb32ea192c15b743299138ac.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "8.6"
+    },
+    "ACH28": {
+      "name": "Gold Medal",
+      "description": "Earn a Gold Medal Rank for a combat mission.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/3a276b653fed8c69b37b4ad6fd23888f77c2b071.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/63edeaf71547bcf6cb32ea192c15b743299138ac.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "16.1"
+    },
+    "ACH23": {
+      "name": "He Cleans Up Well!",
+      "description": "Obtain the Elegant Suit.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/50d479d371bf5fc28cef054b8ee213e8524eee89.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/63edeaf71547bcf6cb32ea192c15b743299138ac.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "21.5"
+    },
+    "ACH34": {
+      "name": "Heading South on a White Bronco",
+      "description": "Evade the US Marshals while riding the Hungarian Half-Bred horse.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/f1cb200ecfd25b17ec0cc8e2453c56779015c1c1.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/63edeaf71547bcf6cb32ea192c15b743299138ac.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "3.2"
+    },
+    "ACH09": {
+      "name": "High Roller",
+      "description": "Win over 2000 chips in a hand of Poker.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/bc4dc43258a314ba09ca019f795aebfc46781559.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/63edeaf71547bcf6cb32ea192c15b743299138ac.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "8.5"
+    },
+    "ACH36": {
+      "name": "In a Hail of Bullets",
+      "description": "Kill 500 enemies with any pistol or revolver in any game mode.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/ba156c0ddca547d72290ca38360e34c23e472a9e.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/63edeaf71547bcf6cb32ea192c15b743299138ac.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "6.1"
+    },
+    "ACH14": {
+      "name": "Instinto Asesino",
+      "description": "Complete Fort Mercer and Nosalida Hideouts.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/7d1597118ae7ce47b4bee24b3688045844a5abe2.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/63edeaf71547bcf6cb32ea192c15b743299138ac.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "12.5"
+    },
+    "ACH07": {
+      "name": "Into the Sunset",
+      "description": "Complete \"The Last Enemy That Shall Be Destroyed\".",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/0788fc56f2cffcc658398b899ea3b19f54441ff1.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/63edeaf71547bcf6cb32ea192c15b743299138ac.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "23.5"
+    },
+    "ACH43": {
+      "name": "Judge A Man By The...",
+      "description": "Complete \"Cure For Most of What Ails You\" and \"Get Back in that Hole, Partner\" Survivor Missions.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/f3b7ffbbf6178bb2061ec8126819d44cc14e5277.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/63edeaf71547bcf6cb32ea192c15b743299138ac.jpg",
+      "hidden": true,
+      "group": "Update 1",
+      "percent": "10.5"
+    },
+    "ACH02": {
+      "name": "Land of Opportunity",
+      "description": "Complete \"The Assault on Fort Mercer\".",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/9fb3f14ec1f0242706f800408e382f881ca64a26.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/63edeaf71547bcf6cb32ea192c15b743299138ac.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "38.7"
+    },
+    "ACH37": {
+      "name": "Long Arm of Marston",
+      "description": "Kill 500 enemies with any rifle, repeater, or shotgun in any game mode.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/af67fe97ecf00835af58c821dd4dc1b2e3e625b9.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/63edeaf71547bcf6cb32ea192c15b743299138ac.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "24.6"
+    },
+    "ACH48": {
+      "name": "Mad Marston: The Trail Warrior",
+      "description": "Attain Rank 5 in all Undead Nightmare Challenges.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/49d002537740a5c76b1215ffb912d06c80903749.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/63edeaf71547bcf6cb32ea192c15b743299138ac.jpg",
+      "hidden": false,
+      "group": "Update 1",
+      "percent": "3.9"
+    },
+    "ACH27": {
+      "name": "Man of Honor / Chivalry's Dead",
+      "description": "Attain highest Fame rank and either highest Honor rank or lowest Honor rank.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/d132f2a2ca6390d8e0459934d2ea6cdd39765fbe.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/63edeaf71547bcf6cb32ea192c15b743299138ac.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "7.9"
+    },
+    "ACH29": {
+      "name": "Manifest Destiny",
+      "description": "Kill the last buffalo in the Great Plains.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/2fc47ec72536a930f34f4b4899c25e70cfe7372c.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/63edeaf71547bcf6cb32ea192c15b743299138ac.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "4.5"
+    },
+    "ACH41": {
+      "name": "Master Exploder",
+      "description": "Complete the Explosive Rifle Challenge.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/a1c17d1631930dbe7b0fcbcc6c1654e9810f7da7.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/63edeaf71547bcf6cb32ea192c15b743299138ac.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "5.3"
+    },
+    "ACH24": {
+      "name": "More than a Fistful",
+      "description": "Earn $10,000.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/479d80aa46a1b28ceda4d8edf09efc1af6ff6317.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/63edeaf71547bcf6cb32ea192c15b743299138ac.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "10.4"
+    },
+    "ACH35": {
+      "name": "Mowing Them Down",
+      "description": "Kill 500 enemies with a mounted weapon in any game mode.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/34d2d7ce125146e624c3edaa6b33a4408c9e4121.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/63edeaf71547bcf6cb32ea192c15b743299138ac.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "3.1"
+    },
+    "ACH10": {
+      "name": "No Dice",
+      "description": "Complete a game of Liar's Dice without losing a single die.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/c5c6f405b5bfd9e4e5bd2b140721b6bdcd739fec.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/63edeaf71547bcf6cb32ea192c15b743299138ac.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "6.6"
+    },
+    "ACH04": {
+      "name": "No More Fancy Words",
+      "description": "Complete \"An Appointed Time\".",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/d7be8f7db867aeffbe318ce398df3403072e8292.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/63edeaf71547bcf6cb32ea192c15b743299138ac.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "28.4"
+    },
+    "ACH08": {
+      "name": "Nurture or Nature?",
+      "description": "Complete \"Remember My Family\".",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/6eff257fca4ce7b3fecd0398cfa81a5065d811f1.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/63edeaf71547bcf6cb32ea192c15b743299138ac.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "19.0"
+    },
+    "ACH30": {
+      "name": "On the Trail of de Vaca",
+      "description": "Uncover every location on the map.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/e7cc7f7d16e7c48e2d73c543ffcdceddefbe3e1e.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/63edeaf71547bcf6cb32ea192c15b743299138ac.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "7.7"
+    },
+    "ACH17": {
+      "name": "People are Still Strange",
+      "description": "Complete 15 tasks for Strangers.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/a5ab811e1311783d4ee2954e2b5d2bcc9b5b22c5.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/63edeaf71547bcf6cb32ea192c15b743299138ac.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "9.8"
+    },
+    "ACH32": {
+      "name": "Redeemed",
+      "description": "Attain 100% in the Game Completion stat.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/1c68de9babe2a5a662c95733422f7f139b1d763d.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/63edeaf71547bcf6cb32ea192c15b743299138ac.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "3.6"
+    },
+    "ACH51": {
+      "name": "Six Years In The Making",
+      "description": "Find and kill a sasquatch.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/779dd5982cd8f674b0dc15b5fcbee31f77b7574b.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/63edeaf71547bcf6cb32ea192c15b743299138ac.jpg",
+      "hidden": true,
+      "group": "Update 1",
+      "percent": "15.0"
+    },
+    "ACH03": {
+      "name": "Sons of Mexico",
+      "description": "Complete \"The Gates of El Presidio\".",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/c80c3f5d3c46f6b218d300d45d2bb30f9bf0cd1d.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/63edeaf71547bcf6cb32ea192c15b743299138ac.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "28.8"
+    },
+    "ACH46": {
+      "name": "Spinning Plates",
+      "description": "Have every territory saved at the same time during the Undead Nightmare.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/6141e76957bc0173b7511c5973999165c2ccac19.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/63edeaf71547bcf6cb32ea192c15b743299138ac.jpg",
+      "hidden": true,
+      "group": "Update 1",
+      "percent": "6.9"
+    },
+    "ACH33": {
+      "name": "Spurred to Victory",
+      "description": "Complete 20 story missions without switching to a new horse at a hitching post.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/3f0fe1dcdb003b5330b195fbf40bec1503d3f1b1.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/63edeaf71547bcf6cb32ea192c15b743299138ac.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "25.7"
+    },
+    "ACH16": {
+      "name": "Strange Things are Afoot",
+      "description": "Complete a task for a Stranger.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/eb66c439f5e2dc7be924236128fd9ba48b62cff3.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/63edeaf71547bcf6cb32ea192c15b743299138ac.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "54.3"
+    },
+    "ACH01": {
+      "name": "That Government Boy",
+      "description": "Complete \"Exodus in America\".",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/944929a7e9e46d4ec1df31e43bde306478729ec6.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/63edeaf71547bcf6cb32ea192c15b743299138ac.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "86.9"
+    },
+    "ACH06": {
+      "name": "The Benefits of Civilization",
+      "description": "Complete \"And the Truth Will Set You Free\".",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/ddaf665fa89773b8acc94d03cab7b653f6bc2d23.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/63edeaf71547bcf6cb32ea192c15b743299138ac.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "26.1"
+    },
+    "ACH42": {
+      "name": "The Downward Spiral",
+      "description": "Complete \"Curious Tales from Blackwater, USA\" Survivor Mission.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/59a2d1177ff1d28df53ee46676b5f3f0f1eff20a.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/63edeaf71547bcf6cb32ea192c15b743299138ac.jpg",
+      "hidden": true,
+      "group": "Update 1",
+      "percent": "20.3"
+    },
+    "ACH26": {
+      "name": "The Gunslinger",
+      "description": "Score a headshot on any enemy using Expert targeting mode.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/0d5ed46b04e9720b1ad663769892f2023de26507.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/63edeaf71547bcf6cb32ea192c15b743299138ac.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "52.8"
+    },
+    "ACH44": {
+      "name": "The Superior Dance",
+      "description": "Complete \"Mother Superior Blues Survivor Mission\".",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/886512578bbd878fb7b85708efdf7aa0a1e1b1fc.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/63edeaf71547bcf6cb32ea192c15b743299138ac.jpg",
+      "hidden": true,
+      "group": "Update 1",
+      "percent": "9.1"
+    },
+    "ACH39": {
+      "name": "Unnatural Selection",
+      "description": "Kill one of every animal species in the game in any game mode.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/4bf4db06eadf1e748644806ab21ba1ff70213c8b.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/63edeaf71547bcf6cb32ea192c15b743299138ac.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "3.7"
+    },
+    "ACH11": {
+      "name": "What About Hand Grenades?",
+      "description": "Get a ringer in a game of Horseshoes.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/3852954145171a22cf4aab4606ee492b9836b7ec.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/63edeaf71547bcf6cb32ea192c15b743299138ac.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "8.0"
+    },
+    "ACH47": {
+      "name": "Zed's Dead, Baby",
+      "description": "Attain 100% Game Completion statistic in Undead Nightmare.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/f094c3bde747ce53cd9fe86e9a93bb4091c2d12f.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2668510/63edeaf71547bcf6cb32ea192c15b743299138ac.jpg",
+      "hidden": false,
+      "group": "Update 1",
+      "percent": "3.4"
+    }
+  },
+  "platform": null,
+  "blacklist": [],
+  "uses_db": false
+}
