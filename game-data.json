@@ -1,0 +1,1795 @@
+{
+  "last_updated": 1770425033,
+  "total_games": 3,
+  "games": [
+    {
+      "appid": "2322010",
+      "info": {
+        "appid": "2322010",
+        "name": "God of War Ragnarök",
+        "icon": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2322010/header.jpg?t=1750909504",
+        "achievements": {
+          "NEW_ACHIEVEMENT_1_9": {
+            "name": "A Grizzly Encounter",
+            "description": "Battle the Bear",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/b774621d4b562f5f2f808e73682080f7c8f905db.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/601c8de2d0182e9cf024f59f993e5723decc43d5.jpg",
+            "hidden": true,
+            "group": "Base Game",
+            "percent": "92.3"
+          },
+          "NEW_ACHIEVEMENT_1_11": {
+            "name": "Backyard Brawl",
+            "description": "Battle the Mysterious Valkyrie",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/0affab1ff995f3c320585bd30877379f4098ed7a.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/b21008e4812cf74eac15bc40f6a5c3dfd571a825.jpg",
+            "hidden": true,
+            "group": "Base Game",
+            "percent": "68.7"
+          },
+          "NEW_ACHIEVEMENT_1_28": {
+            "name": "Besties",
+            "description": "Pet Speki and Svanna",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/207818e8f012d0b54910e8e48145d7fa4545c282.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/7472e601a73ea03b9ce024c3467f78c166fccbfd.jpg",
+            "hidden": true,
+            "group": "Base Game",
+            "percent": "46.2"
+          },
+          "NEW_ACHIEVEMENT_1_16": {
+            "name": "Better Together",
+            "description": "Battle Hrist and Mist",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/88d2ce7597f8c4caf28d46edbe3a1051851de9bd.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/fc1fdfc2f91a4ad2ea7ef7dc74440ecf46ba066d.jpg",
+            "hidden": true,
+            "group": "Base Game",
+            "percent": "54.4"
+          },
+          "NEW_ACHIEVEMENT_1_10": {
+            "name": "Blood Debt",
+            "description": "Battle the God of Thunder",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/460fecc92590775db4e2cf2c8f4055559d90fa59.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/284267220ee15f51419dace14393d562e89a4109.jpg",
+            "hidden": true,
+            "group": "Base Game",
+            "percent": "90.7"
+          },
+          "NEW_ACHIEVEMENT_2_7": {
+            "name": "Blood, Sweat, and Týr",
+            "description": "Battle Týr",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/f168c00052a7491474fe4509eb99d702bc822b50.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/189a5effbe0eabf7767ce79ee6f9f9f98ef42dc6.jpg",
+            "hidden": true,
+            "group": "Base Game",
+            "percent": "22.6"
+          },
+          "NEW_ACHIEVEMENT_1_18": {
+            "name": "Collector",
+            "description": "Obtain all Relics and Sword Hilts",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/a8579b645e94cc84baceea1c6b7dd48f9525f36b.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/94a5f8b4c40fb4e4f4040beb945f28878240484e.jpg",
+            "hidden": false,
+            "group": "Base Game",
+            "percent": "12.7"
+          },
+          "NEW_ACHIEVEMENT_1_15": {
+            "name": "Comeuppance",
+            "description": "Battle Heimdall",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/78ef1d9b71435a66f2f057c6901563687ebe06de.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/83d7ae5f73dabcfd6aa3827bc29c538f36f9e2a6.jpg",
+            "hidden": true,
+            "group": "Base Game",
+            "percent": "57.0"
+          },
+          "NEW_ACHIEVEMENT_2_6": {
+            "name": "Dark Odyssey",
+            "description": "Participate in the sacrifice",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/3a9556c7b688abea71722ae6a1c499d9d124e6a0.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/313e627d3bf32e52c3a9fd657a121b0e8cfea69d.jpg",
+            "hidden": true,
+            "group": "Base Game",
+            "percent": "25.4"
+          },
+          "NEW_ACHIEVEMENT_1_19": {
+            "name": "Dragon Slayer",
+            "description": "Craft the Dragon Scaled Armor Set",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/1b6ff5b2e0ed56d6a8a06e82d20634026a1740ab.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/b33f9419545d4a9f178db786704813fbd056eedb.jpg",
+            "hidden": false,
+            "group": "Base Game",
+            "percent": "25.4"
+          },
+          "NEW_ACHIEVEMENT_2_12": {
+            "name": "Easy Come, Easy Go",
+            "description": "Acquire more than 15,000 Fleeting Echoes on a single attempt",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/a0b3936c936515eb49b46bc7e8f8d5b65cff8082.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/c4baf0e1270d928e075291ff1c338f44840bed6f.jpg",
+            "hidden": false,
+            "group": "Base Game",
+            "percent": "13.7"
+          },
+          "NEW_ACHIEVEMENT_2_11": {
+            "name": "Fight at the Forum",
+            "description": "Participate in a fight at The Forum arena",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/410939f632abc8bb5b8f550532f5ec2184132368.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/a3cb8ac11d64cf66ca84bf643c46ef2e59a5bc51.jpg",
+            "hidden": false,
+            "group": "Base Game",
+            "percent": "10.1"
+          },
+          "NEW_ACHIEVEMENT_1_7": {
+            "name": "Full Belly",
+            "description": "Obtain all of the Apples of Iðunn and Horns of Blood Mead",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/7618c288972f37b826f123ac35494c460c64f7b6.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/c0da874e04ce0c91e2525adc2682b49e9f6e123f.jpg",
+            "hidden": false,
+            "group": "Base Game",
+            "percent": "25.7"
+          },
+          "NEW_ACHIEVEMENT_1_24": {
+            "name": "Full Gufa",
+            "description": "Free the Hafgufas",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/840183706cc70cac323f41e7715c9327c4ebe293.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/fb5b39e4a1e0b92ad99d258d2bfd69e1cc71c223.jpg",
+            "hidden": true,
+            "group": "Base Game",
+            "percent": "47.0"
+          },
+          "NEW_ACHIEVEMENT_1_21": {
+            "name": "Funeral for a Friend",
+            "description": "Attend the funeral",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/7ae1a7e3ea07c2a88ccc1c6a5996b0af30864725.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/b0ffc42ed75fc62e36435374281fbb396c0e092d.jpg",
+            "hidden": true,
+            "group": "Base Game",
+            "percent": "34.8"
+          },
+          "NEW_ACHIEVEMENT_2_4": {
+            "name": "God of Hope",
+            "description": "Master Valhalla and master thyself",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/ab4bcd6e2a7fa5bafe207cd469c2e30e2bf5019d.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/ddcf242f10a6868f1a891ddb4f829c7d3d3096ad.jpg",
+            "hidden": true,
+            "group": "Base Game",
+            "percent": "17.2"
+          },
+          "NEW_ACHIEVEMENT_2_2": {
+            "name": "Grave Mistake",
+            "description": "Battle King Hrólf",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/5ba906481dc8052e1105baddc82fb8e6786cd430.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/6b6cfb7210a7ffecef6ed90bc5629fa1c67261e5.jpg",
+            "hidden": true,
+            "group": "Base Game",
+            "percent": "21.4"
+          },
+          "NEW_ACHIEVEMENT_1_4": {
+            "name": "How it Started",
+            "description": "Equip an Enchantment",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/d2bb163ea5ff0db47da5ebc8f43176c4b24d502f.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/f29caddf5e76ef8337090da30b978f76da70adc1.jpg",
+            "hidden": false,
+            "group": "Base Game",
+            "percent": "66.9"
+          },
+          "NEW_ACHIEVEMENT_1_20": {
+            "name": "How it's Going",
+            "description": "Fully repair the Amulet of Yggdrasil",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/f885d589f5a03ccfe03f8f80371bed7481d9f7d2.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/1255cb8abab40f1c6cb0a6bf9992a425797926fd.jpg",
+            "hidden": false,
+            "group": "Base Game",
+            "percent": "32.9"
+          },
+          "NEW_ACHIEVEMENT_1_27": {
+            "name": "Invasive Species ",
+            "description": "Complete all of the Crater Hunts",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/3b34161ddfc1f1c475f6df26cb128b5f5969bad0.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/3d667380096bf3bd5ca9c74391180afd4e147089.jpg",
+            "hidden": true,
+            "group": "Base Game",
+            "percent": "28.7"
+          },
+          "NEW_ACHIEVEMENT_2_5": {
+            "name": "Invitation Accepted",
+            "description": "Discover the secret of Valhalla",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/a16f4e1d167fff5bf7fb60a9c24b39e179cf1560.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/14cd4364e153c671fa3003e0322157620f0137c4.jpg",
+            "hidden": false,
+            "group": "Base Game",
+            "percent": "33.5"
+          },
+          "NEW_ACHIEVEMENT_1_26": {
+            "name": "It Was a Good Day",
+            "description": "Retrieve Mardöll",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/68f1958a965b22d50e90f5b34e19c271a606460a.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/619ad34fd4b4a5a79984a94e731e31d455bfb2d6.jpg",
+            "hidden": true,
+            "group": "Base Game",
+            "percent": "51.4"
+          },
+          "NEW_ACHIEVEMENT_1_8": {
+            "name": "Knock off the Rust",
+            "description": "Purchase a Skill",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/c0cceaae3322824a28968d00adc913815a55994b.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/95071084c9b0057cef21ffe0ba95bf63c3b8dac0.jpg",
+            "hidden": false,
+            "group": "Base Game",
+            "percent": "86.0"
+          },
+          "NEW_ACHIEVEMENT_1_25": {
+            "name": "Making Amends",
+            "description": "Free the Lyngbakr",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/44ccd275c87ba90d37e458d03aea5225a458d8f9.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/55c67977e2252231f3a6be8be3d5d1e2c5220d2f.jpg",
+            "hidden": true,
+            "group": "Base Game",
+            "percent": "57.3"
+          },
+          "NEW_ACHIEVEMENT_1_23": {
+            "name": "New Friends",
+            "description": "Fetch Lúnda's orb",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/aacb3441a6af8a5836145ea39a6b081a0935ce28.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/08c25a07568705d4b3197b16182c8a63a8dfb5bc.jpg",
+            "hidden": true,
+            "group": "Base Game",
+            "percent": "52.5"
+          },
+          "NEW_ACHIEVEMENT_2_10": {
+            "name": "No Kratos, No Scry",
+            "description": "Reclaim Pandora's Statue",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/986a1d05038798dd2549319c9415b5c1e955fef4.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/dbd67cd1e916bf07ed9be095831bd1e052bc12df.jpg",
+            "hidden": true,
+            "group": "Base Game",
+            "percent": "18.5"
+          },
+          "NEW_ACHIEVEMENT_1_14": {
+            "name": "Off the Leash",
+            "description": "Battle Garm",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/c61bed76aad23f8cc40ff81c97be57a9f2a614e1.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/ff4c73e9ff6676a79eb5178cb9f1092297543ba5.jpg",
+            "hidden": true,
+            "group": "Base Game",
+            "percent": "58.7"
+          },
+          "NEW_ACHIEVEMENT_1_17": {
+            "name": "Phalanx",
+            "description": "Obtain all Shields",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/e448fd28e7626c3d091f95928ea5c73f6917cc57.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/c610620c90706918d86577aecf6d2f51af9c4816.jpg",
+            "hidden": false,
+            "group": "Base Game",
+            "percent": "26.0"
+          },
+          "NEW_ACHIEVEMENT_1_30": {
+            "name": "Pure of Hart",
+            "description": "Return the Stags of the Four Seasons",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/3cb2339edaaaee97c1a1d5ea00cd8aadbbc69d8c.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/ac2a08d314aab591ddcf60899d011245fc4dffb6.jpg",
+            "hidden": true,
+            "group": "Base Game",
+            "percent": "30.2"
+          },
+          "NEW_ACHIEVEMENT_2_1": {
+            "name": "Ragnarök",
+            "description": "Battle the All-Father",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/500b82631e8f9efcfe0fda022d94fcf1eff6497a.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/023c658f4861fa953eb6d338d63acae2f7b28026.jpg",
+            "hidden": true,
+            "group": "Base Game",
+            "percent": "53.7"
+          },
+          "NEW_ACHIEVEMENT_2_0": {
+            "name": "Ready for Commitment",
+            "description": "Fully upgrade one armor set",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/85af0ce5355bf6a4641f8657addb37464baf16ca.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/4e30b31f6f3264210aebf535d2cd08633da6bce5.jpg",
+            "hidden": false,
+            "group": "Base Game",
+            "percent": "26.0"
+          },
+          "NEW_ACHIEVEMENT_1_22": {
+            "name": "Rebel Leader",
+            "description": "Return the Hammer of the Rebellion",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/6f1e71e216ac4e790cf8d3a40d1946074c01c3a6.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/967c1c8b366cb5a535de659257c8544c1ac22d55.jpg",
+            "hidden": true,
+            "group": "Base Game",
+            "percent": "45.0"
+          },
+          "NEW_ACHIEVEMENT_1_29": {
+            "name": "Rightful Place",
+            "description": "Return all the Lindwyrms to Ratatoskr",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/56850ea84057a676ea14ea32663cebf4e88c14f6.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/762c44572257b9d00391bbbe066328773506a197.jpg",
+            "hidden": true,
+            "group": "Base Game",
+            "percent": "28.5"
+          },
+          "NEW_ACHIEVEMENT_1_12": {
+            "name": "Root of the Problem",
+            "description": "Battle Níðhögg",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/d7ea3ba4988f3beeffa6eea3e3c6d31c9ed15f67.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/a11ac44c28e39113045ff691486dc7405fa1057e.jpg",
+            "hidden": true,
+            "group": "Base Game",
+            "percent": "66.9"
+          },
+          "NEW_ACHIEVEMENT_2_8": {
+            "name": "Scry Me a River",
+            "description": "Reclaim Kratos' Oath Stone",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/45ebc2d1fc020271456504bfaa7caf9bcc0440cf.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/e0d1a45fce90cebd3faf97114d2dc3dad1b19215.jpg",
+            "hidden": true,
+            "group": "Base Game",
+            "percent": "21.3"
+          },
+          "NEW_ACHIEVEMENT_1_6": {
+            "name": "Spartan Ways",
+            "description": "Remember the Spartan teachings",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/282ccbc209250ac7d4b5281bc586bb1624d4ad75.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/c4644281972470405f58160e7dfcd7a74a3dd62e.jpg",
+            "hidden": false,
+            "group": "Base Game",
+            "percent": "59.2"
+          },
+          "NEW_ACHIEVEMENT_1_5": {
+            "name": "Spit Shine",
+            "description": "Upgrade one piece of armor",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/dff9f0238f37a57f15f4421e639ca9acf90757eb.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/84580e4958c6e4ce45d737c2d04898e3497c6855.jpg",
+            "hidden": false,
+            "group": "Base Game",
+            "percent": "82.3"
+          },
+          "NEW_ACHIEVEMENT_2_14": {
+            "name": "Style Points",
+            "description": "Equip a Cosmetic Armor",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/dce9d96ff218f81ccf60d323f645256a7bcfd3d9.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/75141bd53f5e4658c1b5b65dbac0ba5b6c616c01.jpg",
+            "hidden": false,
+            "group": "Base Game",
+            "percent": "27.6"
+          },
+          "NEW_ACHIEVEMENT_1_0": {
+            "name": "The Bear and the Wolf",
+            "description": "Collect all Trophies",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/762be536be3f6258d91d4ed86c7de175e21ffe87.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/240a81a80c3e461bd3204a445ee400418ff904bf.jpg",
+            "hidden": false,
+            "group": "Base Game",
+            "percent": "10.3"
+          },
+          "NEW_ACHIEVEMENT_1_13": {
+            "name": "The Cauldron",
+            "description": "Destroy Grýla's cauldron",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/421cda7a6d79a5c89d077103eb9fdd357c7c79ca.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/daf6692defa3c860317093b51f70357b57f0dfdf.jpg",
+            "hidden": true,
+            "group": "Base Game",
+            "percent": "69.0"
+          },
+          "NEW_ACHIEVEMENT_1_3": {
+            "name": "The Curator",
+            "description": "Collect all of the Artifacts",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/5249ab1e181410ba60f930591c2cac09e0f11703.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/59402330b425dbc77d9c308935cd1ff32ea87065.jpg",
+            "hidden": false,
+            "group": "Base Game",
+            "percent": "15.0"
+          },
+          "NEW_ACHIEVEMENT_1_1": {
+            "name": "The Florist",
+            "description": "Collect one flower from each of the nine realms",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/4fff7ffcd142753ae11037e43ad1c2d6204b6ea0.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/0b203bdbbc74187973017444c064830ff89d0597.jpg",
+            "hidden": true,
+            "group": "Base Game",
+            "percent": "17.3"
+          },
+          "NEW_ACHIEVEMENT_1_2": {
+            "name": "The Librarian",
+            "description": "Collect all of the Books",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/5325fffe5af2a3875422dc55d90a81c302063081.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/1303499c01fe00e1d9fc161272af6c025eb7ccc6.jpg",
+            "hidden": false,
+            "group": "Base Game",
+            "percent": "16.6"
+          },
+          "NEW_ACHIEVEMENT_2_3": {
+            "name": "The True Queen",
+            "description": "Battle Gná",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/4dfdb9c0b96dbf11ae60f641691ed20775bf627c.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/4452ca7c2e4f7d778ef509889d00aa6be910baf9.jpg",
+            "hidden": true,
+            "group": "Base Game",
+            "percent": "20.4"
+          },
+          "NEW_ACHIEVEMENT_1_31": {
+            "name": "Trials by Fire",
+            "description": "Complete the Trials of Muspelheim",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/299b3c2ab3dbe8b9f02d262d3fb54551c16167bf.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/78542c4ca375edc4d368145defb5451a41545beb.jpg",
+            "hidden": true,
+            "group": "Base Game",
+            "percent": "21.5"
+          },
+          "NEW_ACHIEVEMENT_2_13": {
+            "name": "Understood the Assignment",
+            "description": "Complete 9 Mastery Quests",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/589aaa85b86385c8055eb2b49fa5caff470d6bf9.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/4c1bab39c437362b0de9a8d18cd236f4443d2c8d.jpg",
+            "hidden": false,
+            "group": "Base Game",
+            "percent": "11.9"
+          },
+          "NEW_ACHIEVEMENT_2_9": {
+            "name": "Wayfarer",
+            "description": "Visit all 9 Realms in Valhalla",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/8c54884da8902093f3db13f41e2c83c12ff64c95.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/e85f15721a8661ec13486b32de581ac0cfcee0ef.jpg",
+            "hidden": false,
+            "group": "Base Game",
+            "percent": "15.7"
+          },
+          "NEW_ACHIEVEMENT_2_15": {
+            "name": "You Again?",
+            "description": "Find all 3 Boat Captain Keys",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/fb80e092dd1fd18d6c372ac5bb20f063badcc34f.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2322010/a1c3eaa1b4c9863dabbc1dd286f322a76db6640b.jpg",
+            "hidden": true,
+            "group": "Base Game",
+            "percent": "13.1"
+          }
+        },
+        "platform": null,
+        "blacklist": [],
+        "uses_db": false
+      },
+      "achievements": {
+        "NEW_ACHIEVEMENT_1_0": {
+          "earned": true,
+          "earned_time": 1728847803
+        },
+        "NEW_ACHIEVEMENT_1_1": {
+          "earned": true,
+          "earned_time": 1728845622
+        },
+        "NEW_ACHIEVEMENT_1_10": {
+          "earned": true,
+          "earned_time": 1726940527
+        },
+        "NEW_ACHIEVEMENT_1_11": {
+          "earned": true,
+          "earned_time": 1727495244
+        },
+        "NEW_ACHIEVEMENT_1_12": {
+          "earned": true,
+          "earned_time": 1727573939
+        },
+        "NEW_ACHIEVEMENT_1_13": {
+          "earned": true,
+          "earned_time": 1727455156
+        },
+        "NEW_ACHIEVEMENT_1_14": {
+          "earned": true,
+          "earned_time": 1727720420
+        },
+        "NEW_ACHIEVEMENT_1_15": {
+          "earned": true,
+          "earned_time": 1727911673
+        },
+        "NEW_ACHIEVEMENT_1_16": {
+          "earned": true,
+          "earned_time": 1727968715
+        },
+        "NEW_ACHIEVEMENT_1_17": {
+          "earned": true,
+          "earned_time": 1728759540
+        },
+        "NEW_ACHIEVEMENT_1_18": {
+          "earned": true,
+          "earned_time": 1728787096
+        },
+        "NEW_ACHIEVEMENT_1_19": {
+          "earned": true,
+          "earned_time": 1727971562
+        },
+        "NEW_ACHIEVEMENT_1_2": {
+          "earned": true,
+          "earned_time": 1728847803
+        },
+        "NEW_ACHIEVEMENT_1_20": {
+          "earned": true,
+          "earned_time": 1727923591
+        },
+        "NEW_ACHIEVEMENT_1_21": {
+          "earned": true,
+          "earned_time": 1728132890
+        },
+        "NEW_ACHIEVEMENT_1_22": {
+          "earned": true,
+          "earned_time": 1727702171
+        },
+        "NEW_ACHIEVEMENT_1_23": {
+          "earned": true,
+          "earned_time": 1727587227
+        },
+        "NEW_ACHIEVEMENT_1_24": {
+          "earned": true,
+          "earned_time": 1727633951
+        },
+        "NEW_ACHIEVEMENT_1_25": {
+          "earned": true,
+          "earned_time": 1727700854
+        },
+        "NEW_ACHIEVEMENT_1_26": {
+          "earned": true,
+          "earned_time": 1727585243
+        },
+        "NEW_ACHIEVEMENT_1_27": {
+          "earned": true,
+          "earned_time": 1728309785
+        },
+        "NEW_ACHIEVEMENT_1_28": {
+          "earned": true,
+          "earned_time": 1727658740
+        },
+        "NEW_ACHIEVEMENT_1_29": {
+          "earned": true,
+          "earned_time": 1728313108
+        },
+        "NEW_ACHIEVEMENT_1_3": {
+          "earned": true,
+          "earned_time": 1728847803
+        },
+        "NEW_ACHIEVEMENT_1_30": {
+          "earned": true,
+          "earned_time": 1727976944
+        },
+        "NEW_ACHIEVEMENT_1_31": {
+          "earned": true,
+          "earned_time": 1728845128
+        },
+        "NEW_ACHIEVEMENT_1_4": {
+          "earned": true,
+          "earned_time": 1727573901
+        },
+        "NEW_ACHIEVEMENT_1_5": {
+          "earned": true,
+          "earned_time": 1727122660
+        },
+        "NEW_ACHIEVEMENT_1_6": {
+          "earned": true,
+          "earned_time": 1727717526
+        },
+        "NEW_ACHIEVEMENT_1_7": {
+          "earned": true,
+          "earned_time": 1728141804
+        },
+        "NEW_ACHIEVEMENT_1_8": {
+          "earned": true,
+          "earned_time": 1726941386
+        },
+        "NEW_ACHIEVEMENT_1_9": {
+          "earned": true,
+          "earned_time": 1726937007
+        },
+        "NEW_ACHIEVEMENT_2_0": {
+          "earned": true,
+          "earned_time": 1728778684
+        },
+        "NEW_ACHIEVEMENT_2_1": {
+          "earned": true,
+          "earned_time": 1728097516
+        },
+        "NEW_ACHIEVEMENT_2_10": {
+          "earned": true,
+          "earned_time": 1728865375
+        },
+        "NEW_ACHIEVEMENT_2_11": {
+          "earned": true,
+          "earned_time": 1728911457
+        },
+        "NEW_ACHIEVEMENT_2_12": {
+          "earned": true,
+          "earned_time": 1728911470
+        },
+        "NEW_ACHIEVEMENT_2_13": {
+          "earned": true,
+          "earned_time": 1728909246
+        },
+        "NEW_ACHIEVEMENT_2_14": {
+          "earned": true,
+          "earned_time": 1728852478
+        },
+        "NEW_ACHIEVEMENT_2_15": {
+          "earned": true,
+          "earned_time": 1728912245
+        },
+        "NEW_ACHIEVEMENT_2_2": {
+          "earned": true,
+          "earned_time": 1728769960
+        },
+        "NEW_ACHIEVEMENT_2_3": {
+          "earned": true,
+          "earned_time": 1728775445
+        },
+        "NEW_ACHIEVEMENT_2_4": {
+          "earned": true,
+          "earned_time": 1728909057
+        },
+        "NEW_ACHIEVEMENT_2_5": {
+          "earned": true,
+          "earned_time": 1728851348
+        },
+        "NEW_ACHIEVEMENT_2_6": {
+          "earned": true,
+          "earned_time": 1728854359
+        },
+        "NEW_ACHIEVEMENT_2_7": {
+          "earned": true,
+          "earned_time": 1728857316
+        },
+        "NEW_ACHIEVEMENT_2_8": {
+          "earned": true,
+          "earned_time": 1728859502
+        },
+        "NEW_ACHIEVEMENT_2_9": {
+          "earned": true,
+          "earned_time": 1728907017
+        }
+      }
+    },
+    {
+      "appid": "1887840",
+      "info": {
+        "appid": "1887840",
+        "name": "Another Crab's Treasure",
+        "icon": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1887840/header.jpg?t=1748555967",
+        "achievements": {
+          "BossDefeated_Firth": {
+            "name": "Avatar of Waste",
+            "description": "Defeated Firth.",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/8430e18bd586f24aa477fc9afc1529c62b3f8bea.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/f02fff2ba5c42f09504ab0050386b657920e1713.jpg",
+            "hidden": true,
+            "group": "Base Game",
+            "percent": "23.0"
+          },
+          "BossDefeated_BleachedKing_Real": {
+            "name": "Camtscha, Reborn",
+            "description": "Defeated Camtscha (For real.)",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/f1988c7242f17fae9225cde9d0136e191d918c37.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/8b34b4e76ff2f84c9851de0062dd07fbd8ce78e2.jpg",
+            "hidden": true,
+            "group": "Base Game",
+            "percent": "23.7"
+          },
+          "BossDefeated_Nephro": {
+            "name": "Captain of the Guard",
+            "description": "Defeated Nephro.",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/314b676446984390512a529d7a81e1c3cd17b95f.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/d740d3dd78c2c8845ec970781803ef6d735bc88a.jpg",
+            "hidden": true,
+            "group": "Base Game",
+            "percent": "74.9"
+          },
+          "BossDefeated_TwinPistols": {
+            "name": "Ceviche Sisters",
+            "description": "Defeated the Ceviche Sisters.",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/93080160c04de74c0d8e2ccb294375c6c472701a.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/136ed3aae679573231a29feff24668f8f845f563.jpg",
+            "hidden": true,
+            "group": "Base Game",
+            "percent": "29.6"
+          },
+          "BossDefeated_Inkerton": {
+            "name": "Crab Hunter",
+            "description": "Defeated Inkerton.",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/1bbbac386d0b79d3997b7ccb89f53cf94871c3e1.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/6114a22b13ecb27cca222c505fbc2a1c58e299aa.jpg",
+            "hidden": true,
+            "group": "Base Game",
+            "percent": "24.8"
+          },
+          "BossDefeated_OilDrumBrusier": {
+            "name": "Curdled Carbonara Connoisseur",
+            "description": "Defeated the Curdled Carbonara Connoisseur.",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/e927a3de29d8f043fd090d88facc5afbde22c0fd.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/1c3028d124c481352ad6284c7ef77ecfc0336954.jpg",
+            "hidden": true,
+            "group": "Base Game",
+            "percent": "18.1"
+          },
+          "BossDefeated_Lichenthrope": {
+            "name": "Diseased Lichenthrope",
+            "description": "Defeated the Diseased Lichenthrope.",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/e3410f48698118414c7591387e2f077055defcd6.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/04b7db28ad9919e58d9eaf4c3394bf3682ed8a48.jpg",
+            "hidden": true,
+            "group": "Base Game",
+            "percent": "40.9"
+          },
+          "Plot_HomeShellReturned": {
+            "name": "Finishing What I Started",
+            "description": "Get your shell back.",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/c67e7095292a4a32e2a3ac199a13d55af36e464a.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/42cf6db0352ab9b625e8279266126578f85187cf.jpg",
+            "hidden": true,
+            "group": "Base Game",
+            "percent": "22.9"
+          },
+          "BossDefeated_Topoda": {
+            "name": "Grovekeeper",
+            "description": "Defeated Topoda.",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/a3188da87e2e9183c489c62b155c270d37300fbf.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/9d722ab55b248b40154663894fcc20b1b408c4ec.jpg",
+            "hidden": true,
+            "group": "Base Game",
+            "percent": "28.0"
+          },
+          "YOTC_HiddenSnail": {
+            "name": "I am Speed",
+            "description": "Discover one of the hidden snails.",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/3355386e64b56786d2e3c7c10c11bc65fc1321be.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/280045137061428e80b7c43590ebbcf12cc44c16.jpg",
+            "hidden": false,
+            "group": "Update 1",
+            "percent": "10.6"
+          },
+          "YOTC_CraftSigil": {
+            "name": "I'm Moving Different",
+            "description": "Craft one of the legendary Sigils in New Game Plus.",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/87ef5c0475aa5397cb73f8b7afdca53ee721cc2c.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/0dca5ff689570c50c8ac6eb958dd23258cb133fd.jpg",
+            "hidden": false,
+            "group": "Update 1",
+            "percent": "4.1"
+          },
+          "Insurance_Started": {
+            "name": "In Good Claws",
+            "description": "Purchase some insurance.",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/5f3229353c68aa788c41f3507e0635775b586ea5.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/04b15fd0872678c7c8e860f898ba1e47e5883af6.jpg",
+            "hidden": false,
+            "group": "Base Game",
+            "percent": "39.5"
+          },
+          "BossDefeated_Heikea": {
+            "name": "Intimidation Crab",
+            "description": "Defeated Heikea.",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/68fe7378c9c46bdeaa49b63a09a3363e8170a312.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/9ef52070a543a026857a2f273f7cbcbecb7e0303.jpg",
+            "hidden": true,
+            "group": "Base Game",
+            "percent": "36.7"
+          },
+          "YOTC_MuseumSeen": {
+            "name": "Look at this Stuff",
+            "description": "Take a look at the Museum.",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/a8ec201c620b436466bdc16d85e553d3ec1574f9.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/dfb6396d05c6eac277bdac7f0a50504a5e0e5175.jpg",
+            "hidden": false,
+            "group": "Update 1",
+            "percent": "13.2"
+          },
+          "UpgradeMax_Fork": {
+            "name": "Make it Shine",
+            "description": "Fully upgrade Kril's fork.",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/1296f8ae4023fdaba4a83e24d75c2a3fad7ee109.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/729a23780094261fef979dd909326b25e4a70317.jpg",
+            "hidden": false,
+            "group": "Base Game",
+            "percent": "13.0"
+          },
+          "SkillTreeCompleted_Hermit": {
+            "name": "Path of the Hermit",
+            "description": "Unlock all skills on the Path of The Hermit. ",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/aca44cee54c3519b4a0720eca7382ceddb7b795a.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/29eba3a1deca8816a4fde9e196df54c992d11394.jpg",
+            "hidden": false,
+            "group": "Base Game",
+            "percent": "24.9"
+          },
+          "SkillTreeCompleted_Predator": {
+            "name": "Path of the Predator",
+            "description": "Unlock all skills on the Path of The Predator. ",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/b698cbacb30dc853363143b10abf36c57a5822bf.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/f3615da38c0246566cd2209864378d637d77a24e.jpg",
+            "hidden": false,
+            "group": "Base Game",
+            "percent": "27.0"
+          },
+          "SkillTreeCompleted_Crab": {
+            "name": "Path of the True Crab",
+            "description": "Unlock all skills on the Path of The True Crab. ",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/648f4fa0a8aff7dd253194e30cbdfaa3119a2f6e.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/49ef585cd998b81295cdc354df2532c4f179477b.jpg",
+            "hidden": false,
+            "group": "Base Game",
+            "percent": "25.6"
+          },
+          "BossDefeated_Pathfinder": {
+            "name": "Polluted Platoon Pathfinder",
+            "description": "Defeated a miniboss.",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/a56bbab24587b434c4a7688918a7af294645636a.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/d53f074ab6f68818189373621bdbce7066c8cc73.jpg",
+            "hidden": true,
+            "group": "Base Game",
+            "percent": "62.7"
+          },
+          "YOTC_StartNewGamePlus": {
+            "name": "Prepare to Die",
+            "description": "Start a playthrough of New Game Plus.",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/0a0f5402f05c033a550e5d8ee8f1045f326cf122.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/02d4b5253aa636849ffe3bee58cd3beedd0e8627.jpg",
+            "hidden": false,
+            "group": "Update 1",
+            "percent": "6.7"
+          },
+          "BossDefeated_Royalsplitter": {
+            "name": "Royal Shellsplitter",
+            "description": "Defeated the Royal Shellsplitter.",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/25d60718efe001fdc95bb9cf4165451fbfe52e1a.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/681dd126d50ea28c1b3a809a2d6be22e7e4e6f13.jpg",
+            "hidden": true,
+            "group": "Base Game",
+            "percent": "45.9"
+          },
+          "BossDefeated_RollerBrusier": {
+            "name": "Scuttling Sludge Steamroller",
+            "description": "Defeated the Scuttling Sludge Steamroller.",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/009ec11990f93402ec49fa4c5e9f926f2c36eb81.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/e80c654a5bf32faac3bebf9cbc4bd01e87d74426.jpg",
+            "hidden": true,
+            "group": "Base Game",
+            "percent": "30.1"
+          },
+          "YOTC_BossRushComplete": {
+            "name": "Seven Ocean Army",
+            "description": "Complete a Boss Rush and earn a new outfit.",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/631bc879035edcb2390be37abcdc7ff18004c634.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/58975f6808a0fbd358c9e42129e842df49e201ba.jpg",
+            "hidden": false,
+            "group": "Update 1",
+            "percent": "7.3"
+          },
+          "CollectLimit_Shells": {
+            "name": "Shell Seeker",
+            "description": "Try on every shell in the game.",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/bfbcfdae14ae7f7f9fb93a33107dca3d587a250e.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/5a69a674d4ac30a5f10512e5b5fd9e1cb2e2acab.jpg",
+            "hidden": false,
+            "group": "Base Game",
+            "percent": "9.7"
+          },
+          "CollectLimit_KnightHelmet": {
+            "name": "Shellslike",
+            "description": "Find a certain hero's helmet.",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/c3507e7bb5d589e55b0f96ca47565f437887251b.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/8175c44c52993fe2d3f9314cb30a8c8a877529c7.jpg",
+            "hidden": true,
+            "group": "Base Game",
+            "percent": "14.3"
+          },
+          "YOTC_MaxStowaways": {
+            "name": "Surpassing my Limits",
+            "description": "Level up your Stowaway limit beyond its original maximum in New Game Plus.",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/4ef5eba4244338777a19ec3682169b6e8c124302.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/d19f960f7ffa0e357e1b9e144aa9b164d17bf164.jpg",
+            "hidden": false,
+            "group": "Update 1",
+            "percent": "4.1"
+          },
+          "BossDefeated_Voltai": {
+            "name": "The Accumulator",
+            "description": "Defeated Voltai.",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/e7d654cb0634ae6c9abd947a43112d5d72553319.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/cc21e55bef2405d8101a1d8e5ecb334115234fb9.jpg",
+            "hidden": true,
+            "group": "Base Game",
+            "percent": "27.5"
+          },
+          "BossDefeated_BleachedKing_Fake": {
+            "name": "The Bleached King",
+            "description": "Defeated Camtscha.",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/4ed94248c124e09895d232bd372d4fc7121835a1.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/27dd8c473345d3411cee90ffea09f0341f8a1810.jpg",
+            "hidden": true,
+            "group": "Base Game",
+            "percent": "23.8"
+          },
+          "BossDefeated_Consortium": {
+            "name": "The Consortium",
+            "description": "Defeated the Consortium.",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/bb888505c0d7b62072b98405f909f546fac28cd7.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/eaf48af2ab217d9cf06be56a85b707a42e9c6b00.jpg",
+            "hidden": true,
+            "group": "Base Game",
+            "percent": "19.7"
+          },
+          "BossDefeated_Petroc": {
+            "name": "The False Moon",
+            "description": "Defeated Petroch.",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/2033fc3cf168cb04ba0199f2be1e1fb6f11dcad4.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/3456b3a0876faa5854bdea785ec77c5cfcdf832e.jpg",
+            "hidden": true,
+            "group": "Base Game",
+            "percent": "25.9"
+          },
+          "Plot_TreasurehuntStart": {
+            "name": "The Hunt Begins!",
+            "description": "Start the treasure hunt.",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/243d906f614afd85f159d4287a63ee2dfc5004d9.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/950c42c33601d8ee9429662aec7bd92be95a03b9.jpg",
+            "hidden": false,
+            "group": "Base Game",
+            "percent": "49.1"
+          },
+          "BossDefeated_PrayaDubia_Phase2": {
+            "name": "The Ocean's Agony",
+            "description": "Defeated Praya Dubia.",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/4aa348eee541210cc644554cef54c256ab6e8fec.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/fc388b67be712dcdacf97133bdf69b901ceebfb0.jpg",
+            "hidden": true,
+            "group": "Base Game",
+            "percent": "23.5"
+          },
+          "BossDefeated_Pagurus": {
+            "name": "The Ravenous",
+            "description": "Defeated Pagurus.",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/528884fe5344dd5103cf5e68efcda9569223a854.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/0123a10d713e50908c0f8a5c5e818573ddd290d9.jpg",
+            "hidden": true,
+            "group": "Base Game",
+            "percent": "34.9"
+          },
+          "Misc_ShootCrab": {
+            "name": "This Kills The Crab",
+            "description": "Shoot a crab with a gun.",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/76da4688da73ec4dd46ad89dcf9cce885e6cebc1.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/47bf46435028d60b2af0646bb94f48d45410463c.jpg",
+            "hidden": false,
+            "group": "Base Game",
+            "percent": "26.2"
+          },
+          "BossDefeated_Duchess": {
+            "name": "Tyrant of Slacktide",
+            "description": "Defeated Magista.",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/b1cf5c65878ed539d39cb051db76204b5901bfa2.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/40259cf04b35b03124c1f5ad281d7823ffbfaefa.jpg",
+            "hidden": true,
+            "group": "Base Game",
+            "percent": "55.8"
+          },
+          "BossDefeated_Roland": {
+            "name": "Venture Crabitalist",
+            "description": "Defeated Roland.",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/796a68ab7384c5d8365e23760d6628027db9e7df.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/4fb27a4daf98b852f1219841e4a5f16bec97a1a2.jpg",
+            "hidden": true,
+            "group": "Base Game",
+            "percent": "26.6"
+          },
+          "CollectLimit_Adaptations": {
+            "name": "Well Adapted",
+            "description": "Learn all adaptations. ",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/a5fbc22bfe9138fe0ff515de29bb73b9d247b82e.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/8870265b69fac9c58fd256a7d944cd567083b31c.jpg",
+            "hidden": true,
+            "group": "Base Game",
+            "percent": "13.9"
+          },
+          "Misc_HasFallenOff": {
+            "name": "You fell off",
+            "description": "Fall off a cliff.",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/944d723669ef2f696b128827c8548f085cf45778.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1887840/a454eb029b4274542dfd50faaaaf245c33c75c97.jpg",
+            "hidden": false,
+            "group": "Base Game",
+            "percent": "45.8"
+          }
+        },
+        "platform": null,
+        "blacklist": [],
+        "uses_db": false
+      },
+      "achievements": {
+        "BossDefeated_BleachedKing_Fake": {
+          "earned": true,
+          "earned_time": 1721175829
+        },
+        "BossDefeated_BleachedKing_Real": {
+          "earned": true,
+          "earned_time": 1721175936
+        },
+        "BossDefeated_Consortium": {
+          "earned": true,
+          "earned_time": 1721064864
+        },
+        "BossDefeated_Duchess": {
+          "earned": true,
+          "earned_time": 1720919832
+        },
+        "BossDefeated_Firth": {
+          "earned": true,
+          "earned_time": 1721212004
+        },
+        "BossDefeated_Heikea": {
+          "earned": true,
+          "earned_time": 1721002339
+        },
+        "BossDefeated_Inkerton": {
+          "earned": true,
+          "earned_time": 1721169468
+        },
+        "BossDefeated_Lichenthrope": {
+          "earned": true,
+          "earned_time": 1720968736
+        },
+        "BossDefeated_Nephro": {
+          "earned": true,
+          "earned_time": 1714178224
+        },
+        "BossDefeated_OilDrumBrusier": {
+          "earned": true,
+          "earned_time": 1721180632
+        },
+        "BossDefeated_Pagurus": {
+          "earned": true,
+          "earned_time": 1721064073
+        },
+        "BossDefeated_Pathfinder": {
+          "earned": true,
+          "earned_time": 1720903691
+        },
+        "BossDefeated_Petroc": {
+          "earned": true,
+          "earned_time": 1721145465
+        },
+        "BossDefeated_PrayaDubia_Phase2": {
+          "earned": true,
+          "earned_time": 1721176962
+        },
+        "BossDefeated_Roland": {
+          "earned": true,
+          "earned_time": 1721084426
+        },
+        "BossDefeated_RollerBrusier": {
+          "earned": true,
+          "earned_time": 1721057163
+        },
+        "BossDefeated_Royalsplitter": {
+          "earned": true,
+          "earned_time": 1720959982
+        },
+        "BossDefeated_Topoda": {
+          "earned": true,
+          "earned_time": 1721045777
+        },
+        "BossDefeated_TwinPistols": {
+          "earned": true,
+          "earned_time": 1721061997
+        },
+        "BossDefeated_Voltai": {
+          "earned": true,
+          "earned_time": 1721082964
+        },
+        "CollectLimit_Adaptations": {
+          "earned": true,
+          "earned_time": 1721231520
+        },
+        "CollectLimit_KnightHelmet": {
+          "earned": true,
+          "earned_time": 1721234167
+        },
+        "CollectLimit_Shells": {
+          "earned": true,
+          "earned_time": 1721271163
+        },
+        "Insurance_Started": {
+          "earned": true,
+          "earned_time": 1721010287
+        },
+        "Misc_HasFallenOff": {
+          "earned": true,
+          "earned_time": 1720902886
+        },
+        "Misc_ShootCrab": {
+          "earned": true,
+          "earned_time": 1721212947
+        },
+        "Plot_HomeShellReturned": {
+          "earned": true,
+          "earned_time": 1721212512
+        },
+        "Plot_TreasurehuntStart": {
+          "earned": true,
+          "earned_time": 1720959194
+        },
+        "SkillTreeCompleted_Crab": {
+          "earned": true,
+          "earned_time": 1721083416
+        },
+        "SkillTreeCompleted_Hermit": {
+          "earned": true,
+          "earned_time": 1721083407
+        },
+        "SkillTreeCompleted_Predator": {
+          "earned": true,
+          "earned_time": 1721067242
+        },
+        "UpgradeMax_Fork": {
+          "earned": true,
+          "earned_time": 1721233254
+        }
+      }
+    },
+    {
+      "appid": "348710",
+      "info": {
+        "appid": "348710",
+        "name": "Saint Seiya: Soldiers' Soul",
+        "icon": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/348710/header.jpg?t=1618939090",
+        "achievements": {
+          "TROPHY_UNLOCK_SPECTOR": {
+            "name": "108 Evil Stars of Inferno! Specters",
+            "description": "Unlocked all of the Specters!",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/2e9cd9bedd6b84fa70806dea941a44e72ad34d3d.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/73e5c6a4dcb9224735377d2cd41f9fccfce9ac57.jpg",
+            "hidden": false,
+            "group": "Base Game",
+            "percent": "39.2"
+          },
+          "TROPHY_COMMON_COLLECT_ASSIST_PHRASE_50PER": {
+            "name": "All Is For Friendship!",
+            "description": "Collected 50% of Assist Phrases!",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/b079fe21b9a5d42705765ec6410b02b438fe9214.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/32997721e06db969eee72c9fe740b8a20977e04e.jpg",
+            "hidden": false,
+            "group": "Base Game",
+            "percent": "7.0"
+          },
+          "TROPHY_S_RANK_1": {
+            "name": "Awakening of Cosmo!",
+            "description": "Obtained first \"S\" clear rank! (Any mode)",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/d9bc8773d5688c36cf950dbfd76c96a953e6134b.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/9e6476feefa177e45e4dba4083dee718a8073ecf.jpg",
+            "hidden": false,
+            "group": "Base Game",
+            "percent": "75.1"
+          },
+          "TROPHY_COMMON_LOSE_WITHOUT_HIT": {
+            "name": "Because You're Still Green!",
+            "description": "Lost a battle without landing a single attack!",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/c10646c1fc53d084d869b9e160323f2f09321094.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/0db481905438cebfe41ffc180f2dd42b3ac4d7cd.jpg",
+            "hidden": true,
+            "group": "Base Game",
+            "percent": "23.9"
+          },
+          "TROPHY_WARS_GOD": {
+            "name": "Blazing Battle of the Gods",
+            "description": "Completed the Galaxy War God Cup!",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/fbe07ae3924940b3183c5c0603f4f0c2eca83c3a.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/77e208fb54e734d45103b0e0b8da6e0f60c9f53e.jpg",
+            "hidden": false,
+            "group": "Base Game",
+            "percent": "6.0"
+          },
+          "TROPHY_COMMON_POINT": {
+            "name": "Buy Out The Graude Foundation!",
+            "description": "Acquired a total of 100,000 CP!",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/53220d2312aa79435fada3f13bf761149216853a.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/3e5edb4424c8422bb754b2b3499b5eb4da487824.jpg",
+            "hidden": false,
+            "group": "Base Game",
+            "percent": "41.6"
+          },
+          "TROPHY_COMMON_COLLECT_GALLERY": {
+            "name": "Complete History of the Holy Wars",
+            "description": "Completed the collection!",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/519cca449ab37e6f80ac34fe58714d64615a43e4.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/5b412cfa8a96eec8c8bce1c5baa181a753c07dbb.jpg",
+            "hidden": false,
+            "group": "Base Game",
+            "percent": "3.5"
+          },
+          "TROPHY_SURVIVAL_GOD": {
+            "name": "Cosmo Beyond Even a God",
+            "description": "Completed the God Survival Class!",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/82118364935efc0c8e6a2250f5eb6232ad6d4dc9.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/bb35bbba2e4f0a6a3adb93bf8dd5e4f2d5083d71.jpg",
+            "hidden": false,
+            "group": "Base Game",
+            "percent": "7.1"
+          },
+          "TROPHY_SURVIVAL_LEGEND": {
+            "name": "Door to a New Legend",
+            "description": "Completed the Legend Survival Class!",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/0e38f3ead50ccf6a1e4792d307b1f753966764eb.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/6d13313bce42306c970573881ae292c91abe0578.jpg",
+            "hidden": false,
+            "group": "Base Game",
+            "percent": "9.1"
+          },
+          "TROPHY_UNLOCK_BRONZE": {
+            "name": "Eternally Young! The Bronze Saints",
+            "description": "Unlocked all of the Bronze Saints!",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/442ccf1bb89bb4e9cd3205e69b740e7a6a30b713.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/4a63eaffb83e87b1430a2192d49ff5d4b63c2684.jpg",
+            "hidden": false,
+            "group": "Base Game",
+            "percent": "7.2"
+          },
+          "TROPHY_SURVIVAL_GOLD": {
+            "name": "First Among Saints",
+            "description": "Completed the Gold Survival Class!",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/3b571535148f809970a546ee236358702a787281.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/ac5b23340654a88f6c54503ea473604cc773d120.jpg",
+            "hidden": false,
+            "group": "Base Game",
+            "percent": "13.6"
+          },
+          "TROPHY_SURVIVAL_BRONZE": {
+            "name": "First Step Toward Sainthood",
+            "description": "Completed the Bronze Survival Class!",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/5b65a06be5ee3fe6f40de6d52427a2f516f97414.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/0fc0f1f9a00f9c1d88dd7d92d5e85e91b39e6d46.jpg",
+            "hidden": false,
+            "group": "Base Game",
+            "percent": "24.4"
+          },
+          "TROPHY_MISSION_1": {
+            "name": "First Trial",
+            "description": "Cleared your first challenge!",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/6c20c835c95fa0854d729d68014edef50f162cb9.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/e3f18842de9e3ec665ed52dadd8daad32d3bc845.jpg",
+            "hidden": false,
+            "group": "Base Game",
+            "percent": "76.1"
+          },
+          "TROPHY_UNLOCK_GOD_WARRIOR": {
+            "name": "Foes from the Far North! Legendary God Warriors",
+            "description": "Unlocked all of the God Warriors!",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/6f0f526c4b1d82ef668ac9ddbac4b10094f65cad.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/ec643169221df21cf4afd7d3f3b4be517655d7b4.jpg",
+            "hidden": false,
+            "group": "Base Game",
+            "percent": "45.3"
+          },
+          "TROPHY_UNLOCK_GOD": {
+            "name": "Gathering of Gods! A New Holy War",
+            "description": "Unlocked Poseidon, Thanatos, Hypnos, Athena and Hades!",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/e3427a99cc1c57c17275206e51744e559a89b3b8.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/70e32dafc5963f46162bf9c62ee30cf52733c1b6.jpg",
+            "hidden": false,
+            "group": "Base Game",
+            "percent": "16.5"
+          },
+          "TROPHY_UNLOCK_GOD_GOLD": {
+            "name": "Gold Souls Reborn",
+            "description": "All God Cloth Gold Saints have all been unlocked!",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/6f352619d0352d20c284ab9f24a645982795165c.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/fa4295eacce68d10cf9cd4fc1e3fdb0ec8954829.jpg",
+            "hidden": false,
+            "group": "Base Game",
+            "percent": "25.5"
+          },
+          "TROPHY_UNLOCK_MARINA": {
+            "name": "Guardians of the Undersea Temple! The Seven Generals",
+            "description": "Unlocked all of the Marinas!",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/d5a93fb21ffbb21540c1841e65d62f172ecae582.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/ae2076ad373e21e8d8f41d8fe1b774ebb62143fa.jpg",
+            "hidden": false,
+            "group": "Base Game",
+            "percent": "14.6"
+          },
+          "TROPHY_STORY_HADES": {
+            "name": "Hades! This is Love!",
+            "description": "Cleared the Hades arc in Legend of Cosmo!",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/da0dee71af1d970eb440ff3aa6edc0151822743c.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/729aa18477e146216406e938964469e868837d4f.jpg",
+            "hidden": false,
+            "group": "Base Game",
+            "percent": "37.5"
+          },
+          "TROPHY_UNLOCK_SILVER": {
+            "name": "Heroes of the Sanctuary! The Silver Saints",
+            "description": "Unlocked all of the Silver Saints!",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/5c9b164eed0ad1ebfdf6474862fae87598c0d64d.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/ed3c20151920bbfc395f28ffcd4ab670bf98acd5.jpg",
+            "hidden": false,
+            "group": "Base Game",
+            "percent": "9.9"
+          },
+          "TROPHY_COMMON_DEATHMASK_WIN_WITH_CRYSTALWALL_DAMAGE": {
+            "name": "I Almost Died Again!",
+            "description": "Used Deathmask (Surplice) to defeat Mu after being hit by\nhis Crystal Wall!",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/a5638e41d8ea3b2cbda4861bb0a918fdfb33bff5.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/bdb3cfe3e8a36d8c6a7288711c38e248b729b4ee.jpg",
+            "hidden": true,
+            "group": "Base Game",
+            "percent": "4.6"
+          },
+          "TROPHY_COMMON_COLLECT_ASSIST_PHRASE_100PER": {
+            "name": "I Can Hear Them All... Their Voices, Cheering Me On!",
+            "description": "Collected 100% of Assist Phrases!",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/838064326682e028fcbff28f3b4548d4b32df8b6.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/c26570b9811d627e8e1bdf936c938a369d49e6c8.jpg",
+            "hidden": false,
+            "group": "Base Game",
+            "percent": "2.6"
+          },
+          "TROPHY_COMMON_MUU_3WINS_RIVAL": {
+            "name": "I Cast You Back To The Land Of The Dead!",
+            "description": "Used Mu to defeat Deathmask (Dark Cloth) \nand Aphrodite (Dark Cloth) 3times each!",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/64a3cd9d0ad108297b0d9a7255feb35297a36f82.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/b78c14bcd7aae7dbee440a7b3f49a70972c179aa.jpg",
+            "hidden": true,
+            "group": "Base Game",
+            "percent": "4.7"
+          },
+          "TROPHY_COMMON_RHADAMANTHYS_3WINS_RIVAL": {
+            "name": "I Have No Ear For Music",
+            "description": "Used Rhadamanthys to defeat Orphee, Sorento and Mime 3 times\neach!",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/c624ea075882f16e29bf18a927ce613448da9f36.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/5940d8ef8a93108b3aa9fdf48dfac6dfe0f28f7d.jpg",
+            "hidden": true,
+            "group": "Base Game",
+            "percent": "4.5"
+          },
+          "TROPHY_COMMON_COSMIC_KO_50": {
+            "name": "I... I Won!",
+            "description": "Performed 50 Cosmic K.O.s!",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/ae9922548ed8247c35f64e4334b7d8542aad8d95.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/2712d88d971bbe44550ed9fe11682a48e1ecb7b7.jpg",
+            "hidden": false,
+            "group": "Base Game",
+            "percent": "21.5"
+          },
+          "TROPHY_STORY_ZODIAC": {
+            "name": "I'll Fight Until Someone Stops Me!",
+            "description": "Cleared the Sanctuary arc in Legend of Cosmo!",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/8b003e8c68f53ecc93770febef99a69d76dd246e.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/d1da50968ee35181aaf8b2c5e691d52d1ca4a518.jpg",
+            "hidden": false,
+            "group": "Base Game",
+            "percent": "55.7"
+          },
+          "TROPHY_MISSION_50": {
+            "name": "I'll Overcome All Trials!",
+            "description": "Cleared 50% of the challenges in Legend of Cosmo!",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/0df9048ec136965b496122072e3bafe5d28d834c.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/26c6a7300fe634c313b98e574a79dbf8e9237c09.jpg",
+            "hidden": false,
+            "group": "Base Game",
+            "percent": "35.2"
+          },
+          "TROPHY_STORY_ALL": {
+            "name": "Into a World of Light...",
+            "description": "Cleared all chapters in Legend of Cosmo to 100%!",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/ed5058b44159a0d48cdac936a34534ef0509c76c.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/db864dde644bc8d07711cd58c6707c72c3853b18.jpg",
+            "hidden": false,
+            "group": "Base Game",
+            "percent": "11.8"
+          },
+          "TROPHY_SURVIVAL_BIGBANG": {
+            "name": "Is this... a Big Bang!?",
+            "description": "Completed the Big Bang Survival Class!",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/6a658850b1112b1dc2486d02c0e6b8db5de9d2c9.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/a624c7442ad688ae28f554aa3cda708890da8038.jpg",
+            "hidden": false,
+            "group": "Base Game",
+            "percent": "6.2"
+          },
+          "TROPHY_COMMON_COLLECT_BBA": {
+            "name": "I've Already Seen All Your Attacks!",
+            "description": "Collected 100% of Big Bang Attack movies in the collection!",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/1c0bdb4ec1f1831a31e6d52eaac087bba24902ea.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/16286498b6852cfea29f9464dd3d7aedf1689ffe.jpg",
+            "hidden": false,
+            "group": "Base Game",
+            "percent": "4.0"
+          },
+          "TROPHY_COMMON_ICHI_WIN_AT_SURVIVAL": {
+            "name": "Looks Determine Victory",
+            "description": "Used Ichi to clear Survival! (Any class)",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/24ce590d7d5e4802aea741ae9ffd1418f35bb122.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/3ac82fb3ab5e160539588fb5d9bd2319c23fa3d8.jpg",
+            "hidden": true,
+            "group": "Base Game",
+            "percent": "5.0"
+          },
+          "TROPHY_WARS_BRONZE": {
+            "name": "Mach 1 Fist!",
+            "description": "Completed the Galaxy War Bronze Cup!",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/6e9caf7ab88c7446112e67566235ace6897fbcee.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/05b241b283948888030c8009ac372e8d77ffcdc4.jpg",
+            "hidden": false,
+            "group": "Base Game",
+            "percent": "15.9"
+          },
+          "TROPHY_WARS_SILVER": {
+            "name": "Mach 5 Fist!",
+            "description": "Completed the Galaxy War Silver Cup!",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/778515e696aca2552a09bca4a09637c895c9632e.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/1b674785ce34c20447e807a1a0a9ac62fbabe79f.jpg",
+            "hidden": false,
+            "group": "Base Game",
+            "percent": "10.5"
+          },
+          "TROPHY_COMMON_KAASA_DEFEAT_RIVAL": {
+            "name": "My Dear Friends...",
+            "description": "Used Kaasa to defeat Seiya, Shun, Hyoga and Ikki!",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/e60537765928ff400de7be9d39ff26c0d9f1cc72.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/99560d50d660176d6406c47c7820d653bc626c47.jpg",
+            "hidden": true,
+            "group": "Base Game",
+            "percent": "4.8"
+          },
+          "TROPHY_COMMON_JAB_WIN_AT_SURVIVAL": {
+            "name": "My Lady! I'll Carry You On My Back!",
+            "description": "Used Jabu to clear Survival! (Any class)",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/fc389165f837fa1b95847ec3e5b2f18bc24c9123.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/9122a4547edc050748acc05fea1ecfa201dc5f09.jpg",
+            "hidden": true,
+            "group": "Base Game",
+            "percent": "5.3"
+          },
+          "TROPHY_COMMON_POSEIDON_3WINS_ATHENA": {
+            "name": "Now You Shall Be My Bride",
+            "description": "Used Poseidon (Tuxedo) to defeat Athena 3 times!",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/f2c1fc19e67c64d43d7efcfc6c8af1bee42c581e.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/1d2a6226baf6c617621441e673844246dbc1f0ad.jpg",
+            "hidden": true,
+            "group": "Base Game",
+            "percent": "4.8"
+          },
+          "TROPHY_UNLOCK_GOLD": {
+            "name": "Pinnacle of the 88 Constellations! The Gold Saints",
+            "description": "Unlocked all of the Gold Saints!",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/3e06c559cdf110129244273e0c82a629d1c1b11c.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/f7af0b96744fd24aa32a308eb1dac1ee584b8ea1.jpg",
+            "hidden": false,
+            "group": "Base Game",
+            "percent": "8.3"
+          },
+          "TROPHY_STORY_ASGARD": {
+            "name": "Please Protect the Beauty of Asgard",
+            "description": "Cleared the Asgard arc in Legend of Cosmo!",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/24b5dcdc30d3e572b82af56ecc40150d6a97f3bb.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/173e9a011162cbd83a85b3f89b1e28cb7a797092.jpg",
+            "hidden": false,
+            "group": "Base Game",
+            "percent": "45.1"
+          },
+          "TROPHY_STORY_POSEIDON": {
+            "name": "Poseidon! You Lose!",
+            "description": "Cleared the Poseidon arc in Legend of Cosmo!",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/724387e5f7f73e200956e7de0c0c0d80c4802126.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/d143996fe5e7d9609146df5c65322faa400a155a.jpg",
+            "hidden": false,
+            "group": "Base Game",
+            "percent": "42.3"
+          },
+          "TROPHY_COMMON_COLLECT_TITLE": {
+            "name": "Proof of Might!",
+            "description": "Collected 80% of titles!",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/4e0300490801943ee9f3ad59ed7e9adfdb49b8bd.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/b5d1158d3f1e3db9da5a34c57027558c23f8b214.jpg",
+            "hidden": false,
+            "group": "Base Game",
+            "percent": "7.5"
+          },
+          "TROPHY_COMMON_ASSIST_PHRASE_SLOT_MAX": {
+            "name": "Proof of True Friendship",
+            "description": "Maxed out Assist Phrase slots!",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/d92d93e12c3b8dae61ee3b0b02c918db56175864.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/7e0186ed8ca6b3a2a4a89b35c85ad77ffd7e0a37.jpg",
+            "hidden": false,
+            "group": "Base Game",
+            "percent": "6.7"
+          },
+          "TROPHY_WARS_LEGEND": {
+            "name": "Proud Saint Legend",
+            "description": "Completed the Galaxy War Legend Cup!",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/5cabe869e08a60e6af3db7e712137ddc34049ad4.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/0e7bdfe34d6f7ea12d43c3f671c256f2c2264dbe.jpg",
+            "hidden": false,
+            "group": "Base Game",
+            "percent": "6.7"
+          },
+          "TROPHY_UNLOCK_GOD_BRONZE": {
+            "name": "Recipients of Athena's Blood",
+            "description": "All God Cloth Bronze Saints have all been unlocked!",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/8e6ad4b12b157eafecebd0567669a5f4394b9b73.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/4a63eaffb83e87b1430a2192d49ff5d4b63c2684.jpg",
+            "hidden": false,
+            "group": "Base Game",
+            "percent": "12.2"
+          },
+          "TROPHY_WARS_GOLD": {
+            "name": "Saint Who Defeated Lightspeed!",
+            "description": "Completed the Galaxy War Gold Cup!",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/3d281dcfd3db54d5bca26f8c802b84222a463765.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/ae4141f8088689556239d9bfee615c0c57492ed3.jpg",
+            "hidden": false,
+            "group": "Base Game",
+            "percent": "7.9"
+          },
+          "TROPHY_S_RANK_100": {
+            "name": "The Chosen Saint Child",
+            "description": "Obtained 100% of possible \"S\" clear ranks in Legend of Cosmo!",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/8922edee3016fe10c95d45d18a00b9687ea26913.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/5c61af7d55ded86c96b62b309247efef875efd13.jpg",
+            "hidden": false,
+            "group": "Base Game",
+            "percent": "14.2"
+          },
+          "TROPHY_COMMON_TUTORIAL_COMPLETE": {
+            "name": "The Knowledge of a Saint",
+            "description": "Experienced the Tutorial!",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/6384c3453865837dc547a869df2160b5b951097b.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/e90bc81abd886e63baa0b79562e706f4e0de4955.jpg",
+            "hidden": false,
+            "group": "Base Game",
+            "percent": "45.0"
+          },
+          "TROPHY_COMMON_SIEGFRIED_DEFEAT_MARINA": {
+            "name": "The Ones I Should Be Fighting...",
+            "description": "Used Siegfried to defeat all of the Marinas!",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/ce9019cd2aa61d775d5a2564adc7222664e5949e.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/3a837cc70ee955b22c612994f5ab7f758f2488d3.jpg",
+            "hidden": true,
+            "group": "Base Game",
+            "percent": "4.6"
+          },
+          "TROPHY_COMMON_BBA_30": {
+            "name": "This is the Ultimate Cosmo!",
+            "description": "Hit with a total of 30 Big Bang Attacks!",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/3b73a69fc00c56b8c3abaa95d573629efca22a5a.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/5fd4cea4e3323c92a8fc8871c2d6ef7c9e3ca5b1.jpg",
+            "hidden": false,
+            "group": "Base Game",
+            "percent": "46.2"
+          },
+          "TROPHY_COMMON_ALBERICH_DEFEAT_GOD_WARRIOR": {
+            "name": "This World Will Be Mine!",
+            "description": "Used Alberich to defeat all of the God Warriors!",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/2ba3c08a0fa6d82f866090da845aaba7591a0a31.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/3718e306a64c3e29200bf4fc30dd8b6816ed9fd6.jpg",
+            "hidden": true,
+            "group": "Base Game",
+            "percent": "4.6"
+          },
+          "TROPHY_PLATINUM": {
+            "name": "Ultimate Soldiers' Soul",
+            "description": "Acquired all Trophies!",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/52cf8daa58be8b622b3484a296abb0dad102605c.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/316df86a0a8d838b500112a6e4000b40531756dd.jpg",
+            "hidden": false,
+            "group": "Base Game",
+            "percent": "2.4"
+          },
+          "TROPHY_SURVIVAL_SILVER": {
+            "name": "Worthy of the Name Saint",
+            "description": "Completed the Silver Survival Class!",
+            "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/f0ae34f49af22ca041ae30c6edfbe99c2d8ae13b.jpg",
+            "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/5e46f4f8152c984b6bb053cbdf375ce49be20b2b.jpg",
+            "hidden": false,
+            "group": "Base Game",
+            "percent": "18.8"
+          }
+        },
+        "platform": null,
+        "blacklist": [],
+        "uses_db": false
+      },
+      "achievements": {
+        "TROPHY_COMMON_ALBERICH_DEFEAT_GOD_WARRIOR": {
+          "earned": false,
+          "earned_time": 0
+        },
+        "TROPHY_COMMON_ASSIST_PHRASE_SLOT_MAX": {
+          "earned": false,
+          "earned_time": 0
+        },
+        "TROPHY_COMMON_BBA_30": {
+          "earned": false,
+          "earned_time": 0
+        },
+        "TROPHY_COMMON_COLLECT_ASSIST_PHRASE_100PER": {
+          "earned": false,
+          "earned_time": 0
+        },
+        "TROPHY_COMMON_COLLECT_ASSIST_PHRASE_50PER": {
+          "earned": false,
+          "earned_time": 0
+        },
+        "TROPHY_COMMON_COLLECT_BBA": {
+          "earned": false,
+          "earned_time": 0
+        },
+        "TROPHY_COMMON_COLLECT_GALLERY": {
+          "earned": false,
+          "earned_time": 0
+        },
+        "TROPHY_COMMON_COLLECT_TITLE": {
+          "earned": false,
+          "earned_time": 0
+        },
+        "TROPHY_COMMON_COSMIC_KO_50": {
+          "earned": false,
+          "earned_time": 0
+        },
+        "TROPHY_COMMON_DEATHMASK_WIN_WITH_CRYSTALWALL_DAMAGE": {
+          "earned": false,
+          "earned_time": 0
+        },
+        "TROPHY_COMMON_ICHI_WIN_AT_SURVIVAL": {
+          "earned": false,
+          "earned_time": 0
+        },
+        "TROPHY_COMMON_JAB_WIN_AT_SURVIVAL": {
+          "earned": false,
+          "earned_time": 0
+        },
+        "TROPHY_COMMON_KAASA_DEFEAT_RIVAL": {
+          "earned": false,
+          "earned_time": 0
+        },
+        "TROPHY_COMMON_LOSE_WITHOUT_HIT": {
+          "earned": false,
+          "earned_time": 0
+        },
+        "TROPHY_COMMON_MUU_3WINS_RIVAL": {
+          "earned": false,
+          "earned_time": 0
+        },
+        "TROPHY_COMMON_POINT": {
+          "earned": false,
+          "earned_time": 0
+        },
+        "TROPHY_COMMON_POSEIDON_3WINS_ATHENA": {
+          "earned": false,
+          "earned_time": 0
+        },
+        "TROPHY_COMMON_RHADAMANTHYS_3WINS_RIVAL": {
+          "earned": false,
+          "earned_time": 0
+        },
+        "TROPHY_COMMON_SIEGFRIED_DEFEAT_MARINA": {
+          "earned": false,
+          "earned_time": 0
+        },
+        "TROPHY_COMMON_TUTORIAL_COMPLETE": {
+          "earned": true,
+          "earned_time": 1770416932
+        },
+        "TROPHY_MISSION_1": {
+          "earned": false,
+          "earned_time": 0
+        },
+        "TROPHY_MISSION_50": {
+          "earned": false,
+          "earned_time": 0
+        },
+        "TROPHY_PLATINUM": {
+          "earned": false,
+          "earned_time": 0
+        },
+        "TROPHY_STORY_ALL": {
+          "earned": false,
+          "earned_time": 0
+        },
+        "TROPHY_STORY_ASGARD": {
+          "earned": false,
+          "earned_time": 0
+        },
+        "TROPHY_STORY_HADES": {
+          "earned": false,
+          "earned_time": 0
+        },
+        "TROPHY_STORY_POSEIDON": {
+          "earned": false,
+          "earned_time": 0
+        },
+        "TROPHY_STORY_ZODIAC": {
+          "earned": false,
+          "earned_time": 0
+        },
+        "TROPHY_SURVIVAL_BIGBANG": {
+          "earned": false,
+          "earned_time": 0
+        },
+        "TROPHY_SURVIVAL_BRONZE": {
+          "earned": false,
+          "earned_time": 0
+        },
+        "TROPHY_SURVIVAL_GOD": {
+          "earned": false,
+          "earned_time": 0
+        },
+        "TROPHY_SURVIVAL_GOLD": {
+          "earned": false,
+          "earned_time": 0
+        },
+        "TROPHY_SURVIVAL_LEGEND": {
+          "earned": false,
+          "earned_time": 0
+        },
+        "TROPHY_SURVIVAL_SILVER": {
+          "earned": false,
+          "earned_time": 0
+        },
+        "TROPHY_S_RANK_1": {
+          "earned": false,
+          "earned_time": 0
+        },
+        "TROPHY_S_RANK_100": {
+          "earned": false,
+          "earned_time": 0
+        },
+        "TROPHY_UNLOCK_BRONZE": {
+          "earned": false,
+          "earned_time": 0
+        },
+        "TROPHY_UNLOCK_GOD": {
+          "earned": false,
+          "earned_time": 0
+        },
+        "TROPHY_UNLOCK_GOD_BRONZE": {
+          "earned": false,
+          "earned_time": 0
+        },
+        "TROPHY_UNLOCK_GOD_GOLD": {
+          "earned": false,
+          "earned_time": 0
+        },
+        "TROPHY_UNLOCK_GOD_WARRIOR": {
+          "earned": false,
+          "earned_time": 0
+        },
+        "TROPHY_UNLOCK_GOLD": {
+          "earned": false,
+          "earned_time": 0
+        },
+        "TROPHY_UNLOCK_MARINA": {
+          "earned": false,
+          "earned_time": 0
+        },
+        "TROPHY_UNLOCK_SILVER": {
+          "earned": false,
+          "earned_time": 0
+        },
+        "TROPHY_UNLOCK_SPECTOR": {
+          "earned": false,
+          "earned_time": 0
+        },
+        "TROPHY_WARS_BRONZE": {
+          "earned": false,
+          "earned_time": 0
+        },
+        "TROPHY_WARS_GOD": {
+          "earned": false,
+          "earned_time": 0
+        },
+        "TROPHY_WARS_GOLD": {
+          "earned": false,
+          "earned_time": 0
+        },
+        "TROPHY_WARS_LEGEND": {
+          "earned": false,
+          "earned_time": 0
+        },
+        "TROPHY_WARS_SILVER": {
+          "earned": false,
+          "earned_time": 0
+        }
+      }
+    }
+  ]
+}

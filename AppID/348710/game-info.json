@@ -1,0 +1,460 @@
+{
+  "appid": "348710",
+  "name": "Saint Seiya: Soldiers' Soul",
+  "icon": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/348710/header.jpg?t=1618939090",
+  "achievements": {
+    "TROPHY_UNLOCK_SPECTOR": {
+      "name": "108 Evil Stars of Inferno! Specters",
+      "description": "Unlocked all of the Specters!",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/2e9cd9bedd6b84fa70806dea941a44e72ad34d3d.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/73e5c6a4dcb9224735377d2cd41f9fccfce9ac57.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "39.2"
+    },
+    "TROPHY_COMMON_COLLECT_ASSIST_PHRASE_50PER": {
+      "name": "All Is For Friendship!",
+      "description": "Collected 50% of Assist Phrases!",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/b079fe21b9a5d42705765ec6410b02b438fe9214.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/32997721e06db969eee72c9fe740b8a20977e04e.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "7.0"
+    },
+    "TROPHY_S_RANK_1": {
+      "name": "Awakening of Cosmo!",
+      "description": "Obtained first \"S\" clear rank! (Any mode)",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/d9bc8773d5688c36cf950dbfd76c96a953e6134b.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/9e6476feefa177e45e4dba4083dee718a8073ecf.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "75.1"
+    },
+    "TROPHY_COMMON_LOSE_WITHOUT_HIT": {
+      "name": "Because You're Still Green!",
+      "description": "Lost a battle without landing a single attack!",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/c10646c1fc53d084d869b9e160323f2f09321094.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/0db481905438cebfe41ffc180f2dd42b3ac4d7cd.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "23.9"
+    },
+    "TROPHY_WARS_GOD": {
+      "name": "Blazing Battle of the Gods",
+      "description": "Completed the Galaxy War God Cup!",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/fbe07ae3924940b3183c5c0603f4f0c2eca83c3a.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/77e208fb54e734d45103b0e0b8da6e0f60c9f53e.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "6.0"
+    },
+    "TROPHY_COMMON_POINT": {
+      "name": "Buy Out The Graude Foundation!",
+      "description": "Acquired a total of 100,000 CP!",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/53220d2312aa79435fada3f13bf761149216853a.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/3e5edb4424c8422bb754b2b3499b5eb4da487824.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "41.6"
+    },
+    "TROPHY_COMMON_COLLECT_GALLERY": {
+      "name": "Complete History of the Holy Wars",
+      "description": "Completed the collection!",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/519cca449ab37e6f80ac34fe58714d64615a43e4.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/5b412cfa8a96eec8c8bce1c5baa181a753c07dbb.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "3.5"
+    },
+    "TROPHY_SURVIVAL_GOD": {
+      "name": "Cosmo Beyond Even a God",
+      "description": "Completed the God Survival Class!",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/82118364935efc0c8e6a2250f5eb6232ad6d4dc9.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/bb35bbba2e4f0a6a3adb93bf8dd5e4f2d5083d71.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "7.1"
+    },
+    "TROPHY_SURVIVAL_LEGEND": {
+      "name": "Door to a New Legend",
+      "description": "Completed the Legend Survival Class!",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/0e38f3ead50ccf6a1e4792d307b1f753966764eb.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/6d13313bce42306c970573881ae292c91abe0578.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "9.1"
+    },
+    "TROPHY_UNLOCK_BRONZE": {
+      "name": "Eternally Young! The Bronze Saints",
+      "description": "Unlocked all of the Bronze Saints!",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/442ccf1bb89bb4e9cd3205e69b740e7a6a30b713.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/4a63eaffb83e87b1430a2192d49ff5d4b63c2684.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "7.2"
+    },
+    "TROPHY_SURVIVAL_GOLD": {
+      "name": "First Among Saints",
+      "description": "Completed the Gold Survival Class!",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/3b571535148f809970a546ee236358702a787281.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/ac5b23340654a88f6c54503ea473604cc773d120.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "13.6"
+    },
+    "TROPHY_SURVIVAL_BRONZE": {
+      "name": "First Step Toward Sainthood",
+      "description": "Completed the Bronze Survival Class!",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/5b65a06be5ee3fe6f40de6d52427a2f516f97414.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/0fc0f1f9a00f9c1d88dd7d92d5e85e91b39e6d46.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "24.4"
+    },
+    "TROPHY_MISSION_1": {
+      "name": "First Trial",
+      "description": "Cleared your first challenge!",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/6c20c835c95fa0854d729d68014edef50f162cb9.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/e3f18842de9e3ec665ed52dadd8daad32d3bc845.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "76.1"
+    },
+    "TROPHY_UNLOCK_GOD_WARRIOR": {
+      "name": "Foes from the Far North! Legendary God Warriors",
+      "description": "Unlocked all of the God Warriors!",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/6f0f526c4b1d82ef668ac9ddbac4b10094f65cad.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/ec643169221df21cf4afd7d3f3b4be517655d7b4.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "45.3"
+    },
+    "TROPHY_UNLOCK_GOD": {
+      "name": "Gathering of Gods! A New Holy War",
+      "description": "Unlocked Poseidon, Thanatos, Hypnos, Athena and Hades!",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/e3427a99cc1c57c17275206e51744e559a89b3b8.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/70e32dafc5963f46162bf9c62ee30cf52733c1b6.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "16.5"
+    },
+    "TROPHY_UNLOCK_GOD_GOLD": {
+      "name": "Gold Souls Reborn",
+      "description": "All God Cloth Gold Saints have all been unlocked!",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/6f352619d0352d20c284ab9f24a645982795165c.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/fa4295eacce68d10cf9cd4fc1e3fdb0ec8954829.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "25.5"
+    },
+    "TROPHY_UNLOCK_MARINA": {
+      "name": "Guardians of the Undersea Temple! The Seven Generals",
+      "description": "Unlocked all of the Marinas!",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/d5a93fb21ffbb21540c1841e65d62f172ecae582.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/ae2076ad373e21e8d8f41d8fe1b774ebb62143fa.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "14.6"
+    },
+    "TROPHY_STORY_HADES": {
+      "name": "Hades! This is Love!",
+      "description": "Cleared the Hades arc in Legend of Cosmo!",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/da0dee71af1d970eb440ff3aa6edc0151822743c.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/729aa18477e146216406e938964469e868837d4f.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "37.5"
+    },
+    "TROPHY_UNLOCK_SILVER": {
+      "name": "Heroes of the Sanctuary! The Silver Saints",
+      "description": "Unlocked all of the Silver Saints!",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/5c9b164eed0ad1ebfdf6474862fae87598c0d64d.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/ed3c20151920bbfc395f28ffcd4ab670bf98acd5.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "9.9"
+    },
+    "TROPHY_COMMON_DEATHMASK_WIN_WITH_CRYSTALWALL_DAMAGE": {
+      "name": "I Almost Died Again!",
+      "description": "Used Deathmask (Surplice) to defeat Mu after being hit by\nhis Crystal Wall!",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/a5638e41d8ea3b2cbda4861bb0a918fdfb33bff5.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/bdb3cfe3e8a36d8c6a7288711c38e248b729b4ee.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "4.6"
+    },
+    "TROPHY_COMMON_COLLECT_ASSIST_PHRASE_100PER": {
+      "name": "I Can Hear Them All... Their Voices, Cheering Me On!",
+      "description": "Collected 100% of Assist Phrases!",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/838064326682e028fcbff28f3b4548d4b32df8b6.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/c26570b9811d627e8e1bdf936c938a369d49e6c8.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "2.6"
+    },
+    "TROPHY_COMMON_MUU_3WINS_RIVAL": {
+      "name": "I Cast You Back To The Land Of The Dead!",
+      "description": "Used Mu to defeat Deathmask (Dark Cloth) \nand Aphrodite (Dark Cloth) 3times each!",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/64a3cd9d0ad108297b0d9a7255feb35297a36f82.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/b78c14bcd7aae7dbee440a7b3f49a70972c179aa.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "4.7"
+    },
+    "TROPHY_COMMON_RHADAMANTHYS_3WINS_RIVAL": {
+      "name": "I Have No Ear For Music",
+      "description": "Used Rhadamanthys to defeat Orphee, Sorento and Mime 3 times\neach!",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/c624ea075882f16e29bf18a927ce613448da9f36.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/5940d8ef8a93108b3aa9fdf48dfac6dfe0f28f7d.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "4.5"
+    },
+    "TROPHY_COMMON_COSMIC_KO_50": {
+      "name": "I... I Won!",
+      "description": "Performed 50 Cosmic K.O.s!",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/ae9922548ed8247c35f64e4334b7d8542aad8d95.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/2712d88d971bbe44550ed9fe11682a48e1ecb7b7.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "21.5"
+    },
+    "TROPHY_STORY_ZODIAC": {
+      "name": "I'll Fight Until Someone Stops Me!",
+      "description": "Cleared the Sanctuary arc in Legend of Cosmo!",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/8b003e8c68f53ecc93770febef99a69d76dd246e.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/d1da50968ee35181aaf8b2c5e691d52d1ca4a518.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "55.7"
+    },
+    "TROPHY_MISSION_50": {
+      "name": "I'll Overcome All Trials!",
+      "description": "Cleared 50% of the challenges in Legend of Cosmo!",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/0df9048ec136965b496122072e3bafe5d28d834c.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/26c6a7300fe634c313b98e574a79dbf8e9237c09.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "35.2"
+    },
+    "TROPHY_STORY_ALL": {
+      "name": "Into a World of Light...",
+      "description": "Cleared all chapters in Legend of Cosmo to 100%!",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/ed5058b44159a0d48cdac936a34534ef0509c76c.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/db864dde644bc8d07711cd58c6707c72c3853b18.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "11.8"
+    },
+    "TROPHY_SURVIVAL_BIGBANG": {
+      "name": "Is this... a Big Bang!?",
+      "description": "Completed the Big Bang Survival Class!",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/6a658850b1112b1dc2486d02c0e6b8db5de9d2c9.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/a624c7442ad688ae28f554aa3cda708890da8038.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "6.2"
+    },
+    "TROPHY_COMMON_COLLECT_BBA": {
+      "name": "I've Already Seen All Your Attacks!",
+      "description": "Collected 100% of Big Bang Attack movies in the collection!",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/1c0bdb4ec1f1831a31e6d52eaac087bba24902ea.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/16286498b6852cfea29f9464dd3d7aedf1689ffe.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "4.0"
+    },
+    "TROPHY_COMMON_ICHI_WIN_AT_SURVIVAL": {
+      "name": "Looks Determine Victory",
+      "description": "Used Ichi to clear Survival! (Any class)",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/24ce590d7d5e4802aea741ae9ffd1418f35bb122.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/3ac82fb3ab5e160539588fb5d9bd2319c23fa3d8.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "5.0"
+    },
+    "TROPHY_WARS_BRONZE": {
+      "name": "Mach 1 Fist!",
+      "description": "Completed the Galaxy War Bronze Cup!",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/6e9caf7ab88c7446112e67566235ace6897fbcee.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/05b241b283948888030c8009ac372e8d77ffcdc4.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "15.9"
+    },
+    "TROPHY_WARS_SILVER": {
+      "name": "Mach 5 Fist!",
+      "description": "Completed the Galaxy War Silver Cup!",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/778515e696aca2552a09bca4a09637c895c9632e.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/1b674785ce34c20447e807a1a0a9ac62fbabe79f.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "10.5"
+    },
+    "TROPHY_COMMON_KAASA_DEFEAT_RIVAL": {
+      "name": "My Dear Friends...",
+      "description": "Used Kaasa to defeat Seiya, Shun, Hyoga and Ikki!",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/e60537765928ff400de7be9d39ff26c0d9f1cc72.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/99560d50d660176d6406c47c7820d653bc626c47.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "4.8"
+    },
+    "TROPHY_COMMON_JAB_WIN_AT_SURVIVAL": {
+      "name": "My Lady! I'll Carry You On My Back!",
+      "description": "Used Jabu to clear Survival! (Any class)",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/fc389165f837fa1b95847ec3e5b2f18bc24c9123.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/9122a4547edc050748acc05fea1ecfa201dc5f09.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "5.3"
+    },
+    "TROPHY_COMMON_POSEIDON_3WINS_ATHENA": {
+      "name": "Now You Shall Be My Bride",
+      "description": "Used Poseidon (Tuxedo) to defeat Athena 3 times!",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/f2c1fc19e67c64d43d7efcfc6c8af1bee42c581e.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/1d2a6226baf6c617621441e673844246dbc1f0ad.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "4.8"
+    },
+    "TROPHY_UNLOCK_GOLD": {
+      "name": "Pinnacle of the 88 Constellations! The Gold Saints",
+      "description": "Unlocked all of the Gold Saints!",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/3e06c559cdf110129244273e0c82a629d1c1b11c.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/f7af0b96744fd24aa32a308eb1dac1ee584b8ea1.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "8.3"
+    },
+    "TROPHY_STORY_ASGARD": {
+      "name": "Please Protect the Beauty of Asgard",
+      "description": "Cleared the Asgard arc in Legend of Cosmo!",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/24b5dcdc30d3e572b82af56ecc40150d6a97f3bb.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/173e9a011162cbd83a85b3f89b1e28cb7a797092.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "45.1"
+    },
+    "TROPHY_STORY_POSEIDON": {
+      "name": "Poseidon! You Lose!",
+      "description": "Cleared the Poseidon arc in Legend of Cosmo!",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/724387e5f7f73e200956e7de0c0c0d80c4802126.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/d143996fe5e7d9609146df5c65322faa400a155a.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "42.3"
+    },
+    "TROPHY_COMMON_COLLECT_TITLE": {
+      "name": "Proof of Might!",
+      "description": "Collected 80% of titles!",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/4e0300490801943ee9f3ad59ed7e9adfdb49b8bd.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/b5d1158d3f1e3db9da5a34c57027558c23f8b214.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "7.5"
+    },
+    "TROPHY_COMMON_ASSIST_PHRASE_SLOT_MAX": {
+      "name": "Proof of True Friendship",
+      "description": "Maxed out Assist Phrase slots!",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/d92d93e12c3b8dae61ee3b0b02c918db56175864.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/7e0186ed8ca6b3a2a4a89b35c85ad77ffd7e0a37.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "6.7"
+    },
+    "TROPHY_WARS_LEGEND": {
+      "name": "Proud Saint Legend",
+      "description": "Completed the Galaxy War Legend Cup!",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/5cabe869e08a60e6af3db7e712137ddc34049ad4.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/0e7bdfe34d6f7ea12d43c3f671c256f2c2264dbe.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "6.7"
+    },
+    "TROPHY_UNLOCK_GOD_BRONZE": {
+      "name": "Recipients of Athena's Blood",
+      "description": "All God Cloth Bronze Saints have all been unlocked!",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/8e6ad4b12b157eafecebd0567669a5f4394b9b73.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/4a63eaffb83e87b1430a2192d49ff5d4b63c2684.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "12.2"
+    },
+    "TROPHY_WARS_GOLD": {
+      "name": "Saint Who Defeated Lightspeed!",
+      "description": "Completed the Galaxy War Gold Cup!",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/3d281dcfd3db54d5bca26f8c802b84222a463765.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/ae4141f8088689556239d9bfee615c0c57492ed3.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "7.9"
+    },
+    "TROPHY_S_RANK_100": {
+      "name": "The Chosen Saint Child",
+      "description": "Obtained 100% of possible \"S\" clear ranks in Legend of Cosmo!",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/8922edee3016fe10c95d45d18a00b9687ea26913.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/5c61af7d55ded86c96b62b309247efef875efd13.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "14.2"
+    },
+    "TROPHY_COMMON_TUTORIAL_COMPLETE": {
+      "name": "The Knowledge of a Saint",
+      "description": "Experienced the Tutorial!",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/6384c3453865837dc547a869df2160b5b951097b.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/e90bc81abd886e63baa0b79562e706f4e0de4955.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "45.0"
+    },
+    "TROPHY_COMMON_SIEGFRIED_DEFEAT_MARINA": {
+      "name": "The Ones I Should Be Fighting...",
+      "description": "Used Siegfried to defeat all of the Marinas!",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/ce9019cd2aa61d775d5a2564adc7222664e5949e.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/3a837cc70ee955b22c612994f5ab7f758f2488d3.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "4.6"
+    },
+    "TROPHY_COMMON_BBA_30": {
+      "name": "This is the Ultimate Cosmo!",
+      "description": "Hit with a total of 30 Big Bang Attacks!",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/3b73a69fc00c56b8c3abaa95d573629efca22a5a.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/5fd4cea4e3323c92a8fc8871c2d6ef7c9e3ca5b1.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "46.2"
+    },
+    "TROPHY_COMMON_ALBERICH_DEFEAT_GOD_WARRIOR": {
+      "name": "This World Will Be Mine!",
+      "description": "Used Alberich to defeat all of the God Warriors!",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/2ba3c08a0fa6d82f866090da845aaba7591a0a31.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/3718e306a64c3e29200bf4fc30dd8b6816ed9fd6.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "4.6"
+    },
+    "TROPHY_PLATINUM": {
+      "name": "Ultimate Soldiers' Soul",
+      "description": "Acquired all Trophies!",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/52cf8daa58be8b622b3484a296abb0dad102605c.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/316df86a0a8d838b500112a6e4000b40531756dd.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "2.4"
+    },
+    "TROPHY_SURVIVAL_SILVER": {
+      "name": "Worthy of the Name Saint",
+      "description": "Completed the Silver Survival Class!",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/f0ae34f49af22ca041ae30c6edfbe99c2d8ae13b.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/348710/5e46f4f8152c984b6bb053cbdf375ce49be20b2b.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "18.8"
+    }
+  },
+  "platform": null,
+  "blacklist": [],
+  "uses_db": false
+}
