@@ -1,0 +1,370 @@
+{
+  "appid": "1934570",
+  "name": "South of Midnight",
+  "icon": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1934570/header.jpg?t=1744907120",
+  "achievements": {
+    "Story_Chapter7": {
+      "name": "A Barman is Hard to Find",
+      "description": "Complete Chapter 7",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/113e0b746db89c10c9a1b12da3b5ab6b07bb5523.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/901a76b698c439c83ed9e96f1f75fa072d3c5997.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "45.3"
+    },
+    "Story_Chapter3": {
+      "name": "A Big Fish",
+      "description": "Complete Chapter 3",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/1f75468ade198dce0104c43db107e72585433640.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/901a76b698c439c83ed9e96f1f75fa072d3c5997.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "67.5"
+    },
+    "Exploration_TinFlipAll": {
+      "name": "A Great Southern Tradition",
+      "description": "Find all tin flips",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/b4f4f81859fc3c90da0cdc55dc43f69944886d60.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/901a76b698c439c83ed9e96f1f75fa072d3c5997.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "1.6"
+    },
+    "Exploration_HealthFilamentOne": {
+      "name": "A Little Goes a Long Way",
+      "description": "Collect a Health Filament",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/d2bbd8ccdedf24bec614652af47172cee3379c0c.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/901a76b698c439c83ed9e96f1f75fa072d3c5997.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "77.0"
+    },
+    "Upgrade_WeaveTree": {
+      "name": "A Living Loom",
+      "description": "Fully upgrade Weave",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/0cae729ecc41062917c7a221fd51e8f921d686f8.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/901a76b698c439c83ed9e96f1f75fa072d3c5997.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "22.8"
+    },
+    "Boss_RougarouNoDamage": {
+      "name": "An Owl for an Owl",
+      "description": "Defeat the Rougarou encounter without taking damage",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/75341acafa14ae0691f5d6b9db9cc89f46120ebe.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/901a76b698c439c83ed9e96f1f75fa072d3c5997.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "2.1"
+    },
+    "Boss_HugginMollyNoDamage": {
+      "name": "Arachnophilia",
+      "description": "Defeat the Huggin' Molly encounter without taking damage",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/e5ec1c107f020f4291d65b533237685d2e582468.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/901a76b698c439c83ed9e96f1f75fa072d3c5997.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "1.9"
+    },
+    "Boss_HugginMolly": {
+      "name": "Arachnophobia",
+      "description": "Defeat Huggin' Molly",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/f309cdde7bd322ee88e1a269a0043065becf19c7.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/901a76b698c439c83ed9e96f1f75fa072d3c5997.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "41.4"
+    },
+    "Combat_LarvaExplosion": {
+      "name": "Cicada Tempest",
+      "description": "Unravel Haints after defeating them by throwing Larva Haints into them",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/01db5c0995b3685d279e4c6316aa3b0e010bfa97.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/901a76b698c439c83ed9e96f1f75fa072d3c5997.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "3.9"
+    },
+    "Combat_NoMelee": {
+      "name": "Clean Hands",
+      "description": "Unravel Haints after defeating them without using attacks",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/a84b054c16e8b96d33efd2a532c225bc7ead02fe.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/901a76b698c439c83ed9e96f1f75fa072d3c5997.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "42.9"
+    },
+    "Combat_LowHealthPerfectDodge": {
+      "name": "Close Call",
+      "description": "Use Perfect Dodge while having low health",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/2c8ad5880829481fb8f835c32ae726c1f1b42220.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/901a76b698c439c83ed9e96f1f75fa072d3c5997.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "22.3"
+    },
+    "Upgrade_CroutonTree": {
+      "name": "Crouton of Joy",
+      "description": "Fully upgrade Crouton",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/f01f574a72f97550fb0a095501a5196dd78ad805.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/901a76b698c439c83ed9e96f1f75fa072d3c5997.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "20.6"
+    },
+    "Story_Chapter5": {
+      "name": "Everything that Rises",
+      "description": "Complete Chapter 5",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/6f7d48d07bb1edb2b7902b46028891dac9d9c737.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/901a76b698c439c83ed9e96f1f75fa072d3c5997.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "54.2"
+    },
+    "Exploration_TinFlipOne": {
+      "name": "Finder's Keepers",
+      "description": "Perform a tin flip",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/0d7179271681d14fa53eeb11567828fda0646b2d.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/901a76b698c439c83ed9e96f1f75fa072d3c5997.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "77.6"
+    },
+    "Exploration_HealthFilamentAll": {
+      "name": "Fit as a Fiddle",
+      "description": "Fully upgrade Hazel's Health",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/8e7069d4d60d1391fcfaa95e0dc1f322c14e79cd.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/901a76b698c439c83ed9e96f1f75fa072d3c5997.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "7.9"
+    },
+    "Exploration_FloofAll": {
+      "name": "Floof Seeker",
+      "description": "Find all Floofs",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/d320e1e7993b512e1b513fe269ac8c27241085a5.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/901a76b698c439c83ed9e96f1f75fa072d3c5997.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "1.4"
+    },
+    "Boss_TwoToedTomNoDamage": {
+      "name": "Gator Master",
+      "description": "Defeat the Two-Toed Tom encounter without taking damage",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/1ac7987babb943edb034096b575bd947ebe9040d.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/901a76b698c439c83ed9e96f1f75fa072d3c5997.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "2.6"
+    },
+    "Boss_TwoToedTom": {
+      "name": "Gator Tamer",
+      "description": "Defeat Two-Toed Tom",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/951b58f819c4eb7c78154f99d3117266dda689c8.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/901a76b698c439c83ed9e96f1f75fa072d3c5997.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "53.8"
+    },
+    "Upgrade_PullTree": {
+      "name": "Get Over Here",
+      "description": "Fully upgrade Strand Pull",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/cd7e830a8b9e7a9443d0bb15e9f7ad1ccbd92665.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/901a76b698c439c83ed9e96f1f75fa072d3c5997.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "14.0"
+    },
+    "Combat_ChargedAttack": {
+      "name": "Going the Distance",
+      "description": "Unravel Haints after defeating them with the Amplified Rend",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/b0c2a0b3418d30b054341088db00b67592f3f512.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/901a76b698c439c83ed9e96f1f75fa072d3c5997.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "4.0"
+    },
+    "Story_Chapter6": {
+      "name": "Hush, Hush, Sweet Cherie ",
+      "description": "Complete Chapter 6",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/1d70dcc1837b547004544757a1c8c42623913157.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/901a76b698c439c83ed9e96f1f75fa072d3c5997.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "49.1"
+    },
+    "Combat_PerfectDodge": {
+      "name": "In the Nick of Time",
+      "description": "Perform Perfect Dodges",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/111ebf50afec2ebd769ab731859a5ee601906887.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/901a76b698c439c83ed9e96f1f75fa072d3c5997.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "74.1"
+    },
+    "Upgrade_PushTree": {
+      "name": "Just a Nudge",
+      "description": "Fully upgrade Strand Push",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/49fc9f51331b79308fbe74f4e85d86e4237fd61c.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/901a76b698c439c83ed9e96f1f75fa072d3c5997.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "15.6"
+    },
+    "Upgrade_First": {
+      "name": "Learning the Ropes",
+      "description": "Unlock an upgrade",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/a8eac4f4e44d8a2b40adc4e19ca69e006788e8bb.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/901a76b698c439c83ed9e96f1f75fa072d3c5997.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "85.7"
+    },
+    "Story_Chapter10": {
+      "name": "Light in the Darkness",
+      "description": "Complete Chapter 10",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/a89a83076bb05b7d50434b67f19ea5793390340a.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/901a76b698c439c83ed9e96f1f75fa072d3c5997.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "40.4"
+    },
+    "Exploration_ReadableAll": {
+      "name": "Lore Master",
+      "description": "Find all Readables",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/b7b6b35da047a842299f2d01c05e750b3b191359.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/901a76b698c439c83ed9e96f1f75fa072d3c5997.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "1.8"
+    },
+    "Upgrade_GeneralTree": {
+      "name": "Mastering the Ropes",
+      "description": "Fully upgrade General",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/22eb93289b001452137e236d4d529009a7e00e69.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/901a76b698c439c83ed9e96f1f75fa072d3c5997.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "27.9"
+    },
+    "Story_Chapter11": {
+      "name": "Muddy Waters",
+      "description": "Complete Chapter 11",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/8867530c2a1707a7d961aa4e5c955b07f636597c.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/901a76b698c439c83ed9e96f1f75fa072d3c5997.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "39.1"
+    },
+    "Story_Chapter1": {
+      "name": "Night of the Flood",
+      "description": "Complete Chapter 1",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/52e6f049b1a023fa8409c255e9a9e0bcdeca8a05.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/901a76b698c439c83ed9e96f1f75fa072d3c5997.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "91.0"
+    },
+    "Story_Chapter9": {
+      "name": "Of Webs and Woman",
+      "description": "Complete Chapter 9",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/6391b69a48023756ba7ccd9092373a07c3e703fa.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/901a76b698c439c83ed9e96f1f75fa072d3c5997.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "41.9"
+    },
+    "Story_Chapter2": {
+      "name": "Other Voices, Other Looms",
+      "description": "Complete Chapter 2",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/d6ba92185d03061ea8fd9037eb720b018b7acffb.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/901a76b698c439c83ed9e96f1f75fa072d3c5997.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "81.6"
+    },
+    "Boss_Rougarou": {
+      "name": "Owl Do You Do",
+      "description": "Defeat the Rougarou",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/b6e9276e3d3a7918772fd8acc87b1139e7f96fbe.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/901a76b698c439c83ed9e96f1f75fa072d3c5997.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "44.6"
+    },
+    "Story_Chapter13": {
+      "name": "Past Ain't Past",
+      "description": "Complete Chapter 13",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/9133315675891b64914b66353ac0f010a6cdb449.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/901a76b698c439c83ed9e96f1f75fa072d3c5997.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "37.4"
+    },
+    "Story_FullGame": {
+      "name": "Stroke of Midnight",
+      "description": "Complete the game",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/f8938a5e2a39b577c59fb61208f58b5f979878d0.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/901a76b698c439c83ed9e96f1f75fa072d3c5997.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "37.2"
+    },
+    "Combat_JumpAttack": {
+      "name": "Taking the High Road",
+      "description": "Interrupt Haint attacks with the Aerial Rend",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/54a6548fef27370b3c87857bbc7ca193f229d7c5.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/901a76b698c439c83ed9e96f1f75fa072d3c5997.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "35.8"
+    },
+    "Story_Chapter12": {
+      "name": "The Crossroads",
+      "description": "Complete Chapter 12",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/db1fe32f798e6aff65ccf417d012abfd7eeabb7a.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/901a76b698c439c83ed9e96f1f75fa072d3c5997.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "38.0"
+    },
+    "Story_Chapter8": {
+      "name": "Their Eyes Were Watching",
+      "description": "Complete Chapter 8",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/be0d2c63e0851ae5cbb6f31d79253edd02125ba1.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/901a76b698c439c83ed9e96f1f75fa072d3c5997.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "43.8"
+    },
+    "Combat_UltimateMultiKill": {
+      "name": "Took 'em Down a Peg",
+      "description": "Defeat multiple Haints with the Cleansing Rend",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/3aee3264ba957f00ebb85d3bd281e677f875c6c5.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/901a76b698c439c83ed9e96f1f75fa072d3c5997.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "8.1"
+    },
+    "Combat_UnravelHaint": {
+      "name": "Unraveller",
+      "description": "Unravel a Haint",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/5c21789b27fc661411932911c5998193942c1d83.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/901a76b698c439c83ed9e96f1f75fa072d3c5997.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "88.6"
+    },
+    "Story_Chapter4": {
+      "name": "Wicked Temper",
+      "description": "Complete Chapter 4",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/0f53c569173a4dbf59e9fc38b9499db56fc1abc0.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/901a76b698c439c83ed9e96f1f75fa072d3c5997.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "62.1"
+    }
+  },
+  "platform": null,
+  "blacklist": [],
+  "uses_db": false
+}

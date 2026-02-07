@@ -424,7 +424,7 @@
       "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2215430/3814375b60ac37289410d28bea3ef06debaa2f99.jpg",
       "hidden": true,
       "group": "Base Game",
-      "percent": "22.1"
+      "percent": "22.2"
     },
     "_autoGenTrophy_0022": {
       "name": "Open for Business",
@@ -541,7 +541,7 @@
       "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2215430/c1eeb10569048e83566e2f77a8520b31a03571ed.jpg",
       "hidden": false,
       "group": "Update 4",
-      "percent": "25.5"
+      "percent": "25.6"
     },
     "_autoGenTrophy_0063": {
       "name": "The Butcher Redeemed",

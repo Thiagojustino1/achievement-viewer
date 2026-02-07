@@ -1,0 +1,172 @@
+{
+  "appid": "1709350",
+  "name": "Bat Boy",
+  "icon": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1709350/header.jpg?t=1751604309",
+  "achievements": {
+    "ACH_A_TASTE_FOR_MUSIC": {
+      "name": "A Taste For Music",
+      "description": "Play a song in the Groovy House.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1709350/d9635a12100a6821f76f093f94dbe97b3c3bf806.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1709350/e5da30d08d64bdd15e1adbe422d73306b4a5ffc7.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "47.5"
+    },
+    "ACH_ANIMAL_LOVER": {
+      "name": "Animal Lover",
+      "description": "Find and rescue all pets.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1709350/065905cf025f2d7c69f7f5a75c844d48da603ce2.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1709350/b64cd305e9f10de80095f75cd67b99b5d5c7b39a.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "16.2"
+    },
+    "ACH_CHEERS": {
+      "name": "Cheers!",
+      "description": "Give Boarman all three ingredients to prepare drinks.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1709350/942b176c5ee82d1c63a2a7949a54b33e17e2389c.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1709350/73248008ca4f82a1703a2382c701026ecb52198a.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "27.4"
+    },
+    "ACH_CRYSTALS_LIKE_PELLETS": {
+      "name": "Crystals Like Pellets",
+      "description": "This room looks familar... It needs more ghosts...",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1709350/ef3ff56c118e50f4117c74b02593ac2545fd9239.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1709350/1c2654035191f8603311ebeddd4fa60eb708ba03.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "29.8"
+    },
+    "ACH_EVERYONE_IS_HERE": {
+      "name": "Everyone is Here!",
+      "description": "All your friends are in the Groovy House.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1709350/0f69d0b8fa1eb3bb608f1c12e00c5204a7fde32b.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1709350/56a3c8e8e6fb1df3c45bea26003091b299dbb3f0.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "33.4"
+    },
+    "ACH_EXPERT_BATTER": {
+      "name": "Expert Batter",
+      "description": "Deflect 100 projectiles.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1709350/f14419d7477e3ab997e300495765a8ea6b2beb4d.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1709350/f6a092161aeaea95f74c50c38a7644b9941d55d4.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "64.1"
+    },
+    "ACH_INFORMED_BUYER": {
+      "name": "Informed Buyer",
+      "description": "Buy an item.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1709350/dc05166b8f3fa7401d5a27e2611894d7d4222f0b.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1709350/bc3aa4d43161d864b80fd2ddf1407ec932fcca30.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "70.8"
+    },
+    "ACH_KIND_SOUL": {
+      "name": "Kind Soul",
+      "description": "Find and rescue a pet.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1709350/40c02d7a53e9f17cd8fe488be586a3090ec78ab1.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1709350/3a698f2a22412df0e10d56b56287d29a06885a9f.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "59.2"
+    },
+    "ACH_LIBERATED_STRATOSS": {
+      "name": "Liberated Stratoss",
+      "description": "Defeat Vicious Maximus.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1709350/4019ed59f6a3b96d6781cf39f190a5bad0a99653.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1709350/5cd47932358bddefb33b49c4743b4ebeb96f12bc.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "31.8"
+    },
+    "ACH_MELOMANIAC": {
+      "name": "Melomaniac",
+      "description": "Collect all Cassettes.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1709350/1ddbad69adb7d9e32f40e5d5eea52eb24746e664.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1709350/2e04851adaa6721ce9901c92d03d26ae6e7f8aa9.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "14.1"
+    },
+    "ACH_OPEN_FOR_BUSINESS": {
+      "name": "Open for Business",
+      "description": "Give Boarman an ingredient to prepare a drink.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1709350/96abc8a442a752978b84e4b928b43505e8ee6819.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1709350/7eb48a8dd7e1772d0516cae4942089399cf47bff.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "35.7"
+    },
+    "ACH_OUT_OF_THE_PARK": {
+      "name": "Out of the Park!",
+      "description": "Score 5 Homeruns.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1709350/ff085aa9e3493526867d87091376972dde7abdcd.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1709350/ede39d38f4a0ad24aa7b926166f293d17f93df02.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "31.1"
+    },
+    "ACH_RICH": {
+      "name": "Rich",
+      "description": "Collect 999 Crystals.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1709350/b8c65b52bd7dff4153affc0e5ef77bfae011f719.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1709350/f2973b859ab855e14e0bf6ffd8fce905c0f3f42e.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "17.6"
+    },
+    "ACH_SEED_FROM_A_STRANGER": {
+      "name": "Seed from a Stranger",
+      "description": "Buy a Golden Seed.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1709350/11db9cd9d671e2607311120ccfa5319edeb700b7.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1709350/7cbddaef13bec1520c06b230a988fa857b63edd3.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "66.1"
+    },
+    "ACH_SEED_LOVER": {
+      "name": "Seed Lover",
+      "description": "Collect every single seed.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1709350/c8e9a997689bec9af3eba55050e308cba36c9093.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1709350/9af8672bf1e453092a412a55ab00f573a113be06.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "12.7"
+    },
+    "ACH_STRIKE_ONE": {
+      "name": "Strike One",
+      "description": "Defeat Azaros.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1709350/4d3d37871f5553f8fdf740e9b9c61d46304ebb18.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1709350/f266de5c5ba8956ffafc6a8f12f0abc64550fd3d.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "84.7"
+    },
+    "ACH_STRIKE_THREE": {
+      "name": "Strike Three",
+      "description": "Defeat Azaros for the third time.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1709350/eb490fa6f9b4bee0c8f66fcb72ffe593758dacaa.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1709350/30ad46fe6cd922b2c28d28b58d05dff3a78e12fb.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "32.8"
+    },
+    "ACH_STRIKE_TWO": {
+      "name": "Strike Two",
+      "description": "Defeat Azaros for the second time.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1709350/c6d0a85ea798ec10727f423bc69472fa8f8d6571.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1709350/335745e6607db2dbbb8e942f3b20025c8232f510.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "44.6"
+    }
+  },
+  "platform": null,
+  "blacklist": [],
+  "uses_db": false
+}

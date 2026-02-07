@@ -1,0 +1,208 @@
+{
+  "appid": "2683030",
+  "name": "Deathwish Enforcers Special Edition",
+  "icon": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2683030/header.jpg?t=1715881169",
+  "achievements": {
+    "Ach16": {
+      "name": "Against All Odds",
+      "description": "Beat Boss 7",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2683030/e7bcbb9756c926a21f389bc97e46b5f2be360bdd.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2683030/7fd2e9b669ab3ebd5163138110d1f7018407080b.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "24.6"
+    },
+    "Ach14": {
+      "name": "All Work And No Play",
+      "description": "Beat Boss 5",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2683030/b55a3ee2837a6268cd5ee8a5a7da1a15614d30ae.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2683030/213f630015b2e013cabb38f09fccdbb805f9eed4.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "30.9"
+    },
+    "Ach1": {
+      "name": "Armed & Ready",
+      "description": "Grab the Bullet Power upgrade 1 time",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2683030/80caf91c383b5f582b59e45046d13c678f39e1a6.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2683030/9f2f70a677e5960524f11183c2256ce8f808e070.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "89.4"
+    },
+    "Ach10": {
+      "name": "Casting Couch Reject",
+      "description": "Beat Boss 1",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2683030/895da9da78db6cb0ec3735f9eb3a4298deb728ce.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2683030/b4f54154822befd5820f9294ead117c2c98d0ab9.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "75.8"
+    },
+    "Ach17": {
+      "name": "Deadly Duo",
+      "description": "Beat any level without dying, with 2 players playing the entire time",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2683030/d6ae7a6f8cdb33728ac78daf521d9d19da75c236.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2683030/07f857df7850778d3b5c38479c88891910b1e9ec.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "3.5"
+    },
+    "Ach12": {
+      "name": "Demonslayer",
+      "description": "Beat Boss 3",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2683030/892a07a30d640c8763a66b0775304dd301915e73.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2683030/7a8245320d394f7ac1899ad2202be12ee885b910.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "41.8"
+    },
+    "Ach21": {
+      "name": "Do you feel lucky?",
+      "description": "Beat the Game",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2683030/87be28c7e4812c2e88bac81cbe09b22f28a1d75e.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2683030/fc5e6b019f8f699a103f4126889e864cf955e1ca.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "24.6"
+    },
+    "Ach15": {
+      "name": "Eye of the Tiger",
+      "description": "Beat Boss 6",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2683030/dc9d31d3751f751ff73f6884abc1098028d664c7.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2683030/bf4d0dd2fbd351eb9a0eb163a4d4f78ce2fb2089.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "26.3"
+    },
+    "Ach8": {
+      "name": "I got a raise!",
+      "description": "Get $250,000 in a single playthrough",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2683030/c98878de8a4fdae7bbe7d01b346db186ff2a6c5b.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2683030/b47e2412aa6f56bc677202a723778d8fc0636d6a.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "25.9"
+    },
+    "Ach22": {
+      "name": "I'm too old for this @%#&!",
+      "description": "Get All Achievements",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2683030/1e4c67c72ce105b79a0eda9123c96641122927d0.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2683030/c1b1fbea408c4382af35cfee1347024279fd5674.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "1.0"
+    },
+    "Ach19": {
+      "name": "Kings & Queens",
+      "description": "Beat any level without dying, with 4 players playing the entire time",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2683030/78137ddf4d6b5c1275737811b8d6b79f6c682b22.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2683030/6bf23e6faa7b26753cc03908d4a0b593fe7713db.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "1.1"
+    },
+    "Ach7": {
+      "name": "Look Before You Leap",
+      "description": "Fall in a hole",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2683030/a1ed9d707ce8309b24c079df5adebcd53c621138.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2683030/e54b3326dbc3c648dd1ea75f6fcafe6f8e4cdde4.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "48.2"
+    },
+    "Ach9": {
+      "name": "Mr. Roper's Smile",
+      "description": "Get $500,000 in a single playthrough",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2683030/5e0e7c377f458ceb29c418cd0460897ea8205df1.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2683030/0011f51dd46669b2cfd4afc4e37266f85333bca9.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "22.7"
+    },
+    "Ach4": {
+      "name": "Never Stop Shooting",
+      "description": "Grab the Autofire upgrade 10 times",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2683030/2c21e7749bf5986e9cbdc9f6eb18aa0b30d2538a.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2683030/16816bc7d028d39c3a168ac2eb86a1d8d783dec3.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "46.8"
+    },
+    "Ach3": {
+      "name": "Suppressing Fire",
+      "description": "Grab the Autofire upgrade 1 time",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2683030/71e45e8648cd883b3c3df6e826fe046bcf40f76b.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2683030/876837c83064219962307df42fdb603d52135418.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "90.5"
+    },
+    "Ach2": {
+      "name": "The Big Guns",
+      "description": "Grab the Bullet Power upgrade 10 times",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2683030/a610518dcc2ce45787ec69554031055b836b3d9e.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2683030/2be926834b9a2c923ce94fbe4597986934e03111.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "46.4"
+    },
+    "Ach11": {
+      "name": "The Unshankable",
+      "description": "Beat Boss 2",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2683030/29be36b7c55d36d19d74c49c426a640edfcf7a0e.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2683030/62b859b9524978616ada28a70c72f90ac3b74d0d.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "50.7"
+    },
+    "Ach13": {
+      "name": "This is Sabotage!",
+      "description": "Beat Boss 4",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2683030/086fe2e44a93faafc8b65840e88ee5020470c51b.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2683030/287d78d5fe891002ee4ef844f715380ca244a886.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "35.2"
+    },
+    "Ach5": {
+      "name": "Time to Kill",
+      "description": "Grab the Special upgrade 1 time",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2683030/cef1c35683bb88d2859c7e28eedb6a0e11c95e39.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2683030/959258c38c0b305619c385eee1fecbed6c99063f.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "87.9"
+    },
+    "Ach20": {
+      "name": "Top Cop",
+      "description": "beat any level without dying",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2683030/96f3b56bdbe7989bc5845a7793ec3137b82b81d2.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2683030/68fa2a634dd1342c484a160c9f19e76c1c14368b.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "31.2"
+    },
+    "Ach6": {
+      "name": "Total Blowout",
+      "description": "Grab the Special upgrade 10 times",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2683030/c2420361f518f5eb98474bcbeed9b45011b92db1.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2683030/a92f0f26cc4b99aba1d09071f296bcbcf6b4108d.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "37.7"
+    },
+    "Ach18": {
+      "name": "Trio of Terror",
+      "description": "Beat any level without dying, with 3 players playing the entire time",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2683030/6cb225f7c878d1b90545fbd0e250a3b751b73cd6.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2683030/ffbb0a2934e7a828b747c474c5c96853a18c314f.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "1.3"
+    }
+  },
+  "platform": null,
+  "blacklist": [],
+  "uses_db": false
+}
