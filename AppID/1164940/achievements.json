@@ -1,0 +1,198 @@
+{
+  "001_CompletedPrologueLevel": {
+    "earned": true,
+    "earned_time": 1718660960
+  },
+  "002_CompletedMothmanLevel": {
+    "earned": true,
+    "earned_time": 1718902373
+  },
+  "003_CompletedCultistLevel": {
+    "earned": true,
+    "earned_time": 1719107505
+  },
+  "004_CompletedGhostLevel": {
+    "earned": true,
+    "earned_time": 1719151961
+  },
+  "005_CompletedHorizonLevel": {
+    "earned": true,
+    "earned_time": 1719238999
+  },
+  "006CompletedCampaignAnyDifficulty": {
+    "earned": true,
+    "earned_time": 1719240553
+  },
+  "007CompletedGameHard": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "008CompletedGameVeryHard": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "009CompletedGameExtreme": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "010CompletedGameRage": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "011LeakedSyndicateData": {
+    "earned": true,
+    "earned_time": 1719240625
+  },
+  "013Revive106": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "014CompletedComplex": {
+    "earned": true,
+    "earned_time": 1719153084
+  },
+  "015CompletedCaverns": {
+    "earned": true,
+    "earned_time": 1719178061
+  },
+  "016CompletedOilRig": {
+    "earned": true,
+    "earned_time": 1719233000
+  },
+  "017CompletedServerRoom": {
+    "earned": true,
+    "earned_time": 1719176725
+  },
+  "018CompletedSite32": {
+    "earned": true,
+    "earned_time": 1719235525
+  },
+  "019CompletedCrashSite": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "022Collected50PercIntel": {
+    "earned": true,
+    "earned_time": 1719150225
+  },
+  "023Collected100PercIntel": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "024PickUpAllWeapUpgrades": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "025ThrowEnemyIntoVentPrologue": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "026UseAWeaponBenchFirstTime": {
+    "earned": true,
+    "earned_time": 1718659958
+  },
+  "028ThrowTF27SoldierIntoHeliBlades": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "029KillTF27SoldiersInPrologue": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "030Break100Bottles": {
+    "earned": true,
+    "earned_time": 1719237601
+  },
+  "031GibDrEmersonsCorpse": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "032Break1000Books": {
+    "earned": true,
+    "earned_time": 1719106420
+  },
+  "033AcquireDualWieldSerum": {
+    "earned": true,
+    "earned_time": 1719105796
+  },
+  "034KillMothman": {
+    "earned": true,
+    "earned_time": 1718902332
+  },
+  "035KillPatriarch": {
+    "earned": true,
+    "earned_time": 1719107485
+  },
+  "036KillCEO": {
+    "earned": true,
+    "earned_time": 1719238984
+  },
+  "037GetBetrayed": {
+    "earned": true,
+    "earned_time": 1719239142
+  },
+  "038SlideIntoEnemyGrab": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "039ShootEnemyHostageGrenade": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "040EntirePistolMagHeadshots": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "041KillEnemyWithHeadshotLastBullet": {
+    "earned": true,
+    "earned_time": 1718663761
+  },
+  "042StealthKillEntireSquad": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "043ThrowEnemyInAirAndHeadshot": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "044FirstHostageExecution": {
+    "earned": true,
+    "earned_time": 1718656418
+  },
+  "045KillHeavySoldier": {
+    "earned": true,
+    "earned_time": 1718660872
+  },
+  "046KillEnemyHelmetDMR": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "047Kill5Enemies1Grenade": {
+    "earned": true,
+    "earned_time": 1718660623
+  },
+  "049ShootEnemysThrownGrenadeKill": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "050KillEnemyWithTomahawk": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "051KillEnemyWithFlashbangBounce": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "054ShineFlashlightOnEnemySurpriseKill": {
+    "earned": true,
+    "earned_time": 1718656668
+  },
+  "055Collect105sCoin": {
+    "earned": true,
+    "earned_time": 1718656803
+  },
+  "056CollectDrEmersonsCoin": {
+    "earned": true,
+    "earned_time": 1718901377
+  }
+}

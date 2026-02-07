@@ -1,0 +1,186 @@
+{
+  "Archivist": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "CompleteNewGamePlus": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "DefeatAbstractDaddy": {
+    "earned": true,
+    "earned_time": 1729440805
+  },
+  "DefeatBossMary": {
+    "earned": true,
+    "earned_time": 1729533711
+  },
+  "DefeatEddy": {
+    "earned": true,
+    "earned_time": 1729474313
+  },
+  "DefeatFleshLip": {
+    "earned": true,
+    "earned_time": 1729213837
+  },
+  "DefeatPyramidHead": {
+    "earned": true,
+    "earned_time": 1729097532
+  },
+  "DefeatPyramidHeadTwins": {
+    "earned": true,
+    "earned_time": 1729532743
+  },
+  "EndingDog": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "EndingInWater": {
+    "earned": true,
+    "earned_time": 1729534069
+  },
+  "EndingLeave": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "EndingMaria": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "EndingRebirth": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "EndingUFO": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "FastAsFog": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "FindAllPastLocations": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "FindChainsaw": {
+    "earned": true,
+    "earned_time": 1729535308
+  },
+  "FindPhotos": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "FindPyramindHeadRoom": {
+    "earned": true,
+    "earned_time": 1729468730
+  },
+  "FinishEnemiesWithStomp": {
+    "earned": true,
+    "earned_time": 1729371983,
+    "max_progress": 50,
+    "progress": 49
+  },
+  "FinishGameNoRangeWeapon": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "InteractWithBread": {
+    "earned": true,
+    "earned_time": 1729526091
+  },
+  "KillEnemiesMelee": {
+    "earned": true,
+    "earned_time": 1729031821,
+    "max_progress": 75,
+    "progress": 74
+  },
+  "KillEnemiesRanged": {
+    "earned": false,
+    "earned_time": 0,
+    "max_progress": 75,
+    "progress": 59
+  },
+  "LongSwimInTolucaLake": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "MeetMaria": {
+    "earned": true,
+    "earned_time": 1729115325
+  },
+  "PizzaInBowling": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "RadioSilence": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "ReachBlueCreekApartments": {
+    "earned": true,
+    "earned_time": 1729031112
+  },
+  "ReachBrookhavenHospital": {
+    "earned": true,
+    "earned_time": 1729121279
+  },
+  "ReachLakeViewHotel": {
+    "earned": true,
+    "earned_time": 1729474856
+  },
+  "ReachLongStaircaseEnd": {
+    "earned": true,
+    "earned_time": 1729371456
+  },
+  "ReachRoom312": {
+    "earned": true,
+    "earned_time": 1729527538
+  },
+  "ReachSilentHill": {
+    "earned": true,
+    "earned_time": 1728927604
+  },
+  "ReachWoodsideApartments": {
+    "earned": true,
+    "earned_time": 1728943355
+  },
+  "SH3Reference": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "SeeAllCanonEndings": {
+    "earned": false,
+    "earned_time": 0,
+    "max_progress": 5,
+    "progress": 1
+  },
+  "SelfLoathing": {
+    "earned": true,
+    "earned_time": 1728935303,
+    "max_progress": 50,
+    "progress": 49
+  },
+  "ShootBalloonsWoodsideApart": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "SurvivePyramidHeadChase": {
+    "earned": true,
+    "earned_time": 1729351749
+  },
+  "TryToLeaveObservationDeck": {
+    "earned": true,
+    "earned_time": 1729535025
+  },
+  "TryToOpenClosedDoors": {
+    "earned": true,
+    "earned_time": 1728933995,
+    "max_progress": 50,
+    "progress": 49
+  },
+  "UseAllWeapons": {
+    "earned": true,
+    "earned_time": 1729468856
+  }
+}

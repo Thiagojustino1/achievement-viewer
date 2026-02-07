@@ -1,0 +1,82 @@
+{
+  "ALL_CATS": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "ARRIVAL_NGP": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "BEAT_BOSS": {
+    "earned": true,
+    "earned_time": 1740785144
+  },
+  "BEAT_BOSS_NGP": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "BEAT_REACTOR": {
+    "earned": true,
+    "earned_time": 1740780448
+  },
+  "BOSS_ACCESS": {
+    "earned": true,
+    "earned_time": 1740784583
+  },
+  "CAT_WORK": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "CHAMBER": {
+    "earned": true,
+    "earned_time": 1740783544
+  },
+  "ENTRANCE": {
+    "earned": true,
+    "earned_time": 1717296408
+  },
+  "FOUND_SECRET": {
+    "earned": true,
+    "earned_time": 1740779655
+  },
+  "HIVE": {
+    "earned": true,
+    "earned_time": 1740783406
+  },
+  "NUCLEAR": {
+    "earned": true,
+    "earned_time": 1740780096
+  },
+  "PUMPS": {
+    "earned": true,
+    "earned_time": 1740783273
+  },
+  "SCP_3060": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "SCP_3832": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "SCP_3979": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "SCP_5560": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "SCP_LAB": {
+    "earned": true,
+    "earned_time": 1740780518
+  },
+  "SPRINKLERS": {
+    "earned": true,
+    "earned_time": 1740780668
+  },
+  "VEHICLE_BAY": {
+    "earned": true,
+    "earned_time": 1740779916
+  }
+}
