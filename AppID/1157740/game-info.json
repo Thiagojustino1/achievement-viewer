@@ -1,0 +1,325 @@
+{
+  "appid": "1157740",
+  "name": "Iron Meat",
+  "icon": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1157740/header.jpg?t=1733424742",
+  "achievements": {
+    "skyEngines": {
+      "name": "...Why?",
+      "description": "Destroy all the engines on the airship. (Are you not afraid to fall?)",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1157740/22597ddbb421cd78b960085e44536c7b24a187b8.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1157740/2ebdb17239113085ea93f16dbc3a30566a368377.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "13.1"
+    },
+    "keepMovin": {
+      "name": "Always on the Move",
+      "description": "Finish a level without remaining idle for a total of 1 minute.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1157740/01ee06a20402b479d3570a85ce235a4b97cffd1b.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1157740/a9b6af5e3546dca34e7d5b9d7a8815579197a0d0.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "8.6"
+    },
+    "allDoors": {
+      "name": "And Stay Out!",
+      "description": "Destroy all the doors on \"Tower\".",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1157740/aa99f3249c1e821fc60091a7214c7609cfc5d40a.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1157740/589ca0789ed41da23e25f15b5f5e90169edff01c.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "69.1"
+    },
+    "firstShot": {
+      "name": "Anyway, I Started Blastin'",
+      "description": "Take the first shot in the game.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1157740/6c6dcc83f833de8363d5c936dd9fa98da9396d04.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1157740/50cfb75daef59f35cb0e604818848576a8cf55ff.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "97.2"
+    },
+    "btTower": {
+      "name": "Ascension to Madness",
+      "description": "Complete \"Tower\" on any difficulty.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1157740/92f20bad675764c5ab9c34f31a4ed4d4eceeff61.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1157740/ef33ff2687a97552c4973267f9052ec3e4df921b.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "78.6"
+    },
+    "btBase": {
+      "name": "Based",
+      "description": "Complete \"Base\" on any difficulty.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1157740/0b9ede95d02c73c4f3387adc5ebca922e0f6e5be.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1157740/9f14eef27ff4208f72d33f0f313ecff329e14841.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "61.1"
+    },
+    "maxRank": {
+      "name": "Check My Credentials",
+      "description": "Reach the maximum Rank.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1157740/edab5f4cb131d4f5ebd76d99add250fe20ea9f05.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1157740/0a877c508a38a2cb60d8701e2d2fbd2b1b0b45e4.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "6.3"
+    },
+    "citBossOne": {
+      "name": "Concentrate Your Fire!",
+      "description": "Defeat the Monster House on \"City\" without destroying more than one Meat Generator.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1157740/1877132fe985e77dad50aa33a4cd7cdba47acfbc.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1157740/909768d892d01631916312f7c911a44cc6c628c7.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "9.7"
+    },
+    "citBossAll": {
+      "name": "Destruction of Property",
+      "description": "Defeat the Monster House on \"City\" after destroying all four Meat Generators.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1157740/2e6d0455c116463d5e232287563238af7eead8f5.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1157740/d5fbf69acb709fbdc9452b93ec9e0239818f4697.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "47.0"
+    },
+    "moonFocus": {
+      "name": "Eye See You!",
+      "description": "Defeat the Meat Prophet on \"Moon\" without destroying any of the eyeball turrets.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1157740/5455bee62f633b15463cfad74cebb094183f27e3.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1157740/00d1306ed66953714cacbf40d39ae437fbb7fd77.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "17.6"
+    },
+    "gameOver": {
+      "name": "I'll Be Back",
+      "description": "Get to the \"Game Over\" screen for the first time. Your sacrifice will not be in vain.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1157740/84a4cd35035a75af180d65333dde482fdc4bf9e3.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1157740/c70ce939aa562ef8c75bf1f250b2630d14a32892.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "74.3"
+    },
+    "moonKill": {
+      "name": "Iron Blooded",
+      "description": "Defeat the Iron Meat on \"Moon Base\" on any difficulty.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1157740/fe78f4364e80b47347a62f7f9c4728c1ea8cb248.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1157740/b7d93c24d8b77f37f6389935fa63f5b851d8e8f4.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "47.4"
+    },
+    "citRush": {
+      "name": "Just Walking My Dog",
+      "description": "Complete \"City\" within 10 minutes on Hard difficulty.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1157740/f9a0fb802b4b8f02fa2d3d6be932d36d4c9f2073.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1157740/0f62e538dcb9ded6788f5b68055b2caf20ed2d06.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "6.6"
+    },
+    "noYellow": {
+      "name": "Keeping it Polished",
+      "description": "Defeat the three Meat Bulbs on \"Tower\" without getting hit by a yellow light pillar.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1157740/1801c843eb26e93e0a2cb7a9586ec8571f98fe3a.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1157740/6b8689892f57e7e72362502611646595482fc5f6.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "52.0"
+    },
+    "noDrops": {
+      "name": "Lend Me Your Strength!",
+      "description": "Finish \"Forest\" without letting any friendly items from allies touch the ground.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1157740/50a8f6be81df58e38c95bac605df719785984e29.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1157740/d87ee57e515735a8ccf7d751023533b4d9a0d070.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "7.2"
+    },
+    "destrLvlClr": {
+      "name": "Lights OUT!",
+      "description": "Destroy every letter on the \"LEVEL CLEAR\" sign.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1157740/37d89203b2b995762b0f745bdea92a85371b500b.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1157740/cd4cdc82c66acffdb235d55c4e4cb4e5003f4569.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "35.9"
+    },
+    "moonEarth": {
+      "name": "Longing for Home",
+      "description": "Remain idle for 1 minute on \"Moon\" with Earth visible in the background.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1157740/3c33ab687cd15c02cd4ac394fce266e065a9097a.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1157740/d22fd36069704a82a2a11d8660afa77056c540fc.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "9.9"
+    },
+    "btMoon": {
+      "name": "Lunar Conqueror",
+      "description": "Complete \"Moon\" on any difficulty.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1157740/b2234ea1bca605b2f87f7f28f1af381e022f4dc3.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1157740/8829a056cb4d9f858981d27be04eedcd3b68520f.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "49.3"
+    },
+    "moonFast": {
+      "name": "Lunar Olympics",
+      "description": "Escape the collapsing Moon Base within 40 seconds.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1157740/76218a5923f2e6a3c7ac172bd1b81efc453e285e.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1157740/003e52841179f6c9b54703057edc062d4c53c596.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "18.5"
+    },
+    "noBoxes": {
+      "name": "Package is Secure",
+      "description": "Complete \"Train\" without destroying any boxes.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1157740/e4e18aa4df9d1d3aad9e638a237f3edf71541e82.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1157740/e0e47358d369afcaf63c2f2a27b335680ffa6c76.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "52.4"
+    },
+    "noTurret": {
+      "name": "Questionable Allegiance",
+      "description": "Complete \"Forest\" without destroying any Meat turrets.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1157740/6e5dc061a4fed3c3768df3035222b6eacee785f9.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1157740/d4736ee639253bbcd77a245f7453cf0c15bd644c.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "11.4"
+    },
+    "citShoot": {
+      "name": "Quickdraw",
+      "description": "On \"City\", destroy the first Meat Car without letting a Sniper shoot.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1157740/313db7a7a8c0198537d4347e12b358a61440bb35.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1157740/1fae1db1120533a1a0cc1f6504e93ec20aac5429.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "6.2"
+    },
+    "sashaBeat": {
+      "name": "Reversal of Fate",
+      "description": "Complete every level in the game with the \"Sasha\" Skin.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1157740/a88ba25bb4196e79f8dc0b8dea982164c0f5f3ca.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1157740/0f405066f1d09c266dbead0997cd631d5839261c.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "8.1"
+    },
+    "yuriBodies": {
+      "name": "Right of Passage",
+      "description": "Defeat Yuri Markov without jumping to any of the left side bodies.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1157740/8668348ca27f0358783b9f1f892405e9b9efed97.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1157740/73a99913403a5d6c509c9f4114d06e414103d4d1.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "7.1"
+    },
+    "btSky": {
+      "name": "Saboteurs Fly Free",
+      "description": "Complete \"Sky\" on any difficulty.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1157740/0025cf13e787a52eaa694cdac72f96be28f3fa41.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1157740/788e786f2e46452ae7fbe4e28e9b35470d302a3e.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "55.6"
+    },
+    "platinum": {
+      "name": "Slayer of Meat",
+      "description": "Earn every other Achievement in the game.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1157740/2f9adbbdf562dc0495fc7ae6b5cfd9a93c9bb2eb.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1157740/bfc170eb75e676d470b1db56d52a592cd9680a63.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "3.6"
+    },
+    "btForest": {
+      "name": "Strolling Through the Forest",
+      "description": "Complete \"Forest\" on any difficulty.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1157740/8acc448488056ea9e79c598db922cfae65780698.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1157740/cb93b1c0f4fbfe6efb696ba2487ff91b4d45ffdb.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "87.9"
+    },
+    "btCity": {
+      "name": "Swimming in Fire",
+      "description": "Complete \"City\" on any difficulty.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1157740/bc8e78398ad4b413ba6982662022bffd77905ac4.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1157740/e17697ce7bb587ac4bfbdcca2ed4a88979f890eb.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "53.0"
+    },
+    "moonBoom": {
+      "name": "The Last Man on the Moon",
+      "description": "Escape the Moon Base as it's exploding.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1157740/a329e7f297bdb8e904fdb8ea23bc0e0edb87dbb3.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1157740/a165d27044ab315adfcc31ad24a55dfd2fcfea59.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "47.3"
+    },
+    "perfectTwr": {
+      "name": "The Results of My Training",
+      "description": "Complete \"Tower\" on Normal or higher difficulty without losing a single life.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1157740/7dd232df44ec076ffb849450e539e41390771457.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1157740/4e9b45fea0914ad74a369c7626f8df505fb76eb0.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "6.6"
+    },
+    "btSkScrpp": {
+      "name": "Through the Gate",
+      "description": "Complete \"Skyscraper\" on any difficulty.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1157740/4efc17ad8ac3dce3a8e72cf18662227e43c43d45.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1157740/1ec6f6adb4abba6b4a5ad03cd7f540971bc18a45.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "51.8"
+    },
+    "gameBeat": {
+      "name": "To Fight Another Day",
+      "description": "Beat the game on any difficulty.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1157740/ca3e82c19c9fcce2ed20ee9e32374506a1c3be9f.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1157740/72b90d6e66925c98e49d05cea784a74d251e20b4.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "46.4"
+    },
+    "meatChain": {
+      "name": "Unsanitary Conditions",
+      "description": "Destroy a full Meat Chain on \"Tower\".",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1157740/af38bf10829e88d529ce5b2b0d80d6ca3c4b8bd0.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1157740/e34e10e97a7c7a9ed1b9f678c302b29514695d9f.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "70.7"
+    },
+    "btTrain": {
+      "name": "Unwelcome Passengers",
+      "description": "Complete \"Train\" on any difficulty.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1157740/5190d12960550bb74c22c759afcd69892d87a477.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1157740/25c05572076b63b48c89e95df8557953a4508a84.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "71.2"
+    },
+    "moonFail": {
+      "name": "You Crazy Fool!",
+      "description": "You fail to escape the collapsing Moon Base.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1157740/ef51110a15b82e8c082888d74882cebe82fe3ecd.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1157740/fe841b3e2ffbd1be7ea71a0c0c472e9b5b5d1aa6.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "6.8"
+    }
+  },
+  "platform": null,
+  "blacklist": [],
+  "uses_db": false
+}

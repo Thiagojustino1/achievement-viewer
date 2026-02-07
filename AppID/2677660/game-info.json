@@ -10,7 +10,7 @@
       "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2677660/2a92aaf5eb7e2c6177744685856902d057d241fa.jpg",
       "hidden": true,
       "group": "Base Game",
-      "percent": "42.3"
+      "percent": "42.4"
     },
     "NEW_ACHIEVEMENT_1_27": {
       "name": "A Little Tumble",
@@ -46,7 +46,7 @@
       "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2677660/362439f58bf1edb979dfd8df15ea90a4a4c3e797.jpg",
       "hidden": false,
       "group": "Base Game",
-      "percent": "22.0"
+      "percent": "22.1"
     },
     "NEW_ACHIEVEMENT_2_6": {
       "name": "A Study in Fear",
@@ -118,7 +118,7 @@
       "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2677660/9cd127c7a700156c3fd2e93b844056baec97fc6a.jpg",
       "hidden": false,
       "group": "Base Game",
-      "percent": "43.9"
+      "percent": "44.0"
     },
     "NEW_ACHIEVEMENT_2_9": {
       "name": "Bread is Life",
@@ -181,7 +181,7 @@
       "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2677660/8839071299fbfc4d3ccfb43b5f752f4ff0437d6c.jpg",
       "hidden": false,
       "group": "Base Game",
-      "percent": "36.6"
+      "percent": "36.7"
     },
     "NEW_ACHIEVEMENT_1_18": {
       "name": "Gear Head",
@@ -235,7 +235,7 @@
       "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2677660/1c6e0fe52d19bb72b9505ae9841e668b4bbc4743.jpg",
       "hidden": true,
       "group": "Indiana Jones and the Great Circle™: The Order of Giants",
-      "percent": "9.6"
+      "percent": "9.7"
     },
     "NEW_ACHIEVEMENT_2_7": {
       "name": "Lost in the Past",
@@ -253,7 +253,7 @@
       "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2677660/0f039fbc61493be61038903457a1ff0a17a4b77a.jpg",
       "hidden": false,
       "group": "Base Game",
-      "percent": "9.3"
+      "percent": "9.4"
     },
     "NEW_ACHIEVEMENT_2_14": {
       "name": "Out of the Vatican",
@@ -406,7 +406,7 @@
       "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2677660/faad76d7343175540824b900a6c4a315ab96c3e4.jpg",
       "hidden": true,
       "group": "Base Game",
-      "percent": "43.5"
+      "percent": "43.6"
     },
     "NEW_ACHIEVEMENT_2_5": {
       "name": "The Kid Who Vanished",
@@ -415,7 +415,7 @@
       "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2677660/848f768f37aa95d2546c70270747e48cd36b3c18.jpg",
       "hidden": true,
       "group": "Base Game",
-      "percent": "31.5"
+      "percent": "31.6"
     },
     "NEW_ACHIEVEMENT_1_31": {
       "name": "The Mad Priest",

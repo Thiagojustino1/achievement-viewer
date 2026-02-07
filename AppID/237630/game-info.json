@@ -1,0 +1,190 @@
+{
+  "appid": "237630",
+  "name": "DuckTales: Remastered",
+  "icon": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/237630/header.jpg?t=1760927242",
+  "achievements": {
+    "AFewGearsLoose": {
+      "name": "A Few Gears Loose",
+      "description": "Get to the secret gyro area in the clouds",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/237630/ae05b4911b1676ff95d808cb28e658e832b663df.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/237630/02bd97001289af078f3a6364525dd40796698a46.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "24.1"
+    },
+    "AnyCrashYouCanWalkAwayFrom": {
+      "name": "Any Crash You Can Walk Away From",
+      "description": "Collect the Lost Crown of Ghengis Khan",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/237630/837c9eda6efd387d42459b983e0aecb10b51e777.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/237630/02bd97001289af078f3a6364525dd40796698a46.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "28.3"
+    },
+    "ArtAficionado": {
+      "name": "Art Aficionado",
+      "description": "Buy art in the gallery",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/237630/677fdce73808af40ab5a52ac604bd61935895107.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/237630/02bd97001289af078f3a6364525dd40796698a46.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "39.8"
+    },
+    "BlessMeBagpipes": {
+      "name": "Bless Me Bagpipes",
+      "description": "Collect All the Heart Containers on Easy or Medium difficulty",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/237630/0380c0f9071370be3ea904c83610ccc30bb946a4.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/237630/02bd97001289af078f3a6364525dd40796698a46.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "10.0"
+    },
+    "ConnoisseurOfTheArts": {
+      "name": "Connoisseur Of The Arts",
+      "description": "Unlock all art in the Gallery",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/237630/543fb6822f8dd9b18c749b5c03e2080d8401e25d.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/237630/02bd97001289af078f3a6364525dd40796698a46.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "2.8"
+    },
+    "ExtravagantHousewares": {
+      "name": "Extravagant Housewares",
+      "description": "Collect the Sceptre of the Incan King",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/237630/c838af176a9c7647b6a46a6e846490cab76ccb28.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/237630/02bd97001289af078f3a6364525dd40796698a46.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "41.4"
+    },
+    "GarbageCollector": {
+      "name": "Garbage Collector",
+      "description": "Collect the Giant Diamond of Inner Earth",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/237630/ce1ef47947c9bfdf88d37cc42f17c8a57f4fc8d5.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/237630/02bd97001289af078f3a6364525dd40796698a46.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "31.5"
+    },
+    "HealthyAppetite": {
+      "name": "Healthy Appetite",
+      "description": "Eat some of Mrs Beakleys delicious treats",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/237630/a413735e03084b73f32b6793e81e9059a87de82c.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/237630/02bd97001289af078f3a6364525dd40796698a46.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "51.6"
+    },
+    "ItsADuckBlur": {
+      "name": "It's A Duck Blur",
+      "description": "Defeat 5 enemies under the effect of 1 magic coin",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/237630/54d4b492110b67775061e63257d45212ca45ba10.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/237630/02bd97001289af078f3a6364525dd40796698a46.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "14.3"
+    },
+    "LookMaNoSpats": {
+      "name": "Look Ma, No Spats!",
+      "description": "Enter either underground section of Amazon and climb up the other side using only the pogo jump.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/237630/88347ff96178f618599b7f92e59287f343c76515.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/237630/02bd97001289af078f3a6364525dd40796698a46.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "2.8"
+    },
+    "LuckOTheDucks": {
+      "name": "Luck O' The Ducks",
+      "description": "Get back what Magica stole",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/237630/1d8021aed9f5f47b750f3d1bd68c3fce881c48cd.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/237630/02bd97001289af078f3a6364525dd40796698a46.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "21.6"
+    },
+    "PogoAGoGo": {
+      "name": "Pogo A-Go-Go",
+      "description": "Defeat 5 enemies in a row with pogo jump without touching the ground",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/237630/4de8adfa1e36ec5db3a85013345ed1e233486168.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/237630/02bd97001289af078f3a6364525dd40796698a46.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "26.0"
+    },
+    "ScoreToSettle": {
+      "name": "Score To Settle",
+      "description": "Scrooge doesn't take kindly to being swindled by statues",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/237630/be67cc6faec454f09bec91990a5c4dbca613420b.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/237630/02bd97001289af078f3a6364525dd40796698a46.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "27.5"
+    },
+    "SinkOrSwim": {
+      "name": "Sink Or Swim",
+      "description": "Dive into the Money Bin",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/237630/75611a2e47f26ad89126023cdfba1fa761eafa66.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/237630/02bd97001289af078f3a6364525dd40796698a46.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "64.5"
+    },
+    "SmarterThanTheSmarties": {
+      "name": "Smarter Than The Smarties",
+      "description": "Beat game on Extreme difficulty",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/237630/b4bdba8e7981e5e429953436ad6f391e978afd02.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/237630/02bd97001289af078f3a6364525dd40796698a46.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "1.9"
+    },
+    "SuperstitiousHocusPocus": {
+      "name": "Superstitious Hocus-Pocus",
+      "description": "Collect the Coin of the Lost Realm",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/237630/fde1b4192f535ffa3c5264018d81db0287c4a4ef.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/237630/02bd97001289af078f3a6364525dd40796698a46.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "35.0"
+    },
+    "TheDuckWhoWouldBeKing": {
+      "name": "The Duck Who Would Be King",
+      "description": "Collect $10,000,000",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/237630/8186f2d76c0cd2d72b52c1a5c9256dd1a11bb6d9.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/237630/02bd97001289af078f3a6364525dd40796698a46.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "14.6"
+    },
+    "TougherThanTheToughies": {
+      "name": "Tougher Than The Toughies",
+      "description": "Beat game on Hard",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/237630/0894c7659b9cde582361302bc28d38f6742659a2.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/237630/02bd97001289af078f3a6364525dd40796698a46.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "3.5"
+    },
+    "WhereNoDuckHasGoneBefore": {
+      "name": "Where No Duck Has Gone Before",
+      "description": "Collect the Green Cheese of Longevity",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/237630/cacdc20988f0228d2e87538d1d00d534c3b22dd9.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/237630/02bd97001289af078f3a6364525dd40796698a46.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "31.0"
+    },
+    "WorkSmarterNotHarder": {
+      "name": "Work Smarter, Not Harder",
+      "description": "Defeat Big Time Beagle using your noggin, and his",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/237630/6f94631ba1830cf726df85ce4119689e17d259f4.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/237630/02bd97001289af078f3a6364525dd40796698a46.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "77.2"
+    }
+  },
+  "platform": null,
+  "blacklist": [],
+  "uses_db": false
+}

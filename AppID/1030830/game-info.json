@@ -1,0 +1,613 @@
+{
+  "appid": "1030830",
+  "name": "Mafia II: Definitive Edition",
+  "icon": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1030830/header.jpg?t=1759852951",
+  "achievements": {
+    "MDL_A_LESSON_IN_MANNERS": {
+      "name": "A Lesson In Manners",
+      "description": "Show that you know how to treat a lady",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/ccc06360225f23aae005cecaaca2b6b4cc212c66.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/5860081359ebdf68b5ada6d7dd9a799a5241c4fa.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "52.3"
+    },
+    "MDL_A_REAL_GENTLEMAN": {
+      "name": "A Real Gentleman",
+      "description": "Help the woman fix her car in Home Sweet Home",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/b8a98df8f5720139c4fddae5cb2bd627de468242.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/93ae5f0cdc8d95b0e8abd1aa6f0f386587768856.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "12.1"
+    },
+    "MDL_DLC_JA_ARCTIC_GRAVE": {
+      "name": "Arctic Grave",
+      "description": "Push the chief witness into the ice lake in \"Joe's Adventures.\"",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/ad8bb9062dacc59dd9e470abbfc68e1da9903864.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/93ae5f0cdc8d95b0e8abd1aa6f0f386587768856.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "3.7"
+    },
+    "MDL_DLC_RTR_ARMAMENT_KING": {
+      "name": "Armament King",
+      "description": "Kill your enemies in \"Jimmy's Vendetta\" with every weapon available in the game.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/490d3e001257f7fbd5b7883e3bf8435fa1573398.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/93ae5f0cdc8d95b0e8abd1aa6f0f386587768856.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "2.4"
+    },
+    "MDL_BACK_IN_BUSSINESS": {
+      "name": "Back In Business",
+      "description": "Do your first job for Mike Bruski",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/f5346e33dc9c8351cf31e63d66ed79c7c6f444b8.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/93ae5f0cdc8d95b0e8abd1aa6f0f386587768856.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "69.8"
+    },
+    "MDL_BIG_BROTHER": {
+      "name": "Big Brother",
+      "description": "Protect Francesca",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/622f42373c8df548952994fe08d8e66221c0318f.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/c48888e6f61df6d3adb46c00e5af54721423c31d.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "77.7"
+    },
+    "MDL_CARD_SHARP": {
+      "name": "Card Sharp",
+      "description": "Find all of the wanted posters",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/115ad6be593f7c6fba0eebaeb32a2eb6e0ed5f9c.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/52f668c9280496f858e6be127918bb3ff3b85cd1.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "2.4"
+    },
+    "MDL_DLC_RTR_CARNAPPER": {
+      "name": "Carnapper",
+      "description": "Finish all Car Dealer missions in \"Jimmy's Vendetta.\"",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/dcdc9dcaf6392638f9b2c48d39284e9b7e711d66.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/93ae5f0cdc8d95b0e8abd1aa6f0f386587768856.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "3.3"
+    },
+    "MDL_CHASING_THE_DRAGON": {
+      "name": "Chasing the Dragon",
+      "description": "Complete Chapter 12",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/6c2c0be3277706a905e790f9e60f74001bac8dcb.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/52f668c9280496f858e6be127918bb3ff3b85cd1.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "41.1"
+    },
+    "MDL_CHECKING_OUT": {
+      "name": "Checking Out",
+      "description": "Complete Chapter 10",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/d0e8a7819a8fdd7bd5508d102086e9c0abfb995f.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/52f668c9280496f858e6be127918bb3ff3b85cd1.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "43.7"
+    },
+    "MDL_CHOP_CHOP!": {
+      "name": "Chop Chop!",
+      "description": "Complete Chapter 13",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/f668129f1436c07e96f1d3fa7d73eecf8a59c57d.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/5860081359ebdf68b5ada6d7dd9a799a5241c4fa.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "40.6"
+    },
+    "MDL_COLLECTORS_ITEM": {
+      "name": "Collector's Item",
+      "description": "Find at least one collectible in the game",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/14c2bdf8f9e4fb919b6dec5afdedcda0f7c41f7a.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/52f668c9280496f858e6be127918bb3ff3b85cd1.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "61.2"
+    },
+    "MDL_CRUISE_CONTROL": {
+      "name": "Cruise Control",
+      "description": "Keep any vehicle at 30mpg or over for 5 or more minutes",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/f00dfd6c0cf531100250e574b97034eceeb792b4.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/52f668c9280496f858e6be127918bb3ff3b85cd1.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "3.0"
+    },
+    "MDL_DLC_JA_DOCKYARD_DISCORD": {
+      "name": "Dockyard Discord",
+      "description": "Finish the Connection level in \"Joe's Adventures.\"",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/1c020669ed8e1b08a218d54b04bfa2337b026dad.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/93ae5f0cdc8d95b0e8abd1aa6f0f386587768856.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "5.3"
+    },
+    "MDL_DREAM_HANDLING": {
+      "name": "Dream Handling",
+      "description": "Upgrade one your cars to the maximum level",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/57673a7ae0915a9312fc6352c7a8672dfa4fd790.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/52f668c9280496f858e6be127918bb3ff3b85cd1.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "25.4"
+    },
+    "MDL_DLC_JA_DRIFTIN_DADDY_O": {
+      "name": "Driftin' Daddy-O",
+      "description": "Reach 200 points for one Drift in \"Joe's Adventures.\"",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/5e868918ce9bcec27253dbabdb6ff2079d767f96.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/c48888e6f61df6d3adb46c00e5af54721423c31d.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "2.4"
+    },
+    "MDL_END_OF_THE_RAINBOW": {
+      "name": "End of the Rainbow",
+      "description": "Settle the score with the Irish once and for all",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/fa7e26d77af981cc1db49adc63406f772f043303.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/52f668c9280496f858e6be127918bb3ff3b85cd1.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "37.8"
+    },
+    "MDL_DLC_RTR_EXPLORER": {
+      "name": "Explorer",
+      "description": "Drive a total of 1,000 miles in vehicles in \"Jimmy's Vendetta.\"",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/5a1e4b68973d01241927687a0d4a64698ae44ea8.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/93ae5f0cdc8d95b0e8abd1aa6f0f386587768856.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "2.1"
+    },
+    "MDL_EXPORTER": {
+      "name": "Exporter",
+      "description": "Sell 5 vehicles to Derek at the dock",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/07f5213dd6331ed6a06efd39816743aaca893424.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/52f668c9280496f858e6be127918bb3ff3b85cd1.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "3.9"
+    },
+    "MDL_DLC_RTR_FASTER_THAN_LIGHT": {
+      "name": "Faster than Light",
+      "description": "Achieve a 10x point multiplier in \"Jimmy's Vendetta.\"",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/0d795afaec23cfc18a758e1d3e80c7fa447fb03a.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/93ae5f0cdc8d95b0e8abd1aa6f0f386587768856.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "3.7"
+    },
+    "MDL_FINISH_HIM": {
+      "name": "Finish Him",
+      "description": "Finish what you started",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/b28680d85bdb73452e2ff250dd1a440b481dc819.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/52f668c9280496f858e6be127918bb3ff3b85cd1.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "37.5"
+    },
+    "MDL_DLC_RTR_FIREWORKER": {
+      "name": "Fireworker",
+      "description": "Destroy 100 vehicles in \"Jimmy’s Vendetta.\"",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/54dd3836c59bb076e0947cc0ef0d9d5679a5725d.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/93ae5f0cdc8d95b0e8abd1aa6f0f386587768856.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "2.4"
+    },
+    "MDL_DLC_RTR_FIRST_STEP": {
+      "name": "First Step",
+      "description": "Complete your first mission in \"Jimmy's Vendetta.\"",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/61b04d0f0ed8b11e6c46a1102c3321a2f7f1374c.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/52f668c9280496f858e6be127918bb3ff3b85cd1.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "7.8"
+    },
+    "MDL_DLC_JA_FIVE_FINGER_DISCOUNT": {
+      "name": "Five Finger Discount",
+      "description": "Finish the Supermarket level in \"Joe's Adventures.\"",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/00d31af36d8913280d32730e6aad0d23a2bf1489.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/93ae5f0cdc8d95b0e8abd1aa6f0f386587768856.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "4.3"
+    },
+    "MDL_AUTO_PILOT": {
+      "name": "Get Rich or Die Flyin'",
+      "description": "Get all wheels of your car in the air for atleast 20 meters and then touch the ground again",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/d59fd6b964cdb7fac90a51e3c98a86e07966d96f.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/5860081359ebdf68b5ada6d7dd9a799a5241c4fa.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "52.2"
+    },
+    "MDL_GOOD_SPIRITS": {
+      "name": "Good Spirits",
+      "description": "Complete Chapter 5",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/07d4c867b962b7373f8a985c9581b1696dac804b.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/52f668c9280496f858e6be127918bb3ff3b85cd1.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "52.4"
+    },
+    "MDL_HAIRDRESSER": {
+      "name": "Hairdresser",
+      "description": "Kill 5 enemies in rapid succession with a headshot",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/d9ccfbeed13f272caa10300ba64bcad5c6767fec.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/52f668c9280496f858e6be127918bb3ff3b85cd1.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "27.4"
+    },
+    "MDL_HARD_TO_KILL": {
+      "name": "Hard to Kill",
+      "description": "The police want you dead. Survive for 10 minutes.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/56b5e9e32e1c8f39ede17e78681fff1c7fabb693.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/52f668c9280496f858e6be127918bb3ff3b85cd1.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "3.8"
+    },
+    "MDL_HE_WHO_PAYS_THE_BARBER": {
+      "name": "He Who Pays The Barber",
+      "description": "Improve the dockworkers' haircuts",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/57bbe6e29a845382e62cbba5b4a2970916b20c1d.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/52f668c9280496f858e6be127918bb3ff3b85cd1.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "63.9"
+    },
+    "MDL_HEY_JOE": {
+      "name": "Hey Joe",
+      "description": "Clean up after Joe",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/d440ceee03b26fde5934fef1660c32befa58c26d.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/52f668c9280496f858e6be127918bb3ff3b85cd1.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "43.8"
+    },
+    "MDL_HOME_SWEET_HOME": {
+      "name": "Home Sweet Home",
+      "description": "Complete Chapter 2",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/edb59df68467d7917d3b9631d610c6680ea36923.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/93ae5f0cdc8d95b0e8abd1aa6f0f386587768856.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "68.2"
+    },
+    "MDL_DLC_JA_HYPERSONIC": {
+      "name": "Hypersonic",
+      "description": "Reach 2000 points for one velocity run in \"Joe's Adventures.\"",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/440af779f1c44e765e7113806cbb1b9d7aaa5e68.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/93ae5f0cdc8d95b0e8abd1aa6f0f386587768856.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "2.3"
+    },
+    "MDL_DLC_JA_JACK_OF_ALL_TRADES": {
+      "name": "Jack of all Trades",
+      "description": "Reach 10 different score actions in one mission in \"Joe's Adventures.\"",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/307b9cfc7929f2f6c864310f93ad8328482a4350.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/93ae5f0cdc8d95b0e8abd1aa6f0f386587768856.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "2.2"
+    },
+    "MDL_DLC_JA_JACKED_JUMPER": {
+      "name": "Jacked Jumper",
+      "description": "Reach 200 points for one Jump in \"Joe's Adventures.\"",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/3cd8b4b60f1dc9af6280bbaf3418e90adff1dd73.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/93ae5f0cdc8d95b0e8abd1aa6f0f386587768856.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "2.5"
+    },
+    "MDL_KNUCKLEHEAD": {
+      "name": "Knucklehead",
+      "description": "Kill a total of 30 enemies using melee attacks",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/615061ae14485c10f714af08f1f2cf2f05b5de4d.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/5860081359ebdf68b5ada6d7dd9a799a5241c4fa.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "4.6"
+    },
+    "MDL_LADIES_MAN": {
+      "name": "Ladies' Man",
+      "description": "Find all of the Playboy magazines",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/02b0a1b542d7787343125b3195e704512ae9ff58.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/52f668c9280496f858e6be127918bb3ff3b85cd1.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "4.5"
+    },
+    "MDL_LAST_RESPECTS": {
+      "name": "Last Respects",
+      "description": "Complete Chapter 7",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/716616ffda6729f03ef451b9ec052b1cec1b56ae.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/52f668c9280496f858e6be127918bb3ff3b85cd1.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "50.0"
+    },
+    "MDL_MADE_MAN": {
+      "name": "Made Man",
+      "description": "Finish the story on Medium difficulty level or higher",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/048a1bbf07957b43b65207d4bd68e7aa0dadca9c.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/52f668c9280496f858e6be127918bb3ff3b85cd1.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "31.6"
+    },
+    "MDL_MAIL_MAN": {
+      "name": "Mail Man",
+      "description": "Sell all the gas stamps before the time runs out",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/65f6935cda22c53fedf064782dd9fd9c869b4741.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/52f668c9280496f858e6be127918bb3ff3b85cd1.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "51.5"
+    },
+    "MDL_MAN_OF_HONOR": {
+      "name": "Man of Honor",
+      "description": "Complete Chapter 9",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/4af125d12c9343036d6e3fb2d20ca63bc38c8cca.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/52f668c9280496f858e6be127918bb3ff3b85cd1.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "45.7"
+    },
+    "MDL_DLC_RTR_MASSACRE": {
+      "name": "Massacre",
+      "description": "Kill 1,000 enemies in \"Jimmy's Vendetta.\"",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/ba485ac762317cae7231a76256406b3e892067c2.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/93ae5f0cdc8d95b0e8abd1aa6f0f386587768856.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "2.2"
+    },
+    "MDL_MEN_AT_WORK": {
+      "name": "Men at Work",
+      "description": "Complete Chapter 14",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/b089383a8686ad15f37f2410a596be69b016c292.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/5860081359ebdf68b5ada6d7dd9a799a5241c4fa.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "37.9"
+    },
+    "MDL_DLC_RTR_MILLIONAIRE": {
+      "name": "Millionaire",
+      "description": "Earn 1,000,000 points in \"Jimmy's Vendetta.\"",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/64d01bd6858d27588144929826c806f9be3fec4a.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/93ae5f0cdc8d95b0e8abd1aa6f0f386587768856.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "2.4"
+    },
+    "MDL_DLC_JA_MIND_THE_GOODS": {
+      "name": "Mind the Goods",
+      "description": "Finish the Cathouse level in \"Joe's Adventures.\"",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/630066f49907d6fb2c5593669716d34755639e0d.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/93ae5f0cdc8d95b0e8abd1aa6f0f386587768856.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "4.0"
+    },
+    "MDL_NIGHT_SHIFT": {
+      "name": "Night Shift",
+      "description": "Complete Chapter 4",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/584f93606b81afa277cb4e11281c96d431d6a570.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/52f668c9280496f858e6be127918bb3ff3b85cd1.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "55.2"
+    },
+    "MDL_ONE_CAREFUL_OWNER": {
+      "name": "One Careful Owner",
+      "description": "Travel a total of 50 miles in one vehicle",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/5452c71f060e80f6479f97b471813e7d1c6f2354.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/52f668c9280496f858e6be127918bb3ff3b85cd1.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "2.8"
+    },
+    "MDL_OUR_GOOD_FRIEND": {
+      "name": "Our Good Friend",
+      "description": "Complete Chapter 11",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/3ae57764876670fa2f34b227ccc74c9a0d5628c7.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/5860081359ebdf68b5ada6d7dd9a799a5241c4fa.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "42.3"
+    },
+    "MDL_OUT_FOR_JUSTICE": {
+      "name": "Out for Justice",
+      "description": "Learn what it means to be a Scaletta",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/596ea110e743453ccf07736e4e5d12bb419d65fd.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/52f668c9280496f858e6be127918bb3ff3b85cd1.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "39.5"
+    },
+    "MDL_PEDAL_TO_THE_METAL": {
+      "name": "Pedal to the Metal",
+      "description": "Travel at 125mph",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/a03834aa1af75e2f8db63f46e0d252aa4cc9c04d.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/52f668c9280496f858e6be127918bb3ff3b85cd1.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "21.3"
+    },
+    "MDL_PETROL_HEAD": {
+      "name": "Petrol Head",
+      "description": "Drive at least 30 different vehicles",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/3987dab1dfcd01cf5d2d7b56cc82a3f55921de80.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/52f668c9280496f858e6be127918bb3ff3b85cd1.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "6.4"
+    },
+    "MDL_PROPER_SCRAPPER": {
+      "name": "Proper Scrapper",
+      "description": "Sell 5 vehicles to Mike Bruski at the scrapyard",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/075a081a0cb7cb26139268c80e7a8e7f91c8c2c0.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/52f668c9280496f858e6be127918bb3ff3b85cd1.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "26.4"
+    },
+    "MDL_DLC_RTR_REVENGED": {
+      "name": "Revenged",
+      "description": "Finish \"Jimmy's Vendetta\" on any difficulty level.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/b4dd72d63720395fe1fe5eac3ca9b77c1f530ea8.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/93ae5f0cdc8d95b0e8abd1aa6f0f386587768856.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "3.2"
+    },
+    "MDL_DLC_JA_SAME_SHIRT_DIFFERENT_DAY": {
+      "name": "Same Shirt Different Day",
+      "description": "Finish Joe's Adventures on any difficulty.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/212d56e4ae04c4b828b015427857e6efc9dbe7a6.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/93ae5f0cdc8d95b0e8abd1aa6f0f386587768856.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "4.0"
+    },
+    "MDL_SHARP_SUITER": {
+      "name": "Sharp Suiter",
+      "description": "Buy your first luxury suit",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/fd43394c69fd22f5a247f8ec48e239b675515c41.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/52f668c9280496f858e6be127918bb3ff3b85cd1.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "30.0"
+    },
+    "MDL_DLC_RTR_SHARP_SHOOTER": {
+      "name": "Sharpshooter",
+      "description": "Kill 100 enemies by headshots in \"Jimmy's Vendetta.\"",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/ce92a3b50ca555d099f35a64979e0d158fb10705.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/93ae5f0cdc8d95b0e8abd1aa6f0f386587768856.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "3.3"
+    },
+    "MDL_STUCK_UP": {
+      "name": "Stuck Up",
+      "description": "Rob  5 stores in under 5 minutes",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/f8d97b217485a114c25a8417970949cfe82daac4.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/5860081359ebdf68b5ada6d7dd9a799a5241c4fa.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "7.7"
+    },
+    "MDL_THE_ENFORCER": {
+      "name": "The Enforcer",
+      "description": "Kill 50 enemies",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/2d0cfd72f99cdf7569376eee64963dc5ab5ab550.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/5860081359ebdf68b5ada6d7dd9a799a5241c4fa.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "56.1"
+    },
+    "MDL_THE_MAFIA_NEVER_FORGETS": {
+      "name": "The Mafia Never Forgets",
+      "description": "Pay a visit to an old friend",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/1687be3bac9ded88c39255099ff41adac4ab5e0f.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/52f668c9280496f858e6be127918bb3ff3b85cd1.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "40.2"
+    },
+    "MDL_THE_PRICE_OF_OIL": {
+      "name": "The Price of Oil",
+      "description": "Complete Chapter 3",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/46d914da437c11811b4e5fd50aa0b71a719b79e8.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/52f668c9280496f858e6be127918bb3ff3b85cd1.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "58.5"
+    },
+    "MDL_THE_PROFESSIONAL": {
+      "name": "The Professional",
+      "description": "Obtain the ration stamps without raising the alarm",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/12321475e4668b9bff2cda451b5e62d97a49bbde.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/93ae5f0cdc8d95b0e8abd1aa6f0f386587768856.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "16.3"
+    },
+    "MDL_THE_WILD_ONES": {
+      "name": "The Wild Ones",
+      "description": "Complete Chapter 8",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/9cefa4bdc371d189e14f30dcf95e97fcd437f44c.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/52f668c9280496f858e6be127918bb3ff3b85cd1.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "47.9"
+    },
+    "MDL_TIME_WELL_SPENT": {
+      "name": "Time Well Spent",
+      "description": "Complete Chapter 6",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/0991b810ea4bef0c5e9ac0847a957493d84a4c32.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/52f668c9280496f858e6be127918bb3ff3b85cd1.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "51.2"
+    },
+    "MDL_TOUGH_NUT": {
+      "name": "Tough Nut",
+      "description": "Finish the story on Hard difficulty level",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/01859b21c1e5c5e900fe2e4c5b6b7edd648953a7.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/52f668c9280496f858e6be127918bb3ff3b85cd1.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "10.8"
+    },
+    "MDL_TUNED_RIDE": {
+      "name": "Tuned Ride",
+      "description": "Upgrade one of your cars one level",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/c0ad3cc710d40df3631f60489bc4dd78cb0d53aa.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/5860081359ebdf68b5ada6d7dd9a799a5241c4fa.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "58.7"
+    },
+    "MDL_VIVA_LA_RESISTANCE": {
+      "name": "Viva La Resistenza!",
+      "description": "Complete Chapter 1",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/bbbc0a69b91f0512989a017ee0704ee304d26321.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/93ae5f0cdc8d95b0e8abd1aa6f0f386587768856.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "83.5"
+    },
+    "MDL_WAKE_UP_CALL": {
+      "name": "Wake Up Call",
+      "description": "Help Leo out of a tricky situation without getting caught",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/bff4c7b45ee0ec17fb6ca0981931f3e6e1b6456c.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/52f668c9280496f858e6be127918bb3ff3b85cd1.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "10.4"
+    },
+    "MDL_DLC_JA_WHAT_WITNESS": {
+      "name": "What Witness?",
+      "description": "Finish the Witness level in \"Joe's Adventures.\"",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/b00009ba01fda03c7f6884da5b280817056e94ca.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1030830/93ae5f0cdc8d95b0e8abd1aa6f0f386587768856.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "11.4"
+    }
+  },
+  "platform": null,
+  "blacklist": [],
+  "uses_db": false
+}

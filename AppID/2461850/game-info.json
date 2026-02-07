@@ -10,7 +10,7 @@
       "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2461850/0a77a773edc19f2e7bdd3ba65e2900307bbca4fb.jpg",
       "hidden": true,
       "group": "Base Game",
-      "percent": "45.8"
+      "percent": "45.9"
     },
     "DarkRot_Complete": {
       "name": "Dark Rot Complete",
@@ -28,7 +28,7 @@
       "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2461850/2eda4d9355d70add3248fd003f5236e9709cc5d1.jpg",
       "hidden": true,
       "group": "Base Game",
-      "percent": "45.5"
+      "percent": "45.6"
     },
     "Collect_Faces": {
       "name": "Glimpses of the Gods",
@@ -46,7 +46,7 @@
       "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2461850/f2dd2e425d0275a1894db11437a3745e47867f00.jpg",
       "hidden": true,
       "group": "Base Game",
-      "percent": "52.4"
+      "percent": "52.5"
     },
     "New_Narrator": {
       "name": "Seeing Things Differently",
@@ -55,7 +55,7 @@
       "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2461850/29d70e89ecd81d0b2a8247cb914fa89b20da6ae8.jpg",
       "hidden": true,
       "group": "Base Game",
-      "percent": "16.3"
+      "percent": "16.2"
     },
     "Collect_Totems": {
       "name": "Tales of Midgard",
@@ -73,7 +73,7 @@
       "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2461850/4f58c9bbbee3587146c50900e1954e00e39a1442.jpg",
       "hidden": true,
       "group": "Base Game",
-      "percent": "57.1"
+      "percent": "57.2"
     },
     "Ch2_ArenaBattleComplete": {
       "name": "The Man in the Middle",
@@ -100,7 +100,7 @@
       "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2461850/0fcb17d333330d3b156f94d5d6c02d2b994528bd.jpg",
       "hidden": true,
       "group": "Base Game",
-      "percent": "47.1"
+      "percent": "47.2"
     },
     "Photo_Mode": {
       "name": "Worth a Thousand Words",
@@ -109,7 +109,7 @@
       "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/2461850/fdf5f6020771e4aa0eae1fe2c0c53d1d1cfc4cf8.jpg",
       "hidden": false,
       "group": "Base Game",
-      "percent": "57.4"
+      "percent": "57.5"
     }
   },
   "platform": null,

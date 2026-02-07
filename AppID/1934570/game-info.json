@@ -91,7 +91,7 @@
       "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/901a76b698c439c83ed9e96f1f75fa072d3c5997.jpg",
       "hidden": false,
       "group": "Base Game",
-      "percent": "42.9"
+      "percent": "43.0"
     },
     "Combat_LowHealthPerfectDodge": {
       "name": "Close Call",
@@ -226,7 +226,7 @@
       "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/901a76b698c439c83ed9e96f1f75fa072d3c5997.jpg",
       "hidden": true,
       "group": "Base Game",
-      "percent": "40.4"
+      "percent": "40.5"
     },
     "Exploration_ReadableAll": {
       "name": "Lore Master",
@@ -271,7 +271,7 @@
       "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/901a76b698c439c83ed9e96f1f75fa072d3c5997.jpg",
       "hidden": true,
       "group": "Base Game",
-      "percent": "41.9"
+      "percent": "42.0"
     },
     "Story_Chapter2": {
       "name": "Other Voices, Other Looms",
@@ -334,7 +334,7 @@
       "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/1934570/901a76b698c439c83ed9e96f1f75fa072d3c5997.jpg",
       "hidden": true,
       "group": "Base Game",
-      "percent": "43.8"
+      "percent": "43.9"
     },
     "Combat_UltimateMultiKill": {
       "name": "Took 'em Down a Peg",
