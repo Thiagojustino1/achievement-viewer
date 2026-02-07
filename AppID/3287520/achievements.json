@@ -1,0 +1,154 @@
+{
+  "00_ALL_MASTER": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "01_URAKAZE": {
+    "earned": true,
+    "earned_time": 1737990418
+  },
+  "02_GUARD_URAKAZE": {
+    "earned": true,
+    "earned_time": 1737992376
+  },
+  "03_WALL_RUN": {
+    "earned": true,
+    "earned_time": 1737991929
+  },
+  "04_HIEN": {
+    "earned": true,
+    "earned_time": 1737991222
+  },
+  "05_ASUKA_TURN": {
+    "earned": true,
+    "earned_time": 1737992276
+  },
+  "06_TODOME": {
+    "earned": true,
+    "earned_time": 1737990382
+  },
+  "07_ZETSUGI": {
+    "earned": true,
+    "earned_time": 1737991756
+  },
+  "08_BOOST_ZETSUGI": {
+    "earned": true,
+    "earned_time": 1737991756
+  },
+  "09_GUARD_CANCEL": {
+    "earned": true,
+    "earned_time": 1737993657
+  },
+  "10_REN_WALLRUN": {
+    "earned": true,
+    "earned_time": 1737997286
+  },
+  "11_DUAL_WALLRUN": {
+    "earned": true,
+    "earned_time": 1737998307
+  },
+  "12_IZUNA": {
+    "earned": true,
+    "earned_time": 1738115036
+  },
+  "13_NECK_THROW": {
+    "earned": true,
+    "earned_time": 1737995050
+  },
+  "14_KAENRYU": {
+    "earned": true,
+    "earned_time": 1737990515
+  },
+  "15_KAMAITACHI": {
+    "earned": true,
+    "earned_time": 1738000582
+  },
+  "16_ONIBI": {
+    "earned": true,
+    "earned_time": 1738000536
+  },
+  "17_HADODAN": {
+    "earned": true,
+    "earned_time": 1738016164
+  },
+  "18_TRAVERSE_TOKYO": {
+    "earned": true,
+    "earned_time": 1737993133
+  },
+  "19_TRAVERSE_NEWYORK": {
+    "earned": true,
+    "earned_time": 1738000644
+  },
+  "20_TRAVERSE_VENICE": {
+    "earned": true,
+    "earned_time": 1738019796
+  },
+  "21_TRAVERSE_RUSSIA": {
+    "earned": true,
+    "earned_time": 1738061068
+  },
+  "22_TRAVERSE_AMAZON": {
+    "earned": true,
+    "earned_time": 1738113352
+  },
+  "23_GAMECLEAR_ACOLYTE": {
+    "earned": true,
+    "earned_time": 1738166936
+  },
+  "24_GAMECLEAR_WARRIOR": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "25_GAMECLEAR_MENTOR": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "26_GAMECLEAR_MASTERNINJA": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "27_MASTER_ACOLYTE": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "28_MASTER_WARRIOR": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "29_MASTER_MENTOR": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "30_MASTER_MASTERNINJA": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "31_SKULL_COMPLETE": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "32_COMBO_MASTER": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "33_HAYABUSA_MASTER": {
+    "earned": true,
+    "earned_time": 1738078123
+  },
+  "34_AYANE_MASTER": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "35_MOMIJI_MASTER": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "36_RACHEL_MASTER": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "40_TAGMISSION_NORMAL_COMPLETE": {
+    "earned": false,
+    "earned_time": 0
+  }
+}

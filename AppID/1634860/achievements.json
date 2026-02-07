@@ -1,0 +1,138 @@
+{
+  "AllArenaMedals": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "BeatBoss1": {
+    "earned": true,
+    "earned_time": 1736786332
+  },
+  "BeatBoss2": {
+    "earned": true,
+    "earned_time": 1736797262
+  },
+  "BeatBoss3": {
+    "earned": true,
+    "earned_time": 1736803831
+  },
+  "BeatBossBeach": {
+    "earned": true,
+    "earned_time": 1736821397
+  },
+  "BeatBossFinal": {
+    "earned": true,
+    "earned_time": 1736872135
+  },
+  "BeatBossSnaker": {
+    "earned": true,
+    "earned_time": 1736794145
+  },
+  "BeatBossTrueLast": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "CompleteArena": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "CompleteGameEasy": {
+    "earned": true,
+    "earned_time": 1736872259
+  },
+  "CompleteGameHard": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "CompleteGameNormal": {
+    "earned": true,
+    "earned_time": 1736872259
+  },
+  "DestroyBigEnemies": {
+    "earned": true,
+    "earned_time": 1736793206
+  },
+  "DestroyCoconuts": {
+    "earned": true,
+    "earned_time": 1736800869
+  },
+  "DestroyHouseJars": {
+    "earned": true,
+    "earned_time": 1736818487
+  },
+  "DowngradeOnce": {
+    "earned": true,
+    "earned_time": 1736869995
+  },
+  "FallFrom5thFloor": {
+    "earned": true,
+    "earned_time": 1736819325
+  },
+  "FallInWater": {
+    "earned": true,
+    "earned_time": 1736784143
+  },
+  "Find3Scarab": {
+    "earned": true,
+    "earned_time": 1736798368
+  },
+  "FindAllModules": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "FindAllScarabs": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "FindEnergyMaxInDoubleSecret": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "FindModuleRage": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "FreeAllNpc": {
+    "earned": true,
+    "earned_time": 1736817555
+  },
+  "ListenBard": {
+    "earned": true,
+    "earned_time": 1736872425
+  },
+  "MeetPrimordialScarab": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "ReadAllLore": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "ReuniteFamilly": {
+    "earned": true,
+    "earned_time": 1736818476
+  },
+  "TheEnd": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "UseGun": {
+    "earned": true,
+    "earned_time": 1736784191
+  },
+  "WakeUpTree": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "WakeUpTurtle": {
+    "earned": true,
+    "earned_time": 1736800712
+  },
+  "WinAllRaces": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "WinRace": {
+    "earned": true,
+    "earned_time": 1736787881
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "Cinema_RestlessHands": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "DA1_OldBastard": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "DA1_TheGame": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "DA2_RayOfLight": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "DA2_YouveGotMail": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "Ending_Anguish": {
+    "earned": true,
+    "earned_time": 1723773114
+  },
+  "Ending_EndOfDeadlyDreams": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "Epilogue_OneMissedCall": {
+    "earned": true,
+    "earned_time": 1723773191
+  },
+  "Level_CentralPark": {
+    "earned": true,
+    "earned_time": 1723772930
+  },
+  "Level_Cinema": {
+    "earned": true,
+    "earned_time": 1721749267
+  },
+  "Level_DA1": {
+    "earned": true,
+    "earned_time": 1723564076
+  },
+  "Level_DASynchro": {
+    "earned": true,
+    "earned_time": 1723685880
+  },
+  "Level_Icarus": {
+    "earned": true,
+    "earned_time": 1723652597
+  },
+  "Level_IslandFinal": {
+    "earned": true,
+    "earned_time": 1723772992
+  },
+  "Level_LibertySlums": {
+    "earned": true,
+    "earned_time": 1723739682
+  },
+  "Level_PA1": {
+    "earned": true,
+    "earned_time": 1721752385
+  },
+  "Level_PA2": {
+    "earned": true,
+    "earned_time": 1723739461
+  },
+  "Level_SaraBasement": {
+    "earned": true,
+    "earned_time": 1723762902
+  },
+  "Level_SmallTalk": {
+    "earned": true,
+    "earned_time": 1723684387
+  },
+  "Level_Train": {
+    "earned": true,
+    "earned_time": 1723771933
+  },
+  "PA1_ColdCase": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "PA1_Firestarter": {
+    "earned": true,
+    "earned_time": 1721749860
+  },
+  "PA1_ScentOfMistery": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "SaraBasement_ChickenOfJustice": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "SaraBasement_NothingButTheTruth": {
+    "earned": true,
+    "earned_time": 1723761094
+  },
+  "SmallTalk_OldFashioned": {
+    "earned": false,
+    "earned_time": 0
+  }
+}

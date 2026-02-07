@@ -1,0 +1,270 @@
+{
+  "cha_acidjazz": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "cha_artifactzero": {
+    "earned": true,
+    "earned_time": 1724593524
+  },
+  "cha_bikesaw": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "cha_chick": {
+    "earned": true,
+    "earned_time": 1724983519
+  },
+  "cha_dontscratch": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "cha_dope": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "cha_gauntlet": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "cha_halfpipe": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "cha_jimmy": {
+    "earned": true,
+    "earned_time": 1724700659
+  },
+  "cha_nomaw": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "cha_riptear": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "cha_sawclub": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "cha_shark": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "cha_skillissue": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "cha_speedrun": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "cha_splicenomore": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "cha_vending": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "epk_astral": {
+    "earned": true,
+    "earned_time": 1725068890
+  },
+  "epk_augments": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "epk_bountyhunters": {
+    "earned": true,
+    "earned_time": 1724808008
+  },
+  "epk_ep1": {
+    "earned": true,
+    "earned_time": 1724593613
+  },
+  "epk_ep2": {
+    "earned": true,
+    "earned_time": 1724808181
+  },
+  "epk_ep3": {
+    "earned": true,
+    "earned_time": 1725073904
+  },
+  "epk_groovy": {
+    "earned": true,
+    "earned_time": 1724900045
+  },
+  "epk_keenhunter": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "epk_kills": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "epk_skill0": {
+    "earned": true,
+    "earned_time": 1725074571
+  },
+  "epk_skill1": {
+    "earned": true,
+    "earned_time": 1725074571
+  },
+  "epk_skill2": {
+    "earned": true,
+    "earned_time": 1725074572
+  },
+  "epk_skill3": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "epk_skill4": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "epk_turbo": {
+    "earned": true,
+    "earned_time": 1725073904
+  },
+  "epk_zhen": {
+    "earned": true,
+    "earned_time": 1724861588
+  },
+  "lev_e1m1": {
+    "earned": true,
+    "earned_time": 1713186173
+  },
+  "lev_e1m2": {
+    "earned": true,
+    "earned_time": 1724372981
+  },
+  "lev_e1m3": {
+    "earned": true,
+    "earned_time": 1724374658
+  },
+  "lev_e1m4": {
+    "earned": true,
+    "earned_time": 1724431422
+  },
+  "lev_e1m5": {
+    "earned": true,
+    "earned_time": 1724525509
+  },
+  "lev_e1m6": {
+    "earned": true,
+    "earned_time": 1724528165
+  },
+  "lev_e1m7": {
+    "earned": true,
+    "earned_time": 1724591976
+  },
+  "lev_e1m8": {
+    "earned": true,
+    "earned_time": 1724593613
+  },
+  "lev_e2m1": {
+    "earned": true,
+    "earned_time": 1724602362
+  },
+  "lev_e2m2": {
+    "earned": true,
+    "earned_time": 1724605287
+  },
+  "lev_e2m3": {
+    "earned": true,
+    "earned_time": 1724699690
+  },
+  "lev_e2m4": {
+    "earned": true,
+    "earned_time": 1724701106
+  },
+  "lev_e2m5": {
+    "earned": true,
+    "earned_time": 1724702758
+  },
+  "lev_e2m6": {
+    "earned": true,
+    "earned_time": 1724707059
+  },
+  "lev_e2m7": {
+    "earned": true,
+    "earned_time": 1724777581
+  },
+  "lev_e2m8": {
+    "earned": true,
+    "earned_time": 1724808181
+  },
+  "lev_e3m1": {
+    "earned": true,
+    "earned_time": 1724808560
+  },
+  "lev_e3m2": {
+    "earned": true,
+    "earned_time": 1724810424
+  },
+  "lev_e3m3": {
+    "earned": true,
+    "earned_time": 1724814370
+  },
+  "lev_e3m4": {
+    "earned": true,
+    "earned_time": 1724863978
+  },
+  "lev_e3m5": {
+    "earned": true,
+    "earned_time": 1724947985
+  },
+  "lev_e3m6": {
+    "earned": true,
+    "earned_time": 1724984482
+  },
+  "lev_e3m7": {
+    "earned": true,
+    "earned_time": 1725036454
+  },
+  "lev_e3m8": {
+    "earned": true,
+    "earned_time": 1725068994
+  },
+  "lev_e3m9": {
+    "earned": true,
+    "earned_time": 1725073904
+  },
+  "skill_electro": {
+    "earned": true,
+    "earned_time": 1724431201
+  },
+  "skill_endless1": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "skill_endless2": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "skill_flying": {
+    "earned": true,
+    "earned_time": 1724699491
+  },
+  "skill_ion": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "skill_mace": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "skill_pinkmist": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "skill_rocket": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "skill_turbokills": {
+    "earned": false,
+    "earned_time": 0
+  }
+}
