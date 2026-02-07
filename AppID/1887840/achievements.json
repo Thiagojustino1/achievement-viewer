@@ -1,0 +1,130 @@
+{
+  "BossDefeated_BleachedKing_Fake": {
+    "earned": true,
+    "earned_time": 1721175829
+  },
+  "BossDefeated_BleachedKing_Real": {
+    "earned": true,
+    "earned_time": 1721175936
+  },
+  "BossDefeated_Consortium": {
+    "earned": true,
+    "earned_time": 1721064864
+  },
+  "BossDefeated_Duchess": {
+    "earned": true,
+    "earned_time": 1720919832
+  },
+  "BossDefeated_Firth": {
+    "earned": true,
+    "earned_time": 1721212004
+  },
+  "BossDefeated_Heikea": {
+    "earned": true,
+    "earned_time": 1721002339
+  },
+  "BossDefeated_Inkerton": {
+    "earned": true,
+    "earned_time": 1721169468
+  },
+  "BossDefeated_Lichenthrope": {
+    "earned": true,
+    "earned_time": 1720968736
+  },
+  "BossDefeated_Nephro": {
+    "earned": true,
+    "earned_time": 1714178224
+  },
+  "BossDefeated_OilDrumBrusier": {
+    "earned": true,
+    "earned_time": 1721180632
+  },
+  "BossDefeated_Pagurus": {
+    "earned": true,
+    "earned_time": 1721064073
+  },
+  "BossDefeated_Pathfinder": {
+    "earned": true,
+    "earned_time": 1720903691
+  },
+  "BossDefeated_Petroc": {
+    "earned": true,
+    "earned_time": 1721145465
+  },
+  "BossDefeated_PrayaDubia_Phase2": {
+    "earned": true,
+    "earned_time": 1721176962
+  },
+  "BossDefeated_Roland": {
+    "earned": true,
+    "earned_time": 1721084426
+  },
+  "BossDefeated_RollerBrusier": {
+    "earned": true,
+    "earned_time": 1721057163
+  },
+  "BossDefeated_Royalsplitter": {
+    "earned": true,
+    "earned_time": 1720959982
+  },
+  "BossDefeated_Topoda": {
+    "earned": true,
+    "earned_time": 1721045777
+  },
+  "BossDefeated_TwinPistols": {
+    "earned": true,
+    "earned_time": 1721061997
+  },
+  "BossDefeated_Voltai": {
+    "earned": true,
+    "earned_time": 1721082964
+  },
+  "CollectLimit_Adaptations": {
+    "earned": true,
+    "earned_time": 1721231520
+  },
+  "CollectLimit_KnightHelmet": {
+    "earned": true,
+    "earned_time": 1721234167
+  },
+  "CollectLimit_Shells": {
+    "earned": true,
+    "earned_time": 1721271163
+  },
+  "Insurance_Started": {
+    "earned": true,
+    "earned_time": 1721010287
+  },
+  "Misc_HasFallenOff": {
+    "earned": true,
+    "earned_time": 1720902886
+  },
+  "Misc_ShootCrab": {
+    "earned": true,
+    "earned_time": 1721212947
+  },
+  "Plot_HomeShellReturned": {
+    "earned": true,
+    "earned_time": 1721212512
+  },
+  "Plot_TreasurehuntStart": {
+    "earned": true,
+    "earned_time": 1720959194
+  },
+  "SkillTreeCompleted_Crab": {
+    "earned": true,
+    "earned_time": 1721083416
+  },
+  "SkillTreeCompleted_Hermit": {
+    "earned": true,
+    "earned_time": 1721083407
+  },
+  "SkillTreeCompleted_Predator": {
+    "earned": true,
+    "earned_time": 1721067242
+  },
+  "UpgradeMax_Fork": {
+    "earned": true,
+    "earned_time": 1721233254
+  }
+}

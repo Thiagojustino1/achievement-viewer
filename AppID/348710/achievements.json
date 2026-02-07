@@ -1,0 +1,202 @@
+{
+  "TROPHY_COMMON_ALBERICH_DEFEAT_GOD_WARRIOR": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "TROPHY_COMMON_ASSIST_PHRASE_SLOT_MAX": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "TROPHY_COMMON_BBA_30": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "TROPHY_COMMON_COLLECT_ASSIST_PHRASE_100PER": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "TROPHY_COMMON_COLLECT_ASSIST_PHRASE_50PER": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "TROPHY_COMMON_COLLECT_BBA": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "TROPHY_COMMON_COLLECT_GALLERY": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "TROPHY_COMMON_COLLECT_TITLE": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "TROPHY_COMMON_COSMIC_KO_50": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "TROPHY_COMMON_DEATHMASK_WIN_WITH_CRYSTALWALL_DAMAGE": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "TROPHY_COMMON_ICHI_WIN_AT_SURVIVAL": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "TROPHY_COMMON_JAB_WIN_AT_SURVIVAL": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "TROPHY_COMMON_KAASA_DEFEAT_RIVAL": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "TROPHY_COMMON_LOSE_WITHOUT_HIT": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "TROPHY_COMMON_MUU_3WINS_RIVAL": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "TROPHY_COMMON_POINT": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "TROPHY_COMMON_POSEIDON_3WINS_ATHENA": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "TROPHY_COMMON_RHADAMANTHYS_3WINS_RIVAL": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "TROPHY_COMMON_SIEGFRIED_DEFEAT_MARINA": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "TROPHY_COMMON_TUTORIAL_COMPLETE": {
+    "earned": true,
+    "earned_time": 1770416932
+  },
+  "TROPHY_MISSION_1": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "TROPHY_MISSION_50": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "TROPHY_PLATINUM": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "TROPHY_STORY_ALL": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "TROPHY_STORY_ASGARD": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "TROPHY_STORY_HADES": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "TROPHY_STORY_POSEIDON": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "TROPHY_STORY_ZODIAC": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "TROPHY_SURVIVAL_BIGBANG": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "TROPHY_SURVIVAL_BRONZE": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "TROPHY_SURVIVAL_GOD": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "TROPHY_SURVIVAL_GOLD": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "TROPHY_SURVIVAL_LEGEND": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "TROPHY_SURVIVAL_SILVER": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "TROPHY_S_RANK_1": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "TROPHY_S_RANK_100": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "TROPHY_UNLOCK_BRONZE": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "TROPHY_UNLOCK_GOD": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "TROPHY_UNLOCK_GOD_BRONZE": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "TROPHY_UNLOCK_GOD_GOLD": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "TROPHY_UNLOCK_GOD_WARRIOR": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "TROPHY_UNLOCK_GOLD": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "TROPHY_UNLOCK_MARINA": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "TROPHY_UNLOCK_SILVER": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "TROPHY_UNLOCK_SPECTOR": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "TROPHY_WARS_BRONZE": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "TROPHY_WARS_GOD": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "TROPHY_WARS_GOLD": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "TROPHY_WARS_LEGEND": {
+    "earned": false,
+    "earned_time": 0
+  },
+  "TROPHY_WARS_SILVER": {
+    "earned": false,
+    "earned_time": 0
+  }
+}
