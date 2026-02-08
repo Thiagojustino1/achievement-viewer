@@ -1,0 +1,730 @@
+{
+  "appid": "729040",
+  "name": "Borderlands Game of the Year Enhanced",
+  "icon": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/729040/header.jpg?t=1750080828",
+  "achievements": {
+    "Achievement_42": {
+      "name": "1.21 Gigawatts",
+      "description": "Killed 25 enemies with shock weapons",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/062d6ea7648c4ab8f838459645a9f1a6d16525fa.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/1ea6372bf858e1dcbbdbe2e42fb075e51090963f.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "37.6"
+    },
+    "Achievement_6": {
+      "name": "12 Days of Pandora",
+      "description": "Mastered the technology of Pandora",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/4f004c123d99e3afd236dd3d6e1524c91e92df1f.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/e2221370af1f58089d9d346d1cf7940181f40020.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "31.5"
+    },
+    "Achievement_37": {
+      "name": "And They'll Tell Two Friends",
+      "description": "Play with at least two other players.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/26df22208faf08541617cbf0e387bbd01b897970.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/59062be43b560cc61e5aa58388480615107aa11c.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "17.3"
+    },
+    "Achievement_62": {
+      "name": "Athena, Out",
+      "description": "Rescued Athena",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/b1cde218d7c4a2a4e46adaaa55bd1576a60f9471.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/d210c355046e1a352fd447e9995402e0c4adc5fd.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "16.2"
+    },
+    "Achievement_60": {
+      "name": "Big Tournament",
+      "description": "Completed each of the larger challenges in all 3 coliseums",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/de4b4bab0b01f82280e501f41c804af0c5ceb90e.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/970b1656c520866565d5b0257fea8cc078c4edb0.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "2.4"
+    },
+    "Achievement_78": {
+      "name": "Bobble-trap",
+      "description": "Collected 15 Claptrap bobbleheads",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/f6c887ebe0c3da40436a51bf948c7812237d0ea2.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/30226fbacf97b6844a86cf10214708d727d1d5ce.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "2.5"
+    },
+    "Achievement_55": {
+      "name": "Braaaaaaaaaaaaains!",
+      "description": "Completed the \"Braaaaaaaaaaaaains!\" mission",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/43943fd2da2fb8e4f790ade9ff487519edc4441e.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/9b14a41a335997cd9175dd08642024347a102cfc.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "6.6"
+    },
+    "Achievement_32": {
+      "name": "Can't We Get BEYOND Thunderdome?",
+      "description": "Emerged victorious from an arena match",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/50eba59534164aea5a590810d0821f9412e8577d.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/ad46dbb4b813203c6f2c8495737713a57d03ab2f.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "3.8"
+    },
+    "Achievement_48": {
+      "name": "Careful, He Bites",
+      "description": "Killed 15 enemies with the Hunter's action skill",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/177484cfb5311f8c25b1e072e31fca10a104818d.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/fda0ac98d56528d009ce8e16535e81492d12fea0.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "20.1"
+    },
+    "Achievement_69": {
+      "name": "Completionist",
+      "description": "Completed all missions in Secret Armory",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/7129b30a956b24b44dda303b14417f5afdf202d0.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/7c9276867a7affa1a4b3b026c17dec1071118e48.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "2.8"
+    },
+    "Achievement_63": {
+      "name": "Depot Demolition",
+      "description": "Destroyed Lance Depot",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/7b5d3695be0a044b1ebff8b2a457d6e327609445.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/7acb2440e143fc9780fe55bb90b8b967e19d929a.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "14.0"
+    },
+    "Achievement_11": {
+      "name": "Destroyed the Destroyer",
+      "description": "Killed the Vault Boss",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/76a7e53e06939c95e301d52ab300ba57c20c97cb.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/b39264025851bb11faf088e755227dabe37af3f4.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "28.8"
+    },
+    "Achievement_10": {
+      "name": "Destroyed the Hive",
+      "description": "Killed the Rakk Hive",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/76a7e53e06939c95e301d52ab300ba57c20c97cb.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/b39264025851bb11faf088e755227dabe37af3f4.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "30.5"
+    },
+    "Achievement_27": {
+      "name": "Ding! Champion",
+      "description": "Earned level 50",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/6e76f225b10751a0e88251804c9b81445d373f9e.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/da91e7b8edde04c61cfc00238556138b23f1e9ef.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "11.3"
+    },
+    "Achievement_16": {
+      "name": "Ding! Expert",
+      "description": "Earned level 20",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/c44501b59581ec52cb48c8d816dcd7d99f1636c0.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/021bacd79da518d6365f3cd80c2a36294fd160b8.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "47.6"
+    },
+    "Achievement_17": {
+      "name": "Ding! Hardcore",
+      "description": "Earned level 30",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/da39292c0edaaeb7e5628ec67d2ddf3ebdf610fe.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/13b5189d0ceed8b9d390903a2e47a214f1d0492f.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "35.2"
+    },
+    "Achievement_14": {
+      "name": "Ding! Newbie",
+      "description": "Earned level 5",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/3a9c2693a81f20fa823f00792018693f6913679b.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/bac252df402d721523b6a777a82e91593d8b1a50.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "78.0"
+    },
+    "Achievement_15": {
+      "name": "Ding! Novice",
+      "description": "Earned level 10",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/3a9c2693a81f20fa823f00792018693f6913679b.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/bac252df402d721523b6a777a82e91593d8b1a50.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "67.4"
+    },
+    "Achievement_67": {
+      "name": "Ding! Overleveled",
+      "description": "Reached Level 51",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/182f4760a254cd74cbb308551bef7ab783060f06.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/7de52b9475fad69cea187834e853dd7e050de4fc.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "11.0"
+    },
+    "Achievement_68": {
+      "name": "Ding! Overleveled to 11",
+      "description": "Reached Level 61",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/65ec95ffc2cea718926f38b410899bb6296e2674.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/77d05fcb6e6939ffe608ebbfa68157b725a01595.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "8.8"
+    },
+    "Achievement_18": {
+      "name": "Ding! Sleepless",
+      "description": "Earned level 40",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/35b7707e422748800f1ead1d710b688f9499cbe3.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/8c7981252b604901a4c689ab06a9efff275b5db1.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "21.9"
+    },
+    "Achievement_25": {
+      "name": "Discovered Crimson Lance Enclave",
+      "description": "Discovered Crimson Lance Enclave",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/f560b42caa8cf153b6e74a182742f3c0856ccebb.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/04fdf8eac25dea46859abdb5ec84250c6c3466ab.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "29.4"
+    },
+    "Achievement_26": {
+      "name": "Discovered Eridian Promontory",
+      "description": "Discovered Eridian Promontory",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/f560b42caa8cf153b6e74a182742f3c0856ccebb.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/04fdf8eac25dea46859abdb5ec84250c6c3466ab.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "29.2"
+    },
+    "Achievement_21": {
+      "name": "Discovered Headstone Mine",
+      "description": "Discovered Headstone Mine",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/f560b42caa8cf153b6e74a182742f3c0856ccebb.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/04fdf8eac25dea46859abdb5ec84250c6c3466ab.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "49.3"
+    },
+    "Achievement_24": {
+      "name": "Discovered Krom's Canyon",
+      "description": "Discovered Krom's Canyon",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/f560b42caa8cf153b6e74a182742f3c0856ccebb.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/04fdf8eac25dea46859abdb5ec84250c6c3466ab.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "34.9"
+    },
+    "Achievement_19": {
+      "name": "Discovered Skag Gully",
+      "description": "Discovered Skag Gully",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/f560b42caa8cf153b6e74a182742f3c0856ccebb.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/04fdf8eac25dea46859abdb5ec84250c6c3466ab.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "74.8"
+    },
+    "Achievement_20": {
+      "name": "Discovered Sledge's Safe House",
+      "description": "Discovered Sledge's Safe House",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/f560b42caa8cf153b6e74a182742f3c0856ccebb.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/04fdf8eac25dea46859abdb5ec84250c6c3466ab.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "55.4"
+    },
+    "Achievement_23": {
+      "name": "Discovered The Scrapyard",
+      "description": "Discovered The Scrapyard",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/f560b42caa8cf153b6e74a182742f3c0856ccebb.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/04fdf8eac25dea46859abdb5ec84250c6c3466ab.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "38.2"
+    },
+    "Achievement_22": {
+      "name": "Discovered Trash Coast",
+      "description": "Discovered Trash Coast",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/f560b42caa8cf153b6e74a182742f3c0856ccebb.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/04fdf8eac25dea46859abdb5ec84250c6c3466ab.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "30.9"
+    },
+    "Achievement_50": {
+      "name": "Down in Front!",
+      "description": "Killed 15 enemies with the Soldier's action skill",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/d4a1dd76aeb8edc1bc78a81f9cec9b5329bb9b05.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/9a549e05d37ec93136b79ef52bc62f2b25316d77.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "21.4"
+    },
+    "Achievement_33": {
+      "name": "Duel-icious",
+      "description": "Won a duel against another player",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/90405a81856a0ddc1f3cd69b6294b7d18c86b7ff.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/ce4dd35a11670ee2da6bb0689814b0fd60a22d47.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "14.4"
+    },
+    "Achievement_40": {
+      "name": "Duelinator",
+      "description": "Won a duel without taking damage",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/bec0b4000a13fcc9204be82b0bf05f481109c0ba.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/14c50aeed92daafca3518ec322b12c0067193e59.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "11.7"
+    },
+    "Achievement_41": {
+      "name": "Facemelter",
+      "description": "Killed 25 enemies with corrosive weapons",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/3cd2a9e0a830dd771317e8db895673b2f111c661.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/b3de0ac85dcf206fdaad40a2d7213f20cb943add.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "29.7"
+    },
+    "Achievement_31": {
+      "name": "Fence",
+      "description": "Sold 50 guns to a shop",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/8a6bab414acd28497858c9d8e8e0e1ad2e6adb08.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/538d2712945fb70992a9cf01f45dc6570908470b.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "48.5"
+    },
+    "Achievement_46": {
+      "name": "Fully Loaded",
+      "description": "Rescued enough Claptraps to earn 42 inventory slots",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/82df341d57f08ca29afe07859ad9aba7987b34ec.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/202e4e6425fbf75869ec704cb878ae1cf8cbc89f.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "18.2"
+    },
+    "Achievement_28": {
+      "name": "Get A Little Blood on the Tires",
+      "description": "Killed 25 enemies by ramming them with any vehicle",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/d12bb795ed1d519dcb3c3b1a959bc4e270f1811c.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/9e48f254d722c14569fef046ff35246ed3d7a346.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "47.3"
+    },
+    "Achievement_34": {
+      "name": "Group LF Healer",
+      "description": "Rescued a groupmate from death in a co-op game",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/e6c3e0e68f0be8a2ae5065c158f9cb65420210c1.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/5716328f4fc0c281cf7b3ca5cfbd83ed4ac22c1b.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "32.3"
+    },
+    "Achievement_57": {
+      "name": "Hell-Burbia",
+      "description": "Completed the larger challenge in the Hell-Burbia coliseum",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/e038c1d80568a7111508e175108d365c005213dc.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/36dd5c1e25e9b2abd099dbbb19f9bf97563bd324.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "2.5"
+    },
+    "Achievement_51": {
+      "name": "House of the Ned",
+      "description": "Completed the \"House of the Ned\" mission",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/70eddc690f21fd4a8b1b5b7f3c36abddf4a522bd.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/cc94cfb9c3250947df5ff857fea1ebfc3bd21c63.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "20.5"
+    },
+    "Achievement_79": {
+      "name": "It's so realistic!",
+      "description": "Collected 5 3D glasses",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/f302c046718f292172f5edea8db8831d2bf0521b.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/0284bd37f72968fa486512dcbbeee2ae4125c008.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "8.4"
+    },
+    "Achievement_52": {
+      "name": "Jakobs Fodder",
+      "description": "Completed the \"Jakobs Fodder\" mission",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/7ca0d1677d960c2792b413019aeadc5466d5e19d.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/22c2ef7e1e2f19df7ef50591b3ef3b9b293fd685.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "18.0"
+    },
+    "Achievement_72": {
+      "name": "Knoxx-Trap",
+      "description": "Killed General Knoxx-trap",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/b4043fbb9d9ced40fc7b2f4796c38ea429c1b260.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/d4ba5502bf366c809982d64becb37bda4448c59a.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "11.6"
+    },
+    "Achievement_2": {
+      "name": "Made in Fyrestone",
+      "description": "Completed all missions in the Arid Badlands",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/d164b2487ac9b511386e49544c5b65d5fefdfaf9.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/b39264025851bb11faf088e755227dabe37af3f4.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "29.6"
+    },
+    "Achievement_4": {
+      "name": "Made in New Haven",
+      "description": "Completed all missions in the Rust Commons",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/d164b2487ac9b511386e49544c5b65d5fefdfaf9.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/b39264025851bb11faf088e755227dabe37af3f4.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "17.6"
+    },
+    "Achievement_61": {
+      "name": "Making a Monster",
+      "description": "Built the New Car: Monster",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/c6108c2d34da8f694ab02e7fb9f1bd703c510612.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/3c8b71e3d8e966fe71c948175e5b71d41d00fe30.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "20.4"
+    },
+    "Achievement_44": {
+      "name": "Master Exploder",
+      "description": "Killed 25 enemies with explosive weapons",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/4c2a90d126688f8935f1652461899c52ac0d7169.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/bfccca7f962aca611ebd6193820599a309d6af70.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "54.0"
+    },
+    "Achievement_75": {
+      "name": "Muerte la robo-lución",
+      "description": "Killed the Interplanetary Ninja Assassin Claptrap",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/d07e6c4e921cfef21ad49ee8349a4d1cb71a7c6f.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/6ae7f2378a5c75984c0867d9692add4ae1e8ac27.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "11.5"
+    },
+    "Achievement_5": {
+      "name": "My Brother is an Italian Plumber",
+      "description": "Killed an enemy plumber-style",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/d8e5e914b1a6c7dece2aa9839f0a9f76a226b533.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/c152b6be4e0e79edbb558e9f9675b8a7d3193903.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "10.9"
+    },
+    "Achievement_54": {
+      "name": "Ned's Undead, Baby, Ned's Undead",
+      "description": "Killed Ned. Again.",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/8c6a418a29f31805e09b392b4cf3a8840a35f7fe.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/3f860c9be953750d23cd8f5f5c0483e15d2603eb.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "17.5"
+    },
+    "Achievement_74": {
+      "name": "Ned-Trap",
+      "description": "Killed Dr. Ned-trap",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/646e64f3c07b05ce8c12676c1fe8ca20aa0a5c52.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/951d3e3072ca59d49bf3f81ffae3662c8b80f717.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "11.6"
+    },
+    "Achievement_53": {
+      "name": "Night of the Living Ned",
+      "description": "Killed Ned...sort of",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/78555d61476ee4b8c48758c9fba5810a1f8cc6f5.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/cf16d9043f90807c73d855a6e77ed450ede2d0d5.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "17.4"
+    },
+    "Achievement_1": {
+      "name": "Paid in Fyrestone",
+      "description": "Completed 5 missions in the Arid Badlands",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/6dcad8ff07ef10e4d1b15b6e0a86cf075249697b.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/6e7897106629cbb1ad9396892fef185eda0b7f72.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "80.3"
+    },
+    "Achievement_3": {
+      "name": "Paid in New Haven",
+      "description": "Completed 5 missions in the Rust Commons",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/6dcad8ff07ef10e4d1b15b6e0a86cf075249697b.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/6e7897106629cbb1ad9396892fef185eda0b7f72.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "39.7"
+    },
+    "Achievement_30": {
+      "name": "Pandora-dog Millionaire",
+      "description": "Earned $1,000,000",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/e637884a29a5f7f53f71a256595dbc799796935f.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/1bf2b710d33160cf59417e3333ecbc941515ccee.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "33.8"
+    },
+    "Achievement_43": {
+      "name": "Pyro",
+      "description": "Killed 25 enemies with incendiary weapons",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/31b3aa8f8732e664758b117a46bebbe7f5cb410f.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/d5154d8a39f573c8664b87243ab8ea8d4f4a1bd3.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "54.7"
+    },
+    "Achievement_49": {
+      "name": "Reckless Abandon",
+      "description": "Killed 15 enemies with the Berserker's action skill",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/e4e77fa56f0bed4b78f09139a2c2709455c09c54.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/1e92135fad36b0479b27657f01d7a5b9dd5302b1.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "11.8"
+    },
+    "Achievement_29": {
+      "name": "Rootinest, Tootinest, Shootinest",
+      "description": "Killed 5 Rakk in under 10 seconds",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/fd6ff437332accaefe9e0f5af673fc5100654172.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/dbc539803aa382b530536b35f2860efc18cc5c36.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "53.4"
+    },
+    "Achievement_56": {
+      "name": "Small Tournament",
+      "description": "Completed the lesser challenge in all 3 coliseums",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/8fda0c34dbcf7160c2a27782eb4b990e10b55733.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/ba800988a01bb26540aaaf6e1505cfc06b090a01.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "7.9"
+    },
+    "Achievement_65": {
+      "name": "Sneaky Little Buggers",
+      "description": "Killed each of the loot midgets",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/47838facdf6b89a5614b843155840d4b8438c3d5.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/d9ec2df2062257547f107185f24b67691663bac3.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "3.8"
+    },
+    "Achievement_66": {
+      "name": "Speed Kills",
+      "description": "Destroyed a Lancer while in a Racer",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/da9bd8a1c763fe936d78c60e03ff9aaef558d9a2.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/2530b53c66cb735b7acfae61a8d115cff3c4957d.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "9.9"
+    },
+    "Achievement_12": {
+      "name": "Speedy McSpeederton",
+      "description": "Raced around the Ludicrous Speedway in record time",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/fd4f3081413022872de7378ea8e95447588a6db4.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/5003f832a06bf4735c12775cee3777cc09182584.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "4.6"
+    },
+    "Achievement_73": {
+      "name": "Steele-Trap",
+      "description": "Killed Commandant Steele-trap",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/f9f99ce5311e234233806d4dee04fe3ae4487f34.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/6078134dd60f02019e8e3469a05a59e57b88d139.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "11.6"
+    },
+    "Achievement_70": {
+      "name": "Sucker born every minute",
+      "description": "Paid for a worthless tour of the world's largest bullet",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/0ab8cabd0ab2d0831d8c9ad8a62425f76e9e15c7.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/8b4cd6bdf4cd838c2acf5acc5cd7f92ee8725683.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "3.6"
+    },
+    "Achievement_58": {
+      "name": "The Angelic Ruins",
+      "description": "Completed the larger challenge in The Angelic Ruins coliseum",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/62a96192991586d96711a47d7ae0708f99d785db.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/b1cf3c206abbf23a8365d08ff89f566983e5e1fd.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "2.4"
+    },
+    "Achievement_76": {
+      "name": "The Collector",
+      "description": "Completed a crazy request for Tannis",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/485c6b99c3fb79cc19ddd7b47ad5439b9e0f3dba.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/cc49798f550d08d99c360e81d5400881f5b6b481.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "6.5"
+    },
+    "Achievement_59": {
+      "name": "The Gully",
+      "description": "Completed the larger challenge in The Gully coliseum",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/06e892df6ee24ecf9cd7c09beef6f9b6bc2a6b76.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/64ca6e3b5a37d90fff2c25a5e485c3cfddf2dfef.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "2.6"
+    },
+    "Achievement_77": {
+      "name": "The Lubricator",
+      "description": "Found 25 oil cans",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/56d90e657f7e8b1e4b8aecb2b38ad6f005f4baa2.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/04a8aabdb6d1a0a0fc4db90a35557f9dd27d414a.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "2.5"
+    },
+    "Achievement_45": {
+      "name": "There are some who call me...Tim",
+      "description": "Equipped a class mod for your character",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/ccc5b947bf7d8b5e662ab2c5a8a1e385eee6899f.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/9a90283d4324f1a41002ee29b200fa89e151ef65.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "47.5"
+    },
+    "Achievement_35": {
+      "name": "There's No \"I\" In \"Team\"",
+      "description": "Completed 15 missions in co-op",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/b4077679ad99159006473dc45d7c1abab8b89d52.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/0b6fe26cdde0c66542a921334b892d48d30a66ab.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "31.7"
+    },
+    "Achievement_71": {
+      "name": "Tourist",
+      "description": "Found all 6 Claptrap statues",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/18d89bdd541093be02d1de9d4e9b434ae12b32ed.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/bd27fa9f72d8a706d76c697442360cdff1f6da41.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "3.5"
+    },
+    "Achievement_47": {
+      "name": "Truly Outrageous",
+      "description": "Killed an enemy with the Siren's action skill",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/08df1cb0e491511323543d55478532015077b050.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/723590560e85d1a0dd9552367c486fd02fa5d847.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "29.0"
+    },
+    "Achievement_36": {
+      "name": "United We Stand",
+      "description": "Defeated the Rakk Hive, the Vault Boss, Sledge, Krom, or Flynt in a co-op game",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/5add340ce3c6a5f0e18363ff869def6a5d4811db.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/7c0f968532fdcf8719a2b5051b53e59910cdbaab.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "22.0"
+    },
+    "Achievement_64": {
+      "name": "Vincible",
+      "description": "Killed Crawmerax the Invincible",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/e8f1dea2641b18e46640b5721cbd815e259fc3ec.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/af61f720499accfa0a610396f8d8e1d5df89a887.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "4.2"
+    },
+    "Achievement_9": {
+      "name": "Wanted: Flynt",
+      "description": "Killed Flynt",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/5df495ac8f1098379b3c398a8ba2e1620478d11f.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/2ac0b2d17dcf32eaf3c44c377efad5b10fba3226.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "29.2"
+    },
+    "Achievement_8": {
+      "name": "Wanted: Krom",
+      "description": "Killed Krom",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/85d9ac8401779015d6b7c6d16f63aa235a258a6b.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/2ac0b2d17dcf32eaf3c44c377efad5b10fba3226.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "33.0"
+    },
+    "Achievement_7": {
+      "name": "Wanted: Sledge",
+      "description": "Killed Sledge",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/4c24f2892864231b43cdc7912a9ae62e0329a33d.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/2ac0b2d17dcf32eaf3c44c377efad5b10fba3226.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "46.4"
+    },
+    "Achievement_38": {
+      "name": "Weapon Aficionado",
+      "description": "Reached proficiency level 10 with any weapon type",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/aa59b5de3edcb2258a18e24184ade3a699f1f594.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/dd989c4aaa04b97a7fb476757005fff298554ffb.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "38.2"
+    },
+    "Achievement_80": {
+      "name": "What a party!",
+      "description": "Collected 3 panties, 5 fish in a bag, and 15 pizzas",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/996054fd49b1fb8ad3910cb32fe31781f402fcae.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/2f7b9e7d1ba99c5498c4bdae90173443ef2ba413.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "2.5"
+    },
+    "Achievement_13": {
+      "name": "You call this archaeology?",
+      "description": "Applied an elemental artifact",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/ea4917404c433f5daa0d18778922bb267397e144.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/7663fe32e424d684caba70b4aa279d052bd92a47.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "49.9"
+    },
+    "Achievement_39": {
+      "name": "You're on a boat!",
+      "description": "I bet you never thought you'd be here",
+      "icon": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/774dd24a198948735aa3de7f0f2993e7fb85b497.jpg",
+      "icongray": "https://cdn.steamstatic.com/steamcommunity/public/images/apps/729040/efaaac3491be63b50a79556dde3e8e96e9c93db3.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "6.4"
+    }
+  },
+  "platform": null,
+  "blacklist": [],
+  "uses_db": false
+}
